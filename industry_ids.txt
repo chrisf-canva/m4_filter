@@ -1,0 +1,12 @@
+industry_personal
+industry_others
+industry_campus
+industry_culture
+industry_education
+industry_food
+industry_fashion
+industry_it
+industry_beauty
+industry_travel
+industry_gym
+industry_paternity

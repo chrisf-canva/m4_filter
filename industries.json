@@ -1,0 +1,1204 @@
+{
+  "industries": [
+    {
+      "title": "个人生活",
+      "key": "industry_personal",
+      "thumbnail": "https://static.canva.cn/icons/onboarding/icon_personal.svg",
+      "keyword": "plog 微信朋友圈",
+      "elevationAmount": 50,
+      "filters": [
+        {
+          "title": "朋友圈",
+          "type": "category",
+          "categoryId": "tACZCsjcdNc"
+        },
+        {
+          "title": "手机拼图",
+          "type": "scenario",
+          "searchQuery": "手机拼图"
+        },
+        {
+          "title": "手机海报",
+          "type": "scenario",
+          "searchQuery": "手机海报"
+        },
+        {
+          "title": "手机壁纸",
+          "type": "scenario",
+          "searchQuery": "手机壁纸"
+        },
+        {
+          "title": "微信头像",
+          "type": "scenario",
+          "searchQuery": "微信头像"
+        },
+        {
+          "title": "日签",
+          "type": "scenario",
+          "searchQuery": "日签"
+        },
+        {
+          "title": "视频相框",
+          "type": "scenario",
+          "searchQuery": "视频相框"
+        },
+        {
+          "title": "视频封面",
+          "type": "scenario",
+          "searchQuery": "视频封面"
+        },
+        {
+          "title": "手账",
+          "type": "scenario",
+          "searchQuery": "手账"
+        },
+        {
+          "title": "万圣节",
+          "type": "seasonal",
+          "searchQuery": "万圣节",
+          "newLine": true
+        },
+        {
+          "title": "双十一",
+          "type": "seasonal",
+          "searchQuery": "双十一"
+        },
+        {
+          "title": "光棍节",
+          "type": "seasonal",
+          "searchQuery": "光棍节"
+        },
+        {
+          "title": "美食",
+          "type": "scenario",
+          "searchQuery": "美食 Plog"
+        },
+        {
+          "title": "萌宠",
+          "type": "scenario",
+          "searchQuery": "萌宠 Plog"
+        },
+        {
+          "title": "旅行",
+          "type": "scenario",
+          "searchQuery": "旅行 Plog"
+        },
+        {
+          "title": "自拍",
+          "type": "scenario",
+          "searchQuery": "自拍 Plog"
+        },
+        {
+          "title": "天气",
+          "type": "scenario",
+          "searchQuery": "天气 Plog"
+        },
+        {
+          "title": "台词字幕",
+          "type": "scenario",
+          "searchQuery": "金句 朋友圈"
+        },
+        {
+          "title": "打卡",
+          "type": "scenario",
+          "searchQuery": "打卡 Plog"
+        },
+        {
+          "title": "穿搭美妆",
+          "type": "scenario",
+          "searchQuery": "穿搭 Plog"
+        }
+      ]
+    },
+    {
+      "title": "餐饮美食",
+      "key": "industry_food",
+      "thumbnail": "https://static.canva.cn/icons/onboarding/icon_food.svg",
+      "keyword": "餐饮海报",
+      "elevationAmount": 50,
+      "filters": [
+        {
+          "title": "手机海报",
+          "type": "category",
+          "categoryId": "tADLknyoHN8"
+        },
+        {
+          "title": "主图图标",
+          "type": "scenario",
+          "searchQuery": "主图图标 餐饮"
+        },
+        {
+          "title": "LOGO",
+          "type": "category",
+          "categoryId": "tACZCuRXg6c"
+        },
+        {
+          "title": "菜单",
+          "type": "scenario",
+          "searchQuery": "菜单"
+        },
+        {
+          "title": "手机拼图",
+          "type": "scenario",
+          "searchQuery": "拼图 美食"
+        },
+        {
+          "title": "Banner",
+          "type": "scenario",
+          "searchQuery": "食品电商横幅"
+        },
+        {
+          "title": "视频相框",
+          "type": "scenario",
+          "searchQuery": "视频相框"
+        },
+        {
+          "title": "食谱",
+          "type": "scenario",
+          "searchQuery": "食谱"
+        },
+        {
+          "title": "万圣节",
+          "type": "seasonal",
+          "searchQuery": "万圣节",
+          "newLine": true
+        },
+        {
+          "title": "双十一",
+          "type": "seasonal",
+          "searchQuery": "双十一"
+        },
+        {
+          "title": "光棍节",
+          "type": "seasonal",
+          "searchQuery": "光棍节"
+        },
+        {
+          "title": "打折促销",
+          "type": "scenario",
+          "searchQuery": "美食 促销"
+        },
+        {
+          "title": "甜品饮品",
+          "type": "scenario",
+          "searchQuery": "甜品 饮品"
+        },
+        {
+          "title": "西餐轻食",
+          "type": "scenario",
+          "searchQuery": "西餐轻食"
+        },
+        {
+          "title": "中餐",
+          "type": "scenario",
+          "searchQuery": "中餐"
+        },
+        {
+          "title": "日料",
+          "type": "scenario",
+          "searchQuery": "日料 寿司 拉面"
+        },
+        {
+          "title": "咖啡酒吧",
+          "type": "scenario",
+          "searchQuery": "咖啡 奶茶 酒"
+        }
+      ]
+    },
+    {
+      "title": "教育培训",
+      "key": "industry_education",
+      "thumbnail": "https://static.canva.cn/icons/onboarding/icon_education.svg",
+      "keyword": "教育海报",
+      "elevationAmount": 50,
+      "filters": [
+        {
+          "title": "手机海报",
+          "type": "category",
+          "categoryId": "tADLknyoHN8"
+        },
+        {
+          "title": "奖状",
+          "type": "scenario",
+          "searchQuery": "教育 奖状"
+        },
+        {
+          "title": "手机拼图",
+          "type": "category",
+          "categoryId": "tADLklHfs_Q"
+        },
+        {
+          "title": "LOGO",
+          "type": "category",
+          "categoryId": "tACZCuRXg6c"
+        },
+        {
+          "title": "手机名片",
+          "type": "scenario",
+          "searchQuery": "电子名片"
+        },
+        {
+          "title": "邀请函",
+          "type": "scenario",
+          "searchQuery": "手机邀请函 教育"
+        },
+        {
+          "title": "成绩反馈表",
+          "type": "scenario",
+          "searchQuery": "成绩反馈表"
+        },
+        {
+          "title": "座次表",
+          "type": "scenario",
+          "searchQuery": "座次表"
+        },
+        {
+          "title": "信纸",
+          "type": "scenario",
+          "searchQuery": "信纸"
+        },
+        {
+          "title": "万圣节",
+          "type": "seasonal",
+          "searchQuery": "万圣节",
+          "newLine": true
+        },
+        {
+          "title": "双十一",
+          "type": "seasonal",
+          "searchQuery": "双十一"
+        },
+        {
+          "title": "光棍节",
+          "type": "seasonal",
+          "searchQuery": "光棍节"
+        },
+        {
+          "title": "招生",
+          "type": "scenario",
+          "searchQuery": "招生手机海报"
+        },
+        {
+          "title": "职场技能",
+          "type": "scenario",
+          "searchQuery": "网课培训"
+        },
+        {
+          "title": "考研高考",
+          "type": "scenario",
+          "searchQuery": "考研高考"
+        },
+        {
+          "title": "少儿培训",
+          "type": "scenario",
+          "searchQuery": "少儿培训"
+        },
+        {
+          "title": "兴趣培训",
+          "type": "scenario",
+          "searchQuery": "兴趣班"
+        },
+        {
+          "title": "成绩排名",
+          "type": "scenario",
+          "searchQuery": "成绩"
+        },
+        {
+          "title": "倒计时",
+          "type": "scenario",
+          "searchQuery": "高考倒计时"
+        }
+      ]
+    },
+    {
+      "title": "文化娱乐",
+      "key": "industry_culture",
+      "thumbnail": "https://static.canva.cn/icons/onboarding/icon_culture.svg",
+      "keyword": "文化娱乐",
+      "elevationAmount": 50,
+      "filters": [
+        {
+          "title": "手机海报",
+          "type": "category",
+          "categoryId": "tADLknyoHN8"
+        },
+        {
+          "title": "朋友圈",
+          "type": "category",
+          "categoryId": "tACZCsjcdNc"
+        },
+        {
+          "title": "手机名片",
+          "type": "scenario",
+          "searchQuery": "电子名片"
+        },
+        {
+          "title": "LOGO",
+          "type": "category",
+          "categoryId": "tACZCuRXg6c"
+        },
+        {
+          "title": "书籍封面",
+          "type": "category",
+          "categoryId": "tADLkjBUkx8"
+        },
+        {
+          "title": "CD封面",
+          "type": "scenario",
+          "searchQuery": "CD封面"
+        },
+        {
+          "title": "视频相框",
+          "type": "scenario",
+          "searchQuery": "视频相框"
+        },
+        {
+          "title": "视频封面",
+          "type": "scenario",
+          "searchQuery": "视频封面"
+        },
+        {
+          "title": "榜单",
+          "type": "scenario",
+          "searchQuery": "榜单"
+        },
+        {
+          "title": "万圣节",
+          "type": "seasonal",
+          "searchQuery": "万圣节",
+          "newLine": true
+        },
+        {
+          "title": "双十一",
+          "type": "seasonal",
+          "searchQuery": "双十一"
+        },
+        {
+          "title": "光棍节",
+          "type": "seasonal",
+          "searchQuery": "光棍节"
+        },
+        {
+          "title": "电影",
+          "type": "scenario",
+          "searchQuery": "文化娱乐 电影"
+        },
+        {
+          "title": "音乐",
+          "type": "scenario",
+          "searchQuery": "文化娱乐 音乐"
+        },
+        {
+          "title": "中国文化",
+          "type": "scenario",
+          "searchQuery": "中国文化"
+        },
+        {
+          "title": "摄影",
+          "type": "scenario",
+          "searchQuery": "文化娱乐 摄影"
+        },
+        {
+          "title": "展览活动",
+          "type": "scenario",
+          "searchQuery": "文化娱乐 展览"
+        }
+      ]
+    },
+    {
+      "title": "酒店旅游",
+      "key": "industry_travel",
+      "thumbnail": "https://static.canva.cn/icons/onboarding/icon_travel.svg",
+      "keyword": "酒店旅游",
+      "elevationAmount": 50,
+      "filters": [
+        {
+          "title": "手机海报",
+          "type": "category",
+          "categoryId": "tADLknyoHN8"
+        },
+        {
+          "title": "手机拼图",
+          "type": "scenario",
+          "searchQuery": "旅行 拼图"
+        },
+        {
+          "title": "LOGO",
+          "type": "scenario",
+          "searchQuery": "旅游 logo"
+        },
+        {
+          "title": "朋友圈",
+          "type": "scenario",
+          "searchQuery": "朋友圈 旅游"
+        },
+        {
+          "title": "邀请函",
+          "type": "scenario",
+          "searchQuery": "邀请函 旅行"
+        },
+        {
+          "title": "日签",
+          "type": "scenario",
+          "searchQuery": "日签"
+        },
+        {
+          "title": "视频封面",
+          "type": "scenario",
+          "searchQuery": "视频封面"
+        },
+        {
+          "title": "视频相框",
+          "type": "scenario",
+          "searchQuery": "视频相框"
+        },
+        {
+          "title": "二维码",
+          "type": "scenario",
+          "searchQuery": "公众号二维码"
+        },
+        {
+          "title": "万圣节",
+          "type": "seasonal",
+          "searchQuery": "万圣节",
+          "newLine": true
+        },
+        {
+          "title": "双十一",
+          "type": "seasonal",
+          "searchQuery": "双十一"
+        },
+        {
+          "title": "光棍节",
+          "type": "seasonal",
+          "searchQuery": "光棍节"
+        },
+        {
+          "title": "产品介绍",
+          "type": "scenario",
+          "searchQuery": "旅游 手机海报"
+        },
+        {
+          "title": "打折促销",
+          "type": "scenario",
+          "searchQuery": "旅游 促销"
+        },
+        {
+          "title": "国内游",
+          "type": "scenario",
+          "searchQuery": "国内旅游"
+        },
+        {
+          "title": "日韩游",
+          "type": "scenario",
+          "searchQuery": "日韩旅游"
+        },
+        {
+          "title": "欧美游",
+          "type": "scenario",
+          "searchQuery": "欧美旅游"
+        },
+        {
+          "title": "东南亚游",
+          "type": "scenario",
+          "searchQuery": "东南亚旅游"
+        }
+      ]
+    },
+    {
+      "title": "IT/互联网",
+      "key": "industry_it",
+      "thumbnail": "https://static.canva.cn/icons/onboarding/icon_it.svg",
+      "keyword": "科技互联网海报",
+      "elevationAmount": 50,
+      "filters": [
+        {
+          "title": "手机海报",
+          "type": "category",
+          "categoryId": "tADLknyoHN8"
+        },
+        {
+          "title": "邀请函",
+          "type": "scenario",
+          "searchQuery": "互联网手机邀请函"
+        },
+        {
+          "title": "LOGO",
+          "type": "scenario",
+          "searchQuery": "logo 软件"
+        },
+        {
+          "title": "工作证",
+          "type": "scenario",
+          "searchQuery": "工作证"
+        },
+        {
+          "title": "手机名片",
+          "type": "scenario",
+          "searchQuery": "电子名片"
+        },
+        {
+          "title": "日签",
+          "type": "scenario",
+          "searchQuery": "日签"
+        },
+        {
+          "title": "视频封面",
+          "type": "scenario",
+          "searchQuery": "视频封面"
+        },
+        {
+          "title": "视频相框",
+          "type": "scenario",
+          "searchQuery": "视频相框"
+        },
+        {
+          "title": "二维码",
+          "type": "scenario",
+          "searchQuery": "二维码 科技"
+        },
+        {
+          "title": "万圣节",
+          "type": "seasonal",
+          "searchQuery": "万圣节",
+          "newLine": true
+        },
+        {
+          "title": "双十一",
+          "type": "seasonal",
+          "searchQuery": "双十一"
+        },
+        {
+          "title": "光棍节",
+          "type": "seasonal",
+          "searchQuery": "光棍节"
+        },
+        {
+          "title": "发布会",
+          "type": "scenario",
+          "searchQuery": "科技 发布会"
+        },
+        {
+          "title": "招聘",
+          "type": "scenario",
+          "searchQuery": "招聘"
+        },
+        {
+          "title": "活动宣传",
+          "type": "scenario",
+          "searchQuery": "互联网 活动"
+        },
+        {
+          "title": "授权书",
+          "type": "scenario",
+          "searchQuery": "互联网 授权书"
+        },
+        {
+          "title": "证书",
+          "type": "scenario",
+          "searchQuery": "互联网 证书 奖状"
+        }
+      ]
+    },
+    {
+      "title": "校园活动",
+      "key": "industry_campus",
+      "thumbnail": "https://static.canva.cn/icons/onboarding/icon_campus.svg",
+      "keyword": "校园",
+      "elevationAmount": 50,
+      "filters": [
+        {
+          "title": "手机海报",
+          "type": "category",
+          "categoryId": "tADLknyoHN8"
+        },
+        {
+          "title": "朋友圈",
+          "type": "category",
+          "categoryId": "tACZCsjcdNc"
+        },
+        {
+          "title": "插画",
+          "type": "scenario",
+          "searchQuery": "插画"
+        },
+        {
+          "title": "手机壁纸",
+          "type": "scenario",
+          "searchQuery": "手机壁纸"
+        },
+        {
+          "title": "课程表",
+          "type": "category",
+          "categoryId": "tADLkglC62c"
+        },
+        {
+          "title": "日签",
+          "type": "scenario",
+          "searchQuery": "日签"
+        },
+        {
+          "title": "手机拼图",
+          "type": "scenario",
+          "searchQuery": "手机拼图"
+        },
+        {
+          "title": "视频相框",
+          "type": "scenario",
+          "searchQuery": "视频相框"
+        },
+        {
+          "title": "LOGO",
+          "type": "scenario",
+          "searchQuery": "校园 LOGO"
+        },
+        {
+          "title": "万圣节",
+          "type": "seasonal",
+          "searchQuery": "万圣节",
+          "newLine": true
+        },
+        {
+          "title": "双十一",
+          "type": "seasonal",
+          "searchQuery": "双十一"
+        },
+        {
+          "title": "光棍节",
+          "type": "seasonal",
+          "searchQuery": "光棍节"
+        },
+        {
+          "title": "招新",
+          "type": "scenario",
+          "searchQuery": "校园招新"
+        },
+        {
+          "title": "社团宣传",
+          "type": "scenario",
+          "searchQuery": "社团宣传"
+        },
+        {
+          "title": "活动讲座",
+          "type": "scenario",
+          "searchQuery": "校园活动讲座"
+        },
+        {
+          "title": "校园招聘",
+          "type": "scenario",
+          "searchQuery": "校园招聘"
+        },
+        {
+          "title": "生活分享",
+          "type": "scenario",
+          "searchQuery": "生活分享"
+        },
+        {
+          "title": "打卡",
+          "type": "scenario",
+          "searchQuery": "打卡"
+        }
+      ]
+    },
+    {
+      "title": "母婴亲子",
+      "key": "industry_paternity",
+      "thumbnail": "https://static.canva.cn/icons/onboarding/icon_paternity.svg",
+      "keyword": "母婴亲子",
+      "elevationAmount": 50,
+      "filters": [
+        {
+          "title": "手机海报",
+          "type": "category",
+          "categoryId": "tADLknyoHN8"
+        },
+        {
+          "title": "手机拼图",
+          "type": "scenario",
+          "searchQuery": "手机拼图"
+        },
+        {
+          "title": "LOGO",
+          "type": "scenario",
+          "searchQuery": "logo"
+        },
+        {
+          "title": "主图图标",
+          "type": "scenario",
+          "searchQuery": "主图图标"
+        },
+        {
+          "title": "手机名片",
+          "type": "scenario",
+          "searchQuery": "电子名片"
+        },
+        {
+          "title": "日签",
+          "type": "scenario",
+          "searchQuery": "日签"
+        },
+        {
+          "title": "视频封面",
+          "type": "scenario",
+          "searchQuery": "视频封面"
+        },
+        {
+          "title": "视频相框",
+          "type": "scenario",
+          "searchQuery": "视频相框"
+        },
+        {
+          "title": "二维码",
+          "type": "scenario",
+          "searchQuery": "公众号二维码"
+        },
+        {
+          "title": "万圣节",
+          "type": "seasonal",
+          "searchQuery": "万圣节",
+          "newLine": true
+        },
+        {
+          "title": "双十一",
+          "type": "seasonal",
+          "searchQuery": "双十一"
+        },
+        {
+          "title": "光棍节",
+          "type": "seasonal",
+          "searchQuery": "光棍节"
+        },
+        {
+          "title": "产品介绍",
+          "type": "scenario",
+          "searchQuery": "母婴 产品"
+        },
+        {
+          "title": "打折促销",
+          "type": "scenario",
+          "searchQuery": "母婴 打折促销"
+        },
+        {
+          "title": "活动宣传",
+          "type": "scenario",
+          "searchQuery": "母婴 活动"
+        },
+        {
+          "title": "母亲",
+          "type": "scenario",
+          "searchQuery": "妈妈"
+        },
+        {
+          "title": "婴儿",
+          "type": "scenario",
+          "searchQuery": "婴儿"
+        },
+        {
+          "title": "儿童",
+          "type": "scenario",
+          "searchQuery": "儿童"
+        }
+      ]
+    },
+    {
+      "title": "体育健身",
+      "key": "industry_gym",
+      "thumbnail": "https://static.canva.cn/icons/onboarding/icon_gym.svg",
+      "keyword": "体育健身",
+      "elevationAmount": 50,
+      "filters": [
+        {
+          "title": "手机海报",
+          "type": "scenario",
+          "searchQuery": "手机海报 健身"
+        },
+        {
+          "title": "手机拼图",
+          "type": "scenario",
+          "searchQuery": "手机拼图"
+        },
+        {
+          "title": "LOGO",
+          "type": "scenario",
+          "searchQuery": "运动队logo"
+        },
+        {
+          "title": "主图图标",
+          "type": "scenario",
+          "searchQuery": "主图图标"
+        },
+        {
+          "title": "手机名片",
+          "type": "scenario",
+          "searchQuery": "电子名片 健身"
+        },
+        {
+          "title": "日签",
+          "type": "scenario",
+          "searchQuery": "日签"
+        },
+        {
+          "title": "视频封面",
+          "type": "scenario",
+          "searchQuery": "视频封面"
+        },
+        {
+          "title": "视频相框",
+          "type": "scenario",
+          "searchQuery": "视频相框"
+        },
+        {
+          "title": "二维码",
+          "type": "scenario",
+          "searchQuery": "公众号二维码"
+        },
+        {
+          "title": "万圣节",
+          "type": "seasonal",
+          "searchQuery": "万圣节",
+          "newLine": true
+        },
+        {
+          "title": "双十一",
+          "type": "seasonal",
+          "searchQuery": "双十一"
+        },
+        {
+          "title": "光棍节",
+          "type": "seasonal",
+          "searchQuery": "光棍节"
+        },
+        {
+          "title": "打卡",
+          "type": "scenario",
+          "searchQuery": "健身 打卡"
+        },
+        {
+          "title": "宣传",
+          "type": "scenario",
+          "searchQuery": "运动健身 名片"
+        },
+        {
+          "title": "开业",
+          "type": "scenario",
+          "searchQuery": "健身 开业"
+        },
+        {
+          "title": "促销",
+          "type": "scenario",
+          "searchQuery": "健身 促销"
+        },
+        {
+          "title": "瑜伽",
+          "type": "scenario",
+          "searchQuery": "瑜伽"
+        },
+        {
+          "title": "游泳",
+          "type": "scenario",
+          "searchQuery": "健身 游泳"
+        },
+        {
+          "title": "减脂增肌",
+          "type": "scenario",
+          "searchQuery": "健身 减肥 肌肉"
+        }
+      ]
+    },
+    {
+      "title": "美妆护肤",
+      "key": "industry_beauty",
+      "thumbnail": "https://static.canva.cn/icons/onboarding/icon_beauty.svg",
+      "keyword": "美妆护肤",
+      "elevationAmount": 50,
+      "filters": [
+        {
+          "title": "手机海报",
+          "type": "category",
+          "categoryId": "tADLknyoHN8"
+        },
+        {
+          "title": "手机拼图",
+          "type": "scenario",
+          "searchQuery": "手机拼图"
+        },
+        {
+          "title": "LOGO",
+          "type": "scenario",
+          "searchQuery": "logo"
+        },
+        {
+          "title": "主图图标",
+          "type": "scenario",
+          "searchQuery": "主图图标"
+        },
+        {
+          "title": "手机名片",
+          "type": "scenario",
+          "searchQuery": "电子名片 美容"
+        },
+        {
+          "title": "日签",
+          "type": "scenario",
+          "searchQuery": "日签"
+        },
+        {
+          "title": "视频封面",
+          "type": "scenario",
+          "searchQuery": "视频封面"
+        },
+        {
+          "title": "视频相框",
+          "type": "scenario",
+          "searchQuery": "视频相框"
+        },
+        {
+          "title": "二维码",
+          "type": "scenario",
+          "searchQuery": "公众号二维码 美妆"
+        },
+        {
+          "title": "万圣节",
+          "type": "seasonal",
+          "searchQuery": "万圣节",
+          "newLine": true
+        },
+        {
+          "title": "双十一",
+          "type": "seasonal",
+          "searchQuery": "双十一"
+        },
+        {
+          "title": "光棍节",
+          "type": "seasonal",
+          "searchQuery": "光棍节"
+        },
+        {
+          "title": "产品介绍",
+          "type": "scenario",
+          "searchQuery": "美妆 Plog"
+        },
+        {
+          "title": "打折促销",
+          "type": "scenario",
+          "searchQuery": "化妆品 促销"
+        },
+        {
+          "title": "店铺宣传",
+          "type": "scenario",
+          "searchQuery": "美妆 名片"
+        },
+        {
+          "title": "化妆护肤",
+          "type": "scenario",
+          "searchQuery": "化妆护肤"
+        },
+        {
+          "title": "美发造型",
+          "type": "scenario",
+          "searchQuery": "美发造型"
+        },
+        {
+          "title": "美甲",
+          "type": "scenario",
+          "searchQuery": "美甲"
+        }
+      ]
+    },
+    {
+      "title": "服装时尚",
+      "key": "industry_fashion",
+      "thumbnail": "https://static.canva.cn/icons/onboarding/icon_fashion.svg",
+      "keyword": "服装时尚",
+      "elevationAmount": 50,
+      "filters": [
+        {
+          "title": "手机海报",
+          "type": "category",
+          "categoryId": "tADLknyoHN8"
+        },
+        {
+          "title": "手机拼图",
+          "type": "category",
+          "categoryId": "tADLklHfs_Q"
+        },
+        {
+          "title": "LOGO",
+          "type": "category",
+          "categoryId": "tACZCuRXg6c"
+        },
+        {
+          "title": "主图图标",
+          "type": "scenario",
+          "searchQuery": "主图图标 服装"
+        },
+        {
+          "title": "手机名片",
+          "type": "category",
+          "categoryId": "tACZCgZJUBc"
+        },
+        {
+          "title": "日签",
+          "type": "scenario",
+          "searchQuery": "日签"
+        },
+        {
+          "title": "视频封面",
+          "type": "scenario",
+          "searchQuery": "视频封面"
+        },
+        {
+          "title": "视频相框",
+          "type": "scenario",
+          "searchQuery": "视频相框"
+        },
+        {
+          "title": "二维码",
+          "type": "scenario",
+          "searchQuery": "时尚公众号二维码"
+        },
+        {
+          "title": "万圣节",
+          "type": "seasonal",
+          "searchQuery": "万圣节",
+          "newLine": true
+        },
+        {
+          "title": "双十一",
+          "type": "seasonal",
+          "searchQuery": "双十一"
+        },
+        {
+          "title": "光棍节",
+          "type": "seasonal",
+          "searchQuery": "光棍节"
+        },
+        {
+          "title": "打折促销",
+          "type": "scenario",
+          "searchQuery": "服装 促销"
+        },
+        {
+          "title": "店铺宣传",
+          "type": "scenario",
+          "searchQuery": "服装 时尚 名片"
+        },
+        {
+          "title": "穿搭展示",
+          "type": "scenario",
+          "searchQuery": "穿搭"
+        },
+        {
+          "title": "女装",
+          "type": "scenario",
+          "searchQuery": "女装"
+        },
+        {
+          "title": "童装",
+          "type": "scenario",
+          "searchQuery": "童装"
+        },
+        {
+          "title": "男装",
+          "type": "scenario",
+          "searchQuery": "男装"
+        }
+      ]
+    },
+    {
+      "title": "其他",
+      "key": "industry_others",
+      "thumbnail": "https://static.canva.cn/icons/onboarding/icon_others.svg",
+      "keyword": "其他行业 婚礼 金融 地产 家居",
+      "elevationAmount": 50,
+      "filters": [
+        {
+          "title": "手机海报",
+          "type": "category",
+          "categoryId": "tADLknyoHN8"
+        },
+        {
+          "title": "朋友圈",
+          "type": "scenario",
+          "searchQuery": "朋友圈 plog"
+        },
+        {
+          "title": "手机拼图",
+          "type": "scenario",
+          "searchQuery": "手机拼图 婚礼"
+        },
+        {
+          "title": "LOGO",
+          "type": "category",
+          "categoryId": "tACZCuRXg6c"
+        },
+        {
+          "title": "邀请函",
+          "type": "scenario",
+          "searchQuery": "金融 婚礼 地产 手机邀请函"
+        },
+        {
+          "title": "日签",
+          "type": "scenario",
+          "searchQuery": "日签"
+        },
+        {
+          "title": "视频相框",
+          "type": "scenario",
+          "searchQuery": "视频相框"
+        },
+        {
+          "title": "手机名片",
+          "type": "scenario",
+          "searchQuery": "电子名片"
+        },
+        {
+          "title": "万圣节",
+          "type": "seasonal",
+          "searchQuery": "万圣节",
+          "newLine": true
+        },
+        {
+          "title": "双十一",
+          "type": "seasonal",
+          "searchQuery": "双十一"
+        },
+        {
+          "title": "光棍节",
+          "type": "seasonal",
+          "searchQuery": "光棍节"
+        },
+        {
+          "title": "婚礼",
+          "type": "scenario",
+          "searchQuery": "其他行业婚礼"
+        },
+        {
+          "title": "地产家居",
+          "type": "scenario",
+          "searchQuery": "其他行业地产家居"
+        },
+        {
+          "title": "金融",
+          "type": "scenario",
+          "searchQuery": "其他行业金融"
+        },
+        {
+          "title": "公益",
+          "type": "scenario",
+          "searchQuery": "其他行业公益"
+        },
+        {
+          "title": "医疗保健",
+          "type": "scenario",
+          "searchQuery": "其他行业医疗保健"
+        },
+        {
+          "title": "零售",
+          "type": "scenario",
+          "searchQuery": "其他行业零售"
+        }
+      ]
+    }
+  ]
+}

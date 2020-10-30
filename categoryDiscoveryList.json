@@ -1,0 +1,1793 @@
+{
+  "continuation": "tACZCp82u-A",
+  "results": [
+    {
+      "category": "tACZCs7e-rQ",
+      "categoryDisplayName": "海报",
+      "dimensions": {
+        "height": 59.4,
+        "units": "CENTIMETERS",
+        "width": 42
+      },
+      "dimensionsLabel": "42 × 59.4 厘米",
+      "displayName": "海报",
+      "doctype": "TACkP6JQACc",
+      "iconUrl": "https://static.canva.cn/category/icons/Poster.svg",
+      "thumbnail": {
+        "height": 550,
+        "url": "https://media-public.canva.cn/MADMNVaqxyA/1/0/thumbnail_large.jpg",
+        "width": 389
+      },
+      "token": "djE6dEFDWkNzN2UtclE6Z2xvYmFsLTQyLXgtNTk0LWNt"
+    },
+    {
+      "category": "tACZCukkq3s",
+      "categoryDisplayName": "传单",
+      "dimensions": {
+        "height": 297,
+        "units": "MILLIMETERS",
+        "width": 210
+      },
+      "dimensionsLabel": "210 × 297 毫米",
+      "displayName": "传单",
+      "doctype": "TACixUyoqp0",
+      "iconUrl": "https://static.canva.cn/category/icons/noun_233537.svg",
+      "thumbnail": {
+        "height": 550,
+        "url": "https://media-public.canva.cn/MADdEtaukfQ/2/0/thumbnail_large.jpg",
+        "width": 389
+      },
+      "token": "djE6dEFDWkN1a2txM3M6Z2xvYmFsLWZseWVyLWE0"
+    },
+    {
+      "category": "tACZCmmulYs",
+      "categoryDisplayName": "电商Banner",
+      "dimensions": {
+        "height": 600,
+        "units": "PIXELS",
+        "width": 1920
+      },
+      "dimensionsLabel": "1920 × 600 像素",
+      "displayName": "电商Banner",
+      "doctype": "TAC75D-TWZM",
+      "iconUrl": "https://static.canva.cn/category/icons/tACZCmmulYs%20banner.svg",
+      "thumbnail": {
+        "height": 172,
+        "url": "https://media-public.canva.cn/MAC_MOkc6Dk/1/0/thumbnail_large.jpg",
+        "width": 550
+      },
+      "token": "djE6dEFDWkNtbXVsWXM6Z2xvYmFsLVRBQzc1RC1UV1pN"
+    },
+    {
+      "category": "tACZCpxuodA",
+      "categoryDisplayName": "演示文稿",
+      "dimensions": {
+        "height": 1080,
+        "units": "PIXELS",
+        "width": 1920
+      },
+      "dimensionsLabel": "1920 × 1080 像素",
+      "displayName": "演示文稿",
+      "doctype": "TACkWMsRT_I",
+      "iconUrl": "https://static.canva.cn/category/icons/tACZCpxuodA%20presentation.svg",
+      "thumbnail": {
+        "height": 309,
+        "url": "https://media-public.canva.cn/MADHgsy_LkU/3/0/thumbnail_large.jpg",
+        "width": 550
+      },
+      "token": "djE6dEFDWkNweHVvZEE6Z2xvYmFsLTE5MjAteC0xMDgwLXB4"
+    },
+    {
+      "category": "tACZCuOHSQA",
+      "categoryDisplayName": "微信公众号封面",
+      "dimensions": {
+        "height": 383,
+        "units": "PIXELS",
+        "width": 900
+      },
+      "dimensionsLabel": "900 × 383 像素",
+      "displayName": "微信公众号封面",
+      "doctype": "TAC9S6yeLtE",
+      "iconUrl": "https://static.canva.cn/category/icons/tACZCuOHSQA%20wechat%20official%20account%20cover.svg",
+      "thumbnail": {
+        "height": 234,
+        "url": "https://media-public.canva.cn/MADhYuUFTUE/1/0/thumbnail_large.jpg",
+        "width": 550
+      },
+      "token": "djE6dEFDWkN1T0hTUUE6Z2xvYmFsLVRBQzlTNnllTHRF"
+    },
+    {
+      "category": "tACZCiuHYm4",
+      "categoryDisplayName": "名片",
+      "dimensions": {
+        "height": 5,
+        "units": "CENTIMETERS",
+        "width": 8.5
+      },
+      "dimensionsLabel": "8.5 × 5 厘米",
+      "displayName": "名片",
+      "doctype": "TACkXtB1PrE",
+      "iconUrl": "https://static.canva.cn/category/icons/Business-card.svg",
+      "thumbnail": {
+        "height": 189,
+        "url": "https://media-public.canva.cn/MAC-XFaMWPs/1/0/thumbnail_large.jpg",
+        "width": 322
+      },
+      "token": "djE6dEFDWkNpdUhZbTQ6Z2xvYmFsLTg1LXgtNWNt"
+    },
+    {
+      "category": "tACZCustSTA",
+      "categoryDisplayName": "简历",
+      "dimensions": {
+        "height": 29.7,
+        "units": "CENTIMETERS",
+        "width": 21
+      },
+      "dimensionsLabel": "21 × 29.7 厘米",
+      "displayName": "简历",
+      "doctype": "TADae_-2twE",
+      "iconUrl": "https://static.canva.cn/category/icons/noun_1182832.svg",
+      "thumbnail": {
+        "height": 550,
+        "url": "https://media-public.canva.cn/MADHgqicd0U/3/0/thumbnail_large.jpg",
+        "width": 389
+      },
+      "token": "djE6dEFDWkN1c3RTVEE6Z2xvYmFsLTIxLWNtLTI5LjctY20="
+    },
+    {
+      "category": "tACZCoWLFL8",
+      "categoryDisplayName": "邀请函",
+      "dimensions": {
+        "height": 14,
+        "units": "CENTIMETERS",
+        "width": 14
+      },
+      "dimensionsLabel": "14 × 14 厘米",
+      "displayName": "邀请函",
+      "doctype": "TACkWJSx1hY",
+      "iconUrl": "https://static.canva.cn/category/icons/noun_1501592.svg",
+      "thumbnail": {
+        "height": 530,
+        "url": "https://media-public.canva.cn/MAC-5oLuFy0/1/0/thumbnail_large.jpg",
+        "width": 530
+      },
+      "token": "djE6dEFDWkNvV0xGTDg6Z2xvYmFsLTE0LXgtMTQtY20="
+    },
+    {
+      "category": "tACZClT8HS8",
+      "categoryDisplayName": "三折页",
+      "dimensions": {
+        "height": 8.5,
+        "units": "INCHES",
+        "width": 11
+      },
+      "dimensionsLabel": "11 × 8.5 英寸",
+      "displayName": "三折页",
+      "doctype": "TABQqnM7Tvw",
+      "iconUrl": "https://static.canva.cn/category/icons/noun_705923.svg",
+      "thumbnail": {
+        "height": 425,
+        "url": "https://media-public.canva.cn/MAC7IN_wjak/1/0/thumbnail_large.jpg",
+        "width": 550
+      },
+      "token": "djE6dEFDWkNsVDhIUzg6Z2xvYmFsLXRyaWZvbGQtYnJvY2h1cmU="
+    },
+    {
+      "category": "tACZCuRXg6c",
+      "categoryDisplayName": "Logo",
+      "dimensions": {
+        "height": 500,
+        "units": "PIXELS",
+        "width": 500
+      },
+      "dimensionsLabel": "500 × 500 像素",
+      "displayName": "Logo",
+      "doctype": "TAB7AVEOUWQ",
+      "iconUrl": "https://static.canva.cn/category/icons/Logo-01.svg",
+      "thumbnail": {
+        "height": 550,
+        "url": "https://media-public.canva.cn/MADhBtXD46E/1/0/thumbnail_large.jpg",
+        "width": 550
+      },
+      "token": "djE6dEFDWkN1UlhnNmM6Z2xvYmFsLWxvZ28="
+    },
+    {
+      "category": "tACZCnXe2Xo",
+      "categoryDisplayName": "贺卡",
+      "dimensions": {
+        "height": 10.5,
+        "units": "CENTIMETERS",
+        "width": 14.8
+      },
+      "dimensionsLabel": "14.8 × 10.5 厘米",
+      "displayName": "贺卡",
+      "doctype": "TACkP2sE-oM",
+      "iconUrl": "https://static.canva.cn/category/icons/Card.svg",
+      "thumbnail": {
+        "height": 390,
+        "url": "https://media-public.canva.cn/MADeIQnNXDA/1/0/thumbnail_large.jpg",
+        "width": 550
+      },
+      "token": "djE6dEFDWkNuWGUyWG86Z2xvYmFsLTE0OC14LTEwNS1jbQ=="
+    },
+    {
+      "category": "tACZCgGvwzA",
+      "categoryDisplayName": "信息图表",
+      "dimensions": {
+        "height": 2000,
+        "units": "PIXELS",
+        "width": 800
+      },
+      "dimensionsLabel": "800 × 2000 像素",
+      "displayName": "信息图表",
+      "doctype": "TABQqtO7tYQ",
+      "iconUrl": "https://static.canva.cn/category/icons/tACZCgGvwzA%20infographics.svg",
+      "thumbnail": {
+        "height": 550,
+        "url": "https://media-public.canva.cn/MAC_KF-ot1s/1/0/thumbnail_large.jpg",
+        "width": 220
+      },
+      "token": "djE6dEFDWkNnR3Z3ekE6Z2xvYmFsLWluZm9ncmFwaGlj"
+    },
+    {
+      "category": "tACZCv5k8lI",
+      "categoryDisplayName": "公告",
+      "dimensions": {
+        "height": 7,
+        "units": "INCHES",
+        "width": 5
+      },
+      "dimensionsLabel": "5 × 7 英寸",
+      "displayName": "公告",
+      "doctype": "TACC4LJ8cp8",
+      "iconUrl": "https://static.canva.cn/category/icons/noun_335844.svg",
+      "thumbnail": {
+        "height": 550,
+        "url": "https://media-public.canva.cn/MAC7H4hheZ0/1/0/thumbnail_large.jpg",
+        "width": 393
+      },
+      "token": "djE6dEFDWkN2NWs4bEk6Z2xvYmFsLWFubm91bmNlbWVudA=="
+    },
+    {
+      "category": "tACZCsjcdNc",
+      "categoryDisplayName": "微信朋友圈",
+      "dimensions": {
+        "height": 1080,
+        "units": "PIXELS",
+        "width": 1080
+      },
+      "dimensionsLabel": "1080 × 1080 像素",
+      "displayName": "微信朋友圈",
+      "doctype": "TADaewlqHzQ",
+      "iconUrl": "https://static.canva.cn/category/icons/tACZCsjcdNc%20wechat%20moment.svg",
+      "thumbnail": {
+        "height": 550,
+        "url": "https://media-public.canva.cn/MADS38pTFxI/1/0/thumbnail_large.jpg",
+        "width": 550
+      },
+      "token": "djE6dEFDWkNzamNkTmM6Z2xvYmFsLTEwODAteC0xMDgwLXB4"
+    },
+    {
+      "category": "tACZChjMuAE",
+      "categoryDisplayName": "社交媒体",
+      "dimensions": {
+        "height": 788,
+        "units": "PIXELS",
+        "width": 940
+      },
+      "dimensionsLabel": "940 × 788 像素",
+      "displayName": "社交媒体",
+      "doctype": "TACkXjcbEsQ",
+      "iconUrl": "https://static.canva.cn/category/icons/tACZChjMuAE%20social%20media.svg",
+      "thumbnail": {
+        "height": 461,
+        "url": "https://media-public.canva.cn/MADS-CM5Nlw/1/0/thumbnail_large.jpg",
+        "width": 550
+      },
+      "token": "djE6dEFDWkNoak11QUU6Z2xvYmFsLTk0MC14LTc4OC1weA=="
+    },
+    {
+      "category": "tACZCtadM2E",
+      "categoryDisplayName": "微博",
+      "dimensions": {
+        "height": 1102,
+        "units": "PIXELS",
+        "width": 735
+      },
+      "dimensionsLabel": "735 × 1102 像素",
+      "displayName": "微博",
+      "doctype": "TACkXhxcXVg",
+      "iconUrl": "https://static.canva.cn/category/icons/tACZCtadM2E%20weibo.svg",
+      "thumbnail": {
+        "height": 550,
+        "url": "https://media-public.canva.cn/MADOYtFB16Q/1/0/thumbnail_large.jpg",
+        "width": 367
+      },
+      "token": "djE6dEFDWkN0YWRNMkU6Z2xvYmFsLTczNS14LTExMDItcHg="
+    },
+    {
+      "category": "tACZCgYi6SA",
+      "categoryDisplayName": "微信公众号二维码",
+      "dimensions": {
+        "height": 600,
+        "units": "PIXELS",
+        "width": 600
+      },
+      "dimensionsLabel": "600 × 600 像素",
+      "displayName": "微信公众号二维码",
+      "doctype": "TAC75ECwBHI",
+      "iconUrl": "https://static.canva.cn/category/icons/tACZCgYi6SA%20wechat%20qrcode.svg",
+      "thumbnail": {
+        "height": 550,
+        "url": "https://media-public.canva.cn/MADccJZw9H0/1/0/thumbnail_large.jpg",
+        "width": 550
+      },
+      "token": "djE6dEFDWkNnWWk2U0E6Z2xvYmFsLVRBQzc1RUN3QkhJ"
+    },
+    {
+      "category": "tACZCn2DEzY",
+      "categoryDisplayName": "菜单",
+      "dimensions": {
+        "height": 29.7,
+        "units": "CENTIMETERS",
+        "width": 21
+      },
+      "dimensionsLabel": "21 × 29.7 厘米",
+      "displayName": "菜单",
+      "doctype": "TADae4KCwxg",
+      "iconUrl": "https://static.canva.cn/category/icons/tACZCn2DEzY%20menu.svg",
+      "thumbnail": {
+        "height": 550,
+        "url": "https://media-public.canva.cn/MADdBTDJR8U/2/0/thumbnail_large.jpg",
+        "width": 389
+      },
+      "token": "djE6dEFDWkNuMkRFelk6Z2xvYmFsLTIxLWNtLTI5LjctY20="
+    },
+    {
+      "category": "tACZCsI-e2w",
+      "categoryDisplayName": "简报",
+      "dimensions": {
+        "height": 29.7,
+        "units": "CENTIMETERS",
+        "width": 21
+      },
+      "dimensionsLabel": "21 × 29.7 厘米",
+      "displayName": "简报",
+      "doctype": "TADae5UaGY4",
+      "iconUrl": "https://static.canva.cn/category/icons/tACZCsI-e2w%20newsletter.svg",
+      "thumbnail": {
+        "height": 550,
+        "url": "https://media-public.canva.cn/MAC_K6d_xVE/1/0/thumbnail_large.jpg",
+        "width": 389
+      },
+      "token": "djE6dEFDWkNzSS1lMnc6Z2xvYmFsLTIxLWNtLTI5LjctY20="
+    },
+    {
+      "category": "tADLkp3DGdg",
+      "categoryDisplayName": "手机邀请函",
+      "dimensions": {
+        "height": 1920,
+        "units": "PIXELS",
+        "width": 1080
+      },
+      "dimensionsLabel": "1080 × 1920 像素",
+      "displayName": "手机邀请函",
+      "doctype": "TADae7iTV9o",
+      "iconUrl": "https://static.canva.cn/category/icons/tADLkp3DGdg%20mobile%20invitation.svg",
+      "thumbnail": {
+        "height": 550,
+        "url": "https://media-public.canva.cn/MADeIKOYNoo/1/0/thumbnail_large.jpg",
+        "width": 309
+      },
+      "token": "djE6dEFETGtwM0RHZGc6Z2xvYmFsLVRBRGFlN2lUVjlv"
+    },
+    {
+      "category": "tACZClJxmXA",
+      "categoryDisplayName": "手机壁纸",
+      "dimensions": {
+        "height": 1920,
+        "units": "PIXELS",
+        "width": 1080
+      },
+      "dimensionsLabel": "1080 × 1920 像素",
+      "displayName": "手机壁纸",
+      "doctype": "TACUOfRHN_8",
+      "iconUrl": "https://static.canva.cn/category/icons/tACZClJxmXA%20mobile%20wallpaper.svg",
+      "thumbnail": {
+        "height": 550,
+        "url": "https://media-public.canva.cn/MADNt35FhZg/1/0/thumbnail_large.jpg",
+        "width": 309
+      },
+      "token": "djE6dEFDWkNsSnhtWEE6Z2xvYmFsLXlvdXItc3Rvcnk="
+    },
+    {
+      "category": "tACZCks8AE0",
+      "categoryDisplayName": "拼图",
+      "dimensions": {
+        "height": 20,
+        "units": "CENTIMETERS",
+        "width": 25
+      },
+      "dimensionsLabel": "25 × 20 厘米",
+      "displayName": "拼图",
+      "doctype": "TACkPxpEf5k",
+      "iconUrl": "https://static.canva.cn/category/icons/noun_816356.svg",
+      "thumbnail": {
+        "height": 440,
+        "url": "https://media-public.canva.cn/MADeHyRNyi8/1/0/thumbnail_large.jpg",
+        "width": 550
+      },
+      "token": "djE6dEFDWkNrczhBRTA6Z2xvYmFsLTI1LXgtMjAtY20="
+    },
+    {
+      "category": "tACZClaR7L0",
+      "categoryDisplayName": "明信片",
+      "dimensions": {
+        "height": 105,
+        "units": "MILLIMETERS",
+        "width": 148
+      },
+      "dimensionsLabel": "148 × 105 毫米",
+      "displayName": "明信片",
+      "doctype": "TACjUzwty98",
+      "token": "djE6dEFDWkNsYVI3TDA6Z2xvYmFsLTE0OC14LTEwNS1tbQ=="
+    },
+    {
+      "category": "tACZCqIu0BA",
+      "categoryDisplayName": "图表",
+      "dimensions": {
+        "height": 768,
+        "units": "PIXELS",
+        "width": 1024
+      },
+      "dimensionsLabel": "1024 × 768 像素",
+      "displayName": "图表",
+      "doctype": "TAB-GJENYIU",
+      "token": "djE6dEFDWkNxSXUwQkE6Z2xvYmFsLVZlbm4tRGlhZ3JhbQ=="
+    },
+    {
+      "category": "tADLknyoHN8",
+      "categoryDisplayName": "手机海报",
+      "dimensions": {
+        "height": 1920,
+        "units": "PIXELS",
+        "width": 1080
+      },
+      "dimensionsLabel": "1080 × 1920 像素",
+      "displayName": "手机海报",
+      "doctype": "TACkWLjrjtY",
+      "iconUrl": "https://static.canva.cn/category/icons/tADLknyoHN8%20mobile%20poster.svg",
+      "thumbnail": {
+        "height": 550,
+        "url": "https://media-public.canva.cn/MADQi3yk4nM/1/0/thumbnail_large.jpg",
+        "width": 309
+      },
+      "token": "djE6dEFETGtueW9ITjg6Z2xvYmFsLTEwODAteC0xOTIwLXB4"
+    },
+    {
+      "category": "tADLkqDigy8",
+      "categoryDisplayName": "微信公众号小图",
+      "dimensions": {
+        "height": 200,
+        "units": "PIXELS",
+        "width": 200
+      },
+      "dimensionsLabel": "200 × 200 像素",
+      "displayName": "微信公众号小图",
+      "doctype": "TADNIrN-Fo0",
+      "iconUrl": "https://static.canva.cn/category/icons/tADLkqDigy8%20wechat%20official%20account%20small%20thumbnail.svg",
+      "thumbnail": {
+        "height": 550,
+        "url": "https://media-public.canva.cn/MADSS3-KBpc/1/0/thumbnail_large.jpg",
+        "width": 550
+      },
+      "token": "djE6dEFETGtxRGlneTg65b6u5L+h5YWs5LyX5Y+35bCP5Zu+"
+    },
+    {
+      "category": "tACZCgZJUBc",
+      "categoryDisplayName": "电子名片",
+      "dimensions": {
+        "height": 1920,
+        "units": "PIXELS",
+        "width": 1080
+      },
+      "dimensionsLabel": "1080 × 1920 像素",
+      "displayName": "电子名片",
+      "doctype": "TADae35ntZc",
+      "iconUrl": "https://static.canva.cn/category/icons/tACZCgZJUBc%20e%20business%20card.svg",
+      "thumbnail": {
+        "height": 550,
+        "url": "https://media-public.canva.cn/MADiVtgBrV8/1/0/thumbnail_large.jpg",
+        "width": 309
+      },
+      "token": "djE6dEFDWkNnWkpVQmM6Z2xvYmFsLVRBRGFlMzVudFpj"
+    },
+    {
+      "category": "tADLklHfs_Q",
+      "categoryDisplayName": "手机拼图",
+      "dimensions": {
+        "height": 1920,
+        "units": "PIXELS",
+        "width": 1080
+      },
+      "dimensionsLabel": "1080 × 1920 像素",
+      "displayName": "手机拼图",
+      "doctype": "TADae9loCpw",
+      "iconUrl": "https://static.canva.cn/category/icons/tADLklHfs_Q%20mobile%20collage.svg",
+      "thumbnail": {
+        "height": 550,
+        "url": "https://media-public.canva.cn/MADSlnc4LsA/1/0/thumbnail_large.jpg",
+        "width": 309
+      },
+      "token": "djE6dEFETGtsSGZzX1E6Z2xvYmFsLVRBRGFlOWxvQ3B3"
+    },
+    {
+      "category": "tACZCnp8iVo",
+      "categoryDisplayName": "热门",
+      "dimensions": {
+        "height": 1080,
+        "units": "PIXELS",
+        "width": 1080
+      },
+      "dimensionsLabel": "1080 × 1080 像素",
+      "displayName": "热门",
+      "doctype": "TABQqs5Kbyc",
+      "thumbnail": {
+        "height": 550,
+        "url": "https://media-public.canva.cn/MADFku9QFys/1/0/thumbnail_large.jpg",
+        "width": 550
+      },
+      "token": "djE6dEFDWkNucDhpVm86Z2xvYmFsLWluc3RhZ3JhbS1wb3N0"
+    },
+    {
+      "category": "tADLkjBUkx8",
+      "categoryDisplayName": "书籍封面",
+      "dimensions": {
+        "height": 2250,
+        "units": "PIXELS",
+        "width": 1410
+      },
+      "dimensionsLabel": "1410 × 2250 像素",
+      "displayName": "书籍封面",
+      "doctype": "TADRqc8gqVA",
+      "iconUrl": "https://static.canva.cn/category/icons/tADLkjBUkx8%20bookcover.svg",
+      "thumbnail": {
+        "height": 550,
+        "url": "https://media-public.canva.cn/MADT-qAmPB8/2/0/thumbnail_large.jpg",
+        "width": 345
+      },
+      "token": "djE6dEFETGtqQlVreDg6Z2xvYmFsIC0gMTQxMFggLSAyMjUwcHg="
+    },
+    {
+      "category": "tADLkp6Z65E",
+      "categoryDisplayName": "工作表",
+      "dimensions": {
+        "height": 29.7,
+        "units": "CENTIMETERS",
+        "width": 21
+      },
+      "dimensionsLabel": "21 × 29.7 厘米",
+      "displayName": "工作表",
+      "doctype": "TADaisyIao0",
+      "thumbnail": {
+        "height": 550,
+        "url": "https://media-public.canva.cn/MADV2utdzAk/2/0/thumbnail_large.jpg",
+        "width": 389
+      },
+      "token": "djE6dEFETGtwNlo2NUU6Z2xvYmFsLVRBRGFpc3lJYW8w"
+    },
+    {
+      "category": "tADLkszEfVs",
+      "categoryDisplayName": "课程计划表",
+      "dimensions": {
+        "height": 29.7,
+        "units": "CENTIMETERS",
+        "width": 21
+      },
+      "dimensionsLabel": "21 × 29.7 厘米",
+      "displayName": "课程计划表",
+      "doctype": "TADais8cAAA",
+      "iconUrl": "https://static.canva.cn/category/icons/tADLkszEfVs%20Class%20plan.svg",
+      "thumbnail": {
+        "height": 550,
+        "url": "https://media-public.canva.cn/MADV883HnJg/1/0/thumbnail_large.jpg",
+        "width": 389
+      },
+      "token": "djE6dEFETGtzekVmVnM6Z2xvYmFsLVRBRGFpczhjQUFB"
+    },
+    {
+      "category": "tADLkiP-7jo",
+      "categoryDisplayName": "成绩反馈表",
+      "dimensions": {
+        "height": 29.7,
+        "units": "CENTIMETERS",
+        "width": 21
+      },
+      "dimensionsLabel": "21 × 29.7 厘米",
+      "displayName": "成绩反馈表",
+      "doctype": "TADaig8F55I",
+      "thumbnail": {
+        "height": 550,
+        "url": "https://media-public.canva.cn/MADV87_Xj8U/1/0/thumbnail_large.jpg",
+        "width": 389
+      },
+      "token": "djE6dEFETGtpUC03am86Z2xvYmFsLVRBRGFpZzhGNTVJ"
+    },
+    {
+      "category": "tADLkt4ZGqQ",
+      "categoryDisplayName": "书签",
+      "dimensions": {
+        "height": 15.24,
+        "units": "CENTIMETERS",
+        "width": 5.08
+      },
+      "dimensionsLabel": "5.1 × 15.2 厘米",
+      "displayName": "书签",
+      "doctype": "TADR8SRzEU0",
+      "iconUrl": "https://static.canva.cn/category/icons/tADLkt4ZGqQ%20bookmark.svg",
+      "thumbnail": {
+        "height": 550,
+        "url": "https://media-public.canva.cn/MADV22dwz7c/1/0/thumbnail_large.jpg",
+        "width": 183
+      },
+      "token": "djE6dEFETGt0NFpHcVE6Z2xvYmFsIC0gNS4wOGNtIC0gMTUuMjRjbQ=="
+    },
+    {
+      "category": "tADLks_286Y",
+      "categoryDisplayName": "座次表",
+      "dimensions": {
+        "height": 59.4,
+        "units": "CENTIMETERS",
+        "width": 42
+      },
+      "dimensionsLabel": "42 × 59.4 厘米",
+      "displayName": "座次表",
+      "doctype": "TADR8VQIRrY",
+      "thumbnail": {
+        "height": 550,
+        "url": "https://media-public.canva.cn/MADV2-EAUvc/2/0/thumbnail_large.jpg",
+        "width": 389
+      },
+      "token": "djE6dEFETGtzXzI4Nlk6Z2xvYmFsIC0gNDJjbSAtIDU5LjRjbQ=="
+    },
+    {
+      "category": "tADLksHBa1w",
+      "categoryDisplayName": "目录页",
+      "dimensions": {
+        "height": 29.7,
+        "units": "CENTIMETERS",
+        "width": 21
+      },
+      "dimensionsLabel": "21 × 29.7 厘米",
+      "displayName": "目录页",
+      "doctype": "TADailIRWz8",
+      "thumbnail": {
+        "height": 550,
+        "url": "https://media-public.canva.cn/MADV3NNhq1o/2/0/thumbnail_large.jpg",
+        "width": 389
+      },
+      "token": "djE6dEFETGtzSEJhMXc6Z2xvYmFsLVRBRGFpbElSV3o4"
+    },
+    {
+      "category": "tADLknv9gvY",
+      "categoryDisplayName": "视频相框",
+      "dimensions": {
+        "height": 1920,
+        "units": "PIXELS",
+        "width": 1080
+      },
+      "dimensionsLabel": "1080 × 1920 像素",
+      "displayName": "视频相框",
+      "doctype": "TADaiizFVN0",
+      "iconUrl": "https://static.canva.cn/category/icons/tADLknv9gvY_video_frame.svg",
+      "thumbnail": {
+        "height": 550,
+        "url": "https://media-public.canva.cn/MADeAy3o9wQ/1/0/thumbnail_large.jpg",
+        "width": 309
+      },
+      "token": "djE6dEFETGtudjlndlk6Z2xvYmFsLVRBRGFpaXpGVk4w"
+    },
+    {
+      "category": "tADLkrjMJrI",
+      "categoryDisplayName": "日签",
+      "dimensions": {
+        "height": 1920,
+        "units": "PIXELS",
+        "width": 1080
+      },
+      "dimensionsLabel": "1080 × 1920 像素",
+      "displayName": "日签",
+      "doctype": "TADQPKfybew",
+      "iconUrl": "https://static.canva.cn/category/icons/tADLkrjMJrI%20qotd.svg",
+      "thumbnail": {
+        "height": 550,
+        "url": "https://media-public.canva.cn/MADhs9RF2C8/1/0/thumbnail_large.jpg",
+        "width": 309
+      },
+      "token": "djE6dEFETGtyak1Kckk6Z2xvYmFsIC0gMTA4MFggLSAxOTIwcHg="
+    },
+    {
+      "category": "tADLkh16h9c",
+      "categoryDisplayName": "微信头像",
+      "dimensions": {
+        "height": 500,
+        "units": "PIXELS",
+        "width": 500
+      },
+      "dimensionsLabel": "500 × 500 像素",
+      "displayName": "微信头像",
+      "doctype": "TADTO2MBxqc",
+      "iconUrl": "https://static.canva.cn/category/icons/tADLkh16h9c%20wechat%20profile%20photo.svg",
+      "thumbnail": {
+        "height": 550,
+        "url": "https://media-public.canva.cn/MADciZUcgCE/1/0/thumbnail_large.jpg",
+        "width": 550
+      },
+      "token": "djE6dEFETGtoMTZoOWM6Z2xvYmFsIC0gNTAwWCAtIDUwMHB4"
+    },
+    {
+      "category": "tADLkl-bq_Q",
+      "categoryDisplayName": "信纸",
+      "dimensions": {
+        "height": 29.7,
+        "units": "CENTIMETERS",
+        "width": 21
+      },
+      "dimensionsLabel": "21 × 29.7 厘米",
+      "displayName": "信纸",
+      "doctype": "TADR8Rvknig",
+      "iconUrl": "https://static.canva.cn/category/icons/tADLkl-bq_Q%20letterhead.svg",
+      "thumbnail": {
+        "height": 550,
+        "url": "https://media-public.canva.cn/MADVzMariFE/3/0/thumbnail_large.jpg",
+        "width": 389
+      },
+      "token": "djE6dEFETGtsLWJxX1E6Z2xvYmFsIC0gMjkuN2NtIC0gMjFjbQ=="
+    },
+    {
+      "category": "tADLkoxV7nI",
+      "categoryDisplayName": "微信朋友圈封面",
+      "dimensions": {
+        "height": 1080,
+        "units": "PIXELS",
+        "width": 1080
+      },
+      "dimensionsLabel": "1080 × 1080 像素",
+      "displayName": "微信朋友圈封面",
+      "doctype": "TABQqs5Kbyc",
+      "iconUrl": "https://static.canva.cn/category/icons/tADLkoxV7nI_wechat_moments_cover.svg",
+      "thumbnail": {
+        "height": 550,
+        "url": "https://media-public.canva.cn/MADVzK049gc/2/0/thumbnail_large.jpg",
+        "width": 550
+      },
+      "token": "djE6dEFETGtveFY3bkk6Z2xvYmFsIC0gMTA4MFggLSAxMDgwcHg="
+    },
+    {
+      "category": "tADLkiOV9u8",
+      "categoryDisplayName": "CD封面",
+      "dimensions": {
+        "height": 1400,
+        "units": "PIXELS",
+        "width": 1400
+      },
+      "dimensionsLabel": "1400 × 1400 像素",
+      "displayName": "CD封面",
+      "doctype": "TADTOzdSJ9w",
+      "iconUrl": "https://static.canva.cn/category/icons/tADLkiOV9u8%20CD%20cover.svg",
+      "thumbnail": {
+        "height": 550,
+        "url": "https://media-public.canva.cn/MADU14nIpEg/1/0/thumbnail_large.jpg",
+        "width": 550
+      },
+      "token": "djE6dEFETGtpT1Y5dTg6Z2xvYmFsIC0gMTQwMFggLSAxNDAwcHg="
+    },
+    {
+      "category": "tADLkiOZv3A",
+      "categoryDisplayName": "视频封面",
+      "dimensions": {
+        "height": 1440,
+        "units": "PIXELS",
+        "width": 2560
+      },
+      "dimensionsLabel": "2560 × 1440 像素",
+      "displayName": "视频封面",
+      "doctype": "TADR8ai3eSk",
+      "iconUrl": "https://static.canva.cn/category/icons/tADLkiOZv3A%20Video%20cover.svg",
+      "thumbnail": {
+        "height": 309,
+        "url": "https://media-public.canva.cn/MADX6xqFzKs/1/0/thumbnail_large.jpg",
+        "width": 550
+      },
+      "token": "djE6dEFETGtpT1p2M0E6Z2xvYmFsIC0gMjU2MFggLSAxNDQwcHg="
+    },
+    {
+      "category": "tADLkjdUF-4",
+      "categoryDisplayName": "LinkedIn Banner",
+      "dimensions": {
+        "height": 425,
+        "units": "PIXELS",
+        "width": 1400
+      },
+      "dimensionsLabel": "1400 × 425 像素",
+      "displayName": "LinkedIn Banner",
+      "doctype": "TADR8aiub-8",
+      "iconUrl": "https://static.canva.cn/category/icons/tADLkjdUF-4_lnkedIn_banner.svg",
+      "thumbnail": {
+        "height": 167,
+        "url": "https://media-public.canva.cn/MADU7BdecD8/1/0/thumbnail_large.jpg",
+        "width": 550
+      },
+      "token": "djE6dEFETGtqZFVGLTQ6Z2xvYmFsIC0gMTQwMFggLSA0MjVweA=="
+    },
+    {
+      "category": "tADLkgXA15E",
+      "categoryDisplayName": "报告",
+      "dimensions": {
+        "height": 29.7,
+        "units": "CENTIMETERS",
+        "width": 21
+      },
+      "dimensionsLabel": "21 × 29.7 厘米",
+      "displayName": "报告",
+      "doctype": "TADaiu_qUAU",
+      "thumbnail": {
+        "height": 550,
+        "url": "https://media-public.canva.cn/MAC_K5mdZGs/1/0/thumbnail_large.jpg",
+        "width": 389
+      },
+      "token": "djE6dEFETGtnWEExNUU6Z2xvYmFsLVRBRGFpdV9xVUFV"
+    },
+    {
+      "category": "tADLktXAikQ",
+      "categoryDisplayName": "食谱",
+      "dimensions": {
+        "height": 29.7,
+        "units": "CENTIMETERS",
+        "width": 21
+      },
+      "dimensionsLabel": "21 × 29.7 厘米",
+      "displayName": "食谱",
+      "doctype": "TADaipUSTEo",
+      "thumbnail": {
+        "height": 550,
+        "url": "https://media-public.canva.cn/MADVz-RuAxE/2/0/thumbnail_large.jpg",
+        "width": 389
+      },
+      "token": "djE6dEFETGt0WEFpa1E6Z2xvYmFsLVRBRGFpcFVTVEVv"
+    },
+    {
+      "category": "tADLkrlFz5U",
+      "categoryDisplayName": "计划表",
+      "dimensions": {
+        "height": 1200,
+        "units": "PIXELS",
+        "width": 800
+      },
+      "dimensionsLabel": "800 × 1200 像素",
+      "displayName": "计划表",
+      "doctype": "TADR8dyzEIE",
+      "thumbnail": {
+        "height": 550,
+        "url": "https://media-public.canva.cn/MADV8o-gls8/1/0/thumbnail_large.jpg",
+        "width": 367
+      },
+      "token": "djE6dEFETGtybEZ6NVU6Z2xvYmFsIC0gODAwWCAtIDEyMDBweA=="
+    },
+    {
+      "category": "tADLkgX1hOE",
+      "categoryDisplayName": "电脑桌面",
+      "dimensions": {
+        "height": 1080,
+        "units": "PIXELS",
+        "width": 1920
+      },
+      "dimensionsLabel": "1920 × 1080 像素",
+      "displayName": "电脑桌面",
+      "doctype": "TADaihBIHkI",
+      "thumbnail": {
+        "height": 309,
+        "url": "https://media-public.canva.cn/MADchk-jvFQ/1/0/thumbnail_large.jpg",
+        "width": 550
+      },
+      "token": "djE6dEFETGtnWDFoT0U6Z2xvYmFsIC1UQURhaWhCSUhrSQ=="
+    },
+    {
+      "category": "tADLkglC62c",
+      "categoryDisplayName": "课程表",
+      "dimensions": {
+        "height": 21,
+        "units": "CENTIMETERS",
+        "width": 29.7
+      },
+      "dimensionsLabel": "29.7 × 21 厘米",
+      "displayName": "课程表",
+      "doctype": "TADR8UaVZo4",
+      "thumbnail": {
+        "height": 389,
+        "url": "https://media-public.canva.cn/MADV2kJWx6A/3/0/thumbnail_large.jpg",
+        "width": 550
+      },
+      "token": "djE6dEFETGtnbEM2MmM6Z2xvYmFsIC0gVEFEUjhVYVZabzQ="
+    },
+    {
+      "category": "tADLkvcS0s4",
+      "categoryDisplayName": "活动封面",
+      "dimensions": {
+        "height": 545,
+        "units": "PIXELS",
+        "width": 900
+      },
+      "dimensionsLabel": "900 × 545 像素",
+      "displayName": "活动封面",
+      "doctype": "TADV41y0qx8",
+      "iconUrl": "https://static.canva.cn/category/icons/tADLkvcS0s4_event_cover.svg",
+      "thumbnail": {
+        "height": 333,
+        "url": "https://media-public.canva.cn/MADX2zGeegw/2/0/thumbnail_large.jpg",
+        "width": 550
+      },
+      "token": "djE6dEFETGt2Y1MwczQ6Z2xvYmFsLTkwMC14LTU0NS1weA=="
+    },
+    {
+      "category": "tADLkjGmyJY",
+      "categoryDisplayName": "优惠券",
+      "dimensions": {
+        "height": 6,
+        "units": "CENTIMETERS",
+        "width": 18
+      },
+      "dimensionsLabel": "18 × 6 厘米",
+      "displayName": "优惠券",
+      "doctype": "TADdKjyHjk4",
+      "iconUrl": "https://static.canva.cn/category/icons/tADLkjGmyJY_coupon.svg",
+      "thumbnail": {
+        "height": 184,
+        "url": "https://media-public.canva.cn/MADea0G7pq8/1/0/thumbnail_large.jpg",
+        "width": 550
+      },
+      "token": "djE6dEFETGtqR215Slk6Z2xvYmFsLVRBRGRLanlIams0"
+    },
+    {
+      "category": "tADLknQU2hg",
+      "categoryDisplayName": "易拉宝",
+      "dimensions": {
+        "height": 200,
+        "units": "CENTIMETERS",
+        "width": 80
+      },
+      "dimensionsLabel": "80 × 200 厘米",
+      "displayName": "易拉宝",
+      "doctype": "TADdWy4KS2c",
+      "iconUrl": "https://static.canva.cn/category/icons/tADLknQU2hg_roll_up_banner.svg",
+      "thumbnail": {
+        "height": 550,
+        "url": "https://media-public.canva.cn/MADfOVCKwQk/1/0/thumbnail_large.jpg",
+        "width": 220
+      },
+      "token": "djE6dEFETGtuUVUyaGc6Z2xvYmFsLVRBRGRXeTRLUzJj"
+    },
+    {
+      "category": "tADLkvRneDs",
+      "categoryDisplayName": "主图图标",
+      "dimensions": {
+        "height": 800,
+        "units": "PIXELS",
+        "width": 800
+      },
+      "dimensionsLabel": "800 × 800 像素",
+      "displayName": "主图图标",
+      "doctype": "TADdRjdyzzo",
+      "iconUrl": "https://static.canva.cn/category/icons/tADLkvRneDs_product_cover.svg",
+      "thumbnail": {
+        "height": 550,
+        "url": "https://media-public.canva.cn/MADfEkvbMT0/5/0/thumbnail_large.jpg",
+        "width": 550
+      },
+      "token": "djE6dEFETGt2Um5lRHM6Z2xvYmFsLVRBRGRSamR5enpv"
+    },
+    {
+      "category": "tADLkjLSEQc",
+      "categoryDisplayName": "手抄报",
+      "dimensions": {
+        "height": 21,
+        "units": "CENTIMETERS",
+        "width": 29.7
+      },
+      "dimensionsLabel": "29.7 × 21 厘米",
+      "displayName": "手抄报",
+      "doctype": "TADdRo7F8iY",
+      "iconUrl": "https://static.canva.cn/category/icons/tADLkjLSEQc_journal.svg",
+      "thumbnail": {
+        "height": 389,
+        "url": "https://media-public.canva.cn/MADh4-Xac3E/4/0/thumbnail_large.jpg",
+        "width": 550
+      },
+      "token": "djE6dEFETGtqTFNFUWM6Z2xvYmFsLVRBRGRSbzdGOGlZ"
+    },
+    {
+      "category": "tADLkvHE6jo",
+      "categoryDisplayName": "手机壳",
+      "dimensions": {
+        "height": 14.5,
+        "units": "CENTIMETERS",
+        "width": 7
+      },
+      "dimensionsLabel": "7 × 14.5 厘米",
+      "displayName": "手机壳",
+      "doctype": "TADgEw7IJ74",
+      "iconUrl": "https://static.canva.cn/category/icons/tADLkvHE6jo_phone_case.svg",
+      "thumbnail": {
+        "height": 550,
+        "url": "https://media-public.canva.cn/MADiou2ArPs/2/0/thumbnail_large.jpg",
+        "width": 266
+      },
+      "token": "djE6dEFETGt2SEU2am86Z2xvYmFsLVRBRGdFdzdJSjc0"
+    },
+    {
+      "category": "tADLkv3Anjo",
+      "categoryDisplayName": "抱枕",
+      "dimensions": {
+        "height": 45,
+        "units": "CENTIMETERS",
+        "width": 45
+      },
+      "dimensionsLabel": "45 × 45 厘米",
+      "displayName": "抱枕",
+      "doctype": "TADgE8HX8Pk",
+      "iconUrl": "https://static.canva.cn/category/icons/tADLkv3Anjo_cushion.svg",
+      "thumbnail": {
+        "height": 550,
+        "url": "https://media-public.canva.cn/MADioqBNZPg/1/0/thumbnail_large.jpg",
+        "width": 550
+      },
+      "token": "djE6dEFETGt2M0Fuam86Z2xvYmFsLVRBRGdFOEhYOFBr"
+    },
+    {
+      "category": "tADLkkw1wJ8",
+      "categoryDisplayName": "帆布袋",
+      "dimensions": {
+        "height": 45,
+        "units": "CENTIMETERS",
+        "width": 45
+      },
+      "dimensionsLabel": "45 × 45 厘米",
+      "displayName": "帆布袋",
+      "doctype": "TADgE0GQJKY",
+      "iconUrl": "https://static.canva.cn/category/icons/tADLkkw1wJ8_canvas_bag.svg",
+      "thumbnail": {
+        "height": 550,
+        "url": "https://media-public.canva.cn/MADiok78j0I/2/0/thumbnail_large.jpg",
+        "width": 550
+      },
+      "token": "djE6dEFETGtrdzF3Sjg6Z2xvYmFsLVRBRGdFMEdRSktZ"
+    },
+    {
+      "category": "tADLkqRKcMs",
+      "categoryDisplayName": "T恤",
+      "dimensions": {
+        "height": 45.72,
+        "units": "CENTIMETERS",
+        "width": 35.56
+      },
+      "dimensionsLabel": "35.6 × 45.7 厘米",
+      "displayName": "T恤",
+      "doctype": "TADgE8ETfxw",
+      "iconUrl": "https://static.canva.cn/category/icons/tADLkqRKcMs_tshirt.svg",
+      "thumbnail": {
+        "height": 550,
+        "url": "https://media-public.canva.cn/MADiogP86-4/1/0/thumbnail_large.jpg",
+        "width": 428
+      },
+      "token": "djE6dEFETGtxUktjTXM6Z2xvYmFsLVRBRGdFOEVUZnh3"
+    },
+    {
+      "category": "tADLkgronC0",
+      "categoryDisplayName": "奖状",
+      "dimensions": {
+        "height": 21,
+        "units": "CENTIMETERS",
+        "width": 29.7
+      },
+      "dimensionsLabel": "29.7 × 21 厘米",
+      "displayName": "奖状",
+      "doctype": "TADgE8XhalQ",
+      "iconUrl": "https://static.canva.cn/category/icons/tADLkgronC0_certificate_of_merit.svg",
+      "thumbnail": {
+        "height": 389,
+        "url": "https://media-public.canva.cn/MADim5VTl20/2/0/thumbnail_large.jpg",
+        "width": 550
+      },
+      "token": "djE6dEFETGtncm9uQzA6Z2xvYmFsLVRBRGdFOFhoYWxR"
+    },
+    {
+      "category": "tADLkhheHOQ",
+      "categoryDisplayName": "门票",
+      "dimensions": {
+        "height": 5.5,
+        "units": "CENTIMETERS",
+        "width": 17
+      },
+      "dimensionsLabel": "17 × 5.5 厘米",
+      "displayName": "门票",
+      "doctype": "TADgE2xwlLs",
+      "iconUrl": "https://static.canva.cn/category/icons/tADLkhheHOQ_admission_ticket.svg",
+      "thumbnail": {
+        "height": 178,
+        "url": "https://media-public.canva.cn/MADim7YXtF8/3/0/thumbnail_large.jpg",
+        "width": 550
+      },
+      "token": "djE6dEFETGtoaGVIT1E6Z2xvYmFsLVRBRGdFMnh3bExz"
+    },
+    {
+      "category": "tADLkhOj1KY",
+      "categoryDisplayName": "会员卡",
+      "dimensions": {
+        "height": 5,
+        "units": "CENTIMETERS",
+        "width": 9
+      },
+      "dimensionsLabel": "9 × 5 厘米",
+      "displayName": "会员卡",
+      "doctype": "TADgE-nsGmw",
+      "iconUrl": "https://static.canva.cn/category/icons/tADLkhOj1KY_memberchip_card.svg",
+      "thumbnail": {
+        "height": 306,
+        "url": "https://media-public.canva.cn/MADim2RSJJ4/2/0/thumbnail_large.jpg",
+        "width": 550
+      },
+      "token": "djE6dEFETGtoT2oxS1k6Z2xvYmFsLVRBRGdFLW5zR213"
+    },
+    {
+      "category": "tADLkt1KCVE",
+      "categoryDisplayName": "授权书",
+      "dimensions": {
+        "height": 21,
+        "units": "CENTIMETERS",
+        "width": 29.7
+      },
+      "dimensionsLabel": "29.7 × 21 厘米",
+      "displayName": "授权书",
+      "doctype": "TADgE4MB1K0",
+      "iconUrl": "https://static.canva.cn/category/icons/tADLkt1KCVE_authorization_letter.svg",
+      "token": "djE6dEFETGt0MUtDVkU6Z2xvYmFsLVRBRGdFNE1CMUsw"
+    },
+    {
+      "category": "tADLkrDfqu0",
+      "categoryDisplayName": "工作证",
+      "dimensions": {
+        "height": 8.55,
+        "units": "CENTIMETERS",
+        "width": 5.4
+      },
+      "dimensionsLabel": "5.4 × 8.6 厘米",
+      "displayName": "工作证",
+      "doctype": "TADgE0yClN4",
+      "iconUrl": "https://static.canva.cn/category/icons/tADLkrDfqu0_work_identity_card.svg",
+      "thumbnail": {
+        "height": 550,
+        "url": "https://media-public.canva.cn/MADim-fCFTY/2/0/thumbnail_large.jpg",
+        "width": 347
+      },
+      "token": "djE6dEFETGtyRGZxdTA6Z2xvYmFsLVRBRGdFMHlDbE40"
+    },
+    {
+      "category": "tADLkho7Feo",
+      "categoryDisplayName": "插画",
+      "dimensions": {
+        "height": 59.4,
+        "units": "CENTIMETERS",
+        "width": 42
+      },
+      "dimensionsLabel": "42 × 59.4 厘米",
+      "displayName": "插画",
+      "doctype": "TADhaTIzvTw",
+      "thumbnail": {
+        "height": 550,
+        "url": "https://media-public.canva.cn/QE8aM/MADjwSQE8aM/6/0/thumbnail_large.jpg",
+        "width": 389
+      },
+      "token": "djE6dEFETGtobzdGZW86Z2xvYmFsLVRBRGhhVEl6dlR3"
+    },
+    {
+      "category": "tADer-OTm1k",
+      "categoryDisplayName": "Canva Banner",
+      "dimensions": {
+        "height": 600,
+        "units": "PIXELS",
+        "width": 1200
+      },
+      "dimensionsLabel": "1200 × 600 像素",
+      "displayName": "Canva Banner",
+      "doctype": "TADer4uZmVw",
+      "token": "djE6dEFEZXItT1RtMWs6Y2FudmEtYmFubmVy"
+    },
+    {
+      "category": "tADlysA2YwM",
+      "categoryDisplayName": "手机电商详情页",
+      "dimensions": {
+        "height": 1920,
+        "units": "PIXELS",
+        "width": 1080
+      },
+      "dimensionsLabel": "1080 × 1920 像素",
+      "displayName": "手机电商详情页",
+      "doctype": "TAEJJmGJFOQ",
+      "token": "djE6dEFEbHlzQTJZd006Z2xvYmFsLVRBRUpKbUdKRk9R"
+    },
+    {
+      "category": "tADLkg220qc",
+      "categoryDisplayName": "素材集合",
+      "dimensions": {
+        "height": 1080,
+        "units": "PIXELS",
+        "width": 1080
+      },
+      "dimensionsLabel": "1080 × 1080 像素",
+      "displayName": "素材集合",
+      "doctype": "TAD-K-k4STM",
+      "token": "djE6dEFETGtnMjIwcWM6Z2xvYmFsLVRBRC1LLWs0U1RN"
+    },
+    {
+      "category": "tACZCkdG-3Y",
+      "categoryDisplayName": "今日推荐",
+      "dimensions": {
+        "height": 1920,
+        "units": "PIXELS",
+        "width": 1080
+      },
+      "dimensionsLabel": "1080 × 1920 像素",
+      "displayName": "今日推荐",
+      "doctype": "TACkWLjrjtY",
+      "thumbnail": {
+        "height": 550,
+        "url": "https://media-public.canva.cn/MADOo-jGCSs/1/0/thumbnail_large.jpg",
+        "width": 550
+      },
+      "token": "djE6dEFDWkNrZEctM1k6Z2xvYmFsLVRBQ2tXTGpyanRZ"
+    },
+    {
+      "category": "tAEJJveqNjs",
+      "categoryDisplayName": "动态海报",
+      "dimensions": {
+        "height": 1920,
+        "units": "PIXELS",
+        "width": 1080
+      },
+      "dimensionsLabel": "1080 × 1920 像素",
+      "displayName": "动态海报",
+      "doctype": "TAEJJmx4ITg",
+      "token": "djE6dEFFSkp2ZXFOanM6Z2xvYmFsLVRBRUpKbXg0SVRn"
+    },
+    {
+      "category": "tAEIxssn5hA",
+      "categoryDisplayName": "网站",
+      "dimensions": {
+        "height": 650,
+        "units": "PIXELS",
+        "width": 1350
+      },
+      "dimensionsLabel": "1350 × 650 像素",
+      "displayName": "网站",
+      "doctype": "TAEIw1xh6pg",
+      "token": "djE6dEFFSXhzc241aEE6Z2xvYmFsLVRBRUl3MXhoNnBn"
+    },
+    {
+      "category": "tAEHYiS__Zg",
+      "categoryDisplayName": "动态微信朋友圈",
+      "categoryPluralName": "动态微信朋友圈",
+      "dimensions": {
+        "height": 1080,
+        "units": "PIXELS",
+        "width": 1080
+      },
+      "dimensionsLabel": "1080 × 1080 像素",
+      "displayName": "动态微信朋友圈",
+      "doctype": "TADaewlqHzQ",
+      "iconUrl": "https://static.canva.cn/category/icons/tACZCsjcdNc%20wechat%20moment.svg",
+      "pluralName": "动态微信朋友圈",
+      "token": "djE6dEFFSFlpU19fWmc6Z2xvYmFsLTEwODAteC0xMDgwLXB4"
+    },
+    {
+      "category": "tADLkqNrs1o",
+      "categoryDisplayName": "节日微信朋友圈",
+      "dimensions": {
+        "height": 1080,
+        "units": "PIXELS",
+        "width": 1080
+      },
+      "dimensionsLabel": "1080 × 1080 像素",
+      "displayName": "节日微信朋友圈",
+      "doctype": "TADaewlqHzQ",
+      "iconUrl": "https://static.canva.cn/category/icons/tACZCsjcdNc%20wechat%20moment.svg",
+      "token": "djE6dEFETGtxTnJzMW86Z2xvYmFsLTEwODAteC0xMDgwLXB4"
+    },
+    {
+      "category": "tACZCsOgEvU",
+      "categoryDisplayName": "金句微信朋友圈",
+      "dimensions": {
+        "height": 1080,
+        "units": "PIXELS",
+        "width": 1080
+      },
+      "dimensionsLabel": "1080 × 1080 像素",
+      "displayName": "金句微信朋友圈",
+      "doctype": "TADaewlqHzQ",
+      "iconUrl": "https://static.canva.cn/category/icons/tACZCsjcdNc%20wechat%20moment.svg",
+      "thumbnail": {
+        "height": 550,
+        "url": "https://media-public.canva.cn/MAC5WGf0ow8/1/0/thumbnail_large.jpg",
+        "width": 550
+      },
+      "token": "djE6dEFDWkNzT2dFdlU6Z2xvYmFsLTEwODAteC0xMDgwLXB4"
+    },
+    {
+      "category": "tACZCrjsUXw",
+      "categoryDisplayName": "英文微信朋友圈",
+      "dimensions": {
+        "height": 1080,
+        "units": "PIXELS",
+        "width": 1080
+      },
+      "dimensionsLabel": "1080 × 1080 像素",
+      "displayName": "英文微信朋友圈",
+      "doctype": "TADaewlqHzQ",
+      "iconUrl": "https://static.canva.cn/category/icons/tACZCsjcdNc%20wechat%20moment.svg",
+      "thumbnail": {
+        "height": 550,
+        "url": "https://media-public.canva.cn/MABzhNajICw/2/0/thumbnail_large.jpg",
+        "width": 550
+      },
+      "token": "djE6dEFDWkNyanNVWHc6Z2xvYmFsLTEwODAteC0xMDgwLXB4"
+    },
+    {
+      "category": "tACZCjkfljA",
+      "categoryDisplayName": "旅行微信朋友圈",
+      "dimensions": {
+        "height": 1080,
+        "units": "PIXELS",
+        "width": 1080
+      },
+      "dimensionsLabel": "1080 × 1080 像素",
+      "displayName": "旅行微信朋友圈",
+      "doctype": "TADaewlqHzQ",
+      "iconUrl": "https://static.canva.cn/category/icons/tACZCsjcdNc%20wechat%20moment.svg",
+      "thumbnail": {
+        "height": 550,
+        "url": "https://media-public.canva.cn/MADOo58wkJg/1/0/thumbnail_large.jpg",
+        "width": 550
+      },
+      "token": "djE6dEFDWkNqa2ZsakE6Z2xvYmFsLTEwODAteC0xMDgwLXB4"
+    },
+    {
+      "category": "tACZCtmd9hg",
+      "categoryDisplayName": "生日微信朋友圈",
+      "dimensions": {
+        "height": 1080,
+        "units": "PIXELS",
+        "width": 1080
+      },
+      "dimensionsLabel": "1080 × 1080 像素",
+      "displayName": "生日微信朋友圈",
+      "doctype": "TADaewlqHzQ",
+      "iconUrl": "https://static.canva.cn/category/icons/noun_233771.svg",
+      "thumbnail": {
+        "height": 550,
+        "url": "https://media-public.canva.cn/MADDklJjtU4/1/0/thumbnail_large.jpg",
+        "width": 550
+      },
+      "token": "djE6dEFDWkN0bWQ5aGc6Z2xvYmFsLTEwODAteC0xMDgwLXB4"
+    },
+    {
+      "category": "tACZCtLTjiA",
+      "categoryDisplayName": "美食微信朋友圈",
+      "dimensions": {
+        "height": 1080,
+        "units": "PIXELS",
+        "width": 1080
+      },
+      "dimensionsLabel": "1080 × 1080 像素",
+      "displayName": "美食微信朋友圈",
+      "doctype": "TADaewlqHzQ",
+      "iconUrl": "https://static.canva.cn/category/icons/noun_233569.svg",
+      "thumbnail": {
+        "height": 550,
+        "url": "https://media-public.canva.cn/MADNngdThT4/1/0/thumbnail_large.jpg",
+        "width": 550
+      },
+      "token": "djE6dEFDWkN0TFRqaUE6Z2xvYmFsLTEwODAteC0xMDgwLXB4"
+    },
+    {
+      "category": "tACZCtnSNCw",
+      "categoryDisplayName": "聚会微信朋友圈",
+      "dimensions": {
+        "height": 1080,
+        "units": "PIXELS",
+        "width": 1080
+      },
+      "dimensionsLabel": "1080 × 1080 像素",
+      "displayName": "聚会微信朋友圈",
+      "doctype": "TADaewlqHzQ",
+      "iconUrl": "https://static.canva.cn/category/icons/tACZCsjcdNc%20wechat%20moment.svg",
+      "thumbnail": {
+        "height": 550,
+        "url": "https://media-public.canva.cn/MADDlX8yNdc/1/0/thumbnail_large.jpg",
+        "width": 550
+      },
+      "token": "djE6dEFDWkN0blNOQ3c6Z2xvYmFsLTEwODAteC0xMDgwLXB4"
+    },
+    {
+      "category": "tACZCuI3jGE",
+      "categoryDisplayName": "育儿微信朋友圈",
+      "dimensions": {
+        "height": 1080,
+        "units": "PIXELS",
+        "width": 1080
+      },
+      "dimensionsLabel": "1080 × 1080 像素",
+      "displayName": "育儿微信朋友圈",
+      "doctype": "TADaewlqHzQ",
+      "iconUrl": "https://static.canva.cn/category/icons/tACZCsjcdNc%20wechat%20moment.svg",
+      "thumbnail": {
+        "height": 550,
+        "url": "https://media-public.canva.cn/MADDqsMbjvA/1/0/thumbnail_large.jpg",
+        "width": 550
+      },
+      "token": "djE6dEFDWkN1STNqR0U6Z2xvYmFsLTEwODAteC0xMDgwLXB4"
+    },
+    {
+      "category": "tADLkoQxCE4",
+      "categoryDisplayName": "节日海报",
+      "dimensions": {
+        "height": 59.4,
+        "units": "CENTIMETERS",
+        "width": 42
+      },
+      "dimensionsLabel": "42 × 59.4 厘米",
+      "displayName": "节日海报",
+      "doctype": "TACkP6JQACc",
+      "iconUrl": "https://static.canva.cn/category/icons/Poster.svg",
+      "token": "djE6dEFETGtvUXhDRTQ6Z2xvYmFsLTQyLXgtNTk0LWNt"
+    },
+    {
+      "category": "tACZCoiJk5Q",
+      "categoryDisplayName": "人物海报",
+      "dimensions": {
+        "height": 59.4,
+        "units": "CENTIMETERS",
+        "width": 42
+      },
+      "dimensionsLabel": "42 × 59.4 厘米",
+      "displayName": "人物海报",
+      "doctype": "TACkP6JQACc",
+      "iconUrl": "https://static.canva.cn/category/icons/Poster.svg",
+      "thumbnail": {
+        "height": 550,
+        "url": "https://media-public.canva.cn/MAC9OSX8Dc0/1/0/thumbnail_large.jpg",
+        "width": 389
+      },
+      "token": "djE6dEFDWkNvaUprNVE6Z2xvYmFsLTQyLXgtNTk0LWNt"
+    },
+    {
+      "category": "tACZCtBb7iw",
+      "categoryDisplayName": "英文海报",
+      "dimensions": {
+        "height": 59.4,
+        "units": "CENTIMETERS",
+        "width": 42
+      },
+      "dimensionsLabel": "42 × 59.4 厘米",
+      "displayName": "英文海报",
+      "doctype": "TACkP6JQACc",
+      "iconUrl": "https://static.canva.cn/category/icons/Poster.svg",
+      "thumbnail": {
+        "height": 550,
+        "url": "https://media-public.canva.cn/MACPvbAtuWE/1/0/thumbnail_large.jpg",
+        "width": 366
+      },
+      "token": "djE6dEFDWkN0QmI3aXc6Z2xvYmFsLTQyLXgtNTk0LWNt"
+    },
+    {
+      "category": "tACZCmuMUX4",
+      "categoryDisplayName": "促销海报",
+      "dimensions": {
+        "height": 59.4,
+        "units": "CENTIMETERS",
+        "width": 42
+      },
+      "dimensionsLabel": "42 × 59.4 厘米",
+      "displayName": "促销海报",
+      "doctype": "TACkP6JQACc",
+      "iconUrl": "https://static.canva.cn/category/icons/Poster.svg",
+      "thumbnail": {
+        "height": 550,
+        "url": "https://media-public.canva.cn/MADKD_74gZo/2/0/thumbnail_large.jpg",
+        "width": 389
+      },
+      "token": "djE6dEFDWkNtdU1VWDQ6Z2xvYmFsLTQyLXgtNTk0LWNt"
+    },
+    {
+      "category": "tACZChW2h_c",
+      "categoryDisplayName": "公益海报",
+      "dimensions": {
+        "height": 59.4,
+        "units": "CENTIMETERS",
+        "width": 42
+      },
+      "dimensionsLabel": "42 × 59.4 厘米",
+      "displayName": "公益海报",
+      "doctype": "TACkP6JQACc",
+      "iconUrl": "https://static.canva.cn/category/icons/Poster.svg",
+      "thumbnail": {
+        "height": 550,
+        "url": "https://media-public.canva.cn/MADLupZxbic/1/0/thumbnail_large.jpg",
+        "width": 389
+      },
+      "token": "djE6dEFDWkNoVzJoX2M6Z2xvYmFsLTQyLXgtNTk0LWNt"
+    },
+    {
+      "category": "tACZCmaVG8Q",
+      "categoryDisplayName": "宣传海报",
+      "dimensions": {
+        "height": 59.4,
+        "units": "CENTIMETERS",
+        "width": 42
+      },
+      "dimensionsLabel": "42 × 59.4 厘米",
+      "displayName": "宣传海报",
+      "doctype": "TACkP6JQACc",
+      "iconUrl": "https://static.canva.cn/category/icons/Poster.svg",
+      "token": "djE6dEFDWkNtYVZHOFE6Z2xvYmFsLTQyLXgtNTk0LWNt"
+    },
+    {
+      "category": "tACZCqQdHqw",
+      "categoryDisplayName": "开业海报",
+      "dimensions": {
+        "height": 59.4,
+        "units": "CENTIMETERS",
+        "width": 42
+      },
+      "dimensionsLabel": "42 × 59.4 厘米",
+      "displayName": "开业海报",
+      "doctype": "TACkP6JQACc",
+      "iconUrl": "https://static.canva.cn/category/icons/Poster.svg",
+      "token": "djE6dEFDWkNxUWRIcXc6Z2xvYmFsLTQyLXgtNTk0LWNt"
+    },
+    {
+      "category": "tACZCga_rTg",
+      "categoryDisplayName": "招生海报",
+      "dimensions": {
+        "height": 59.4,
+        "units": "CENTIMETERS",
+        "width": 42
+      },
+      "dimensionsLabel": "42 × 59.4 厘米",
+      "displayName": "招生海报",
+      "doctype": "TACkP6JQACc",
+      "iconUrl": "https://static.canva.cn/category/icons/Poster.svg",
+      "token": "djE6dEFDWkNnYV9yVGc6Z2xvYmFsLTQyLXgtNTk0LWNt"
+    },
+    {
+      "category": "tACZChUN4G8",
+      "categoryDisplayName": "招聘海报",
+      "dimensions": {
+        "height": 59.4,
+        "units": "CENTIMETERS",
+        "width": 42
+      },
+      "dimensionsLabel": "42 × 59.4 厘米",
+      "displayName": "招聘海报",
+      "doctype": "TACkP6JQACc",
+      "iconUrl": "https://static.canva.cn/category/icons/Poster.svg",
+      "thumbnail": {
+        "height": 550,
+        "url": "https://media-public.canva.cn/MADNm7diIJg/1/0/thumbnail_large.jpg",
+        "width": 389
+      },
+      "token": "djE6dEFDWkNoVU40Rzg6Z2xvYmFsLTQyLXgtNTk0LWNt"
+    },
+    {
+      "category": "tADLkt4RC-c",
+      "categoryDisplayName": "餐饮海报",
+      "dimensions": {
+        "height": 59.4,
+        "units": "CENTIMETERS",
+        "width": 42
+      },
+      "dimensionsLabel": "42 × 59.4 厘米",
+      "displayName": "餐饮海报",
+      "doctype": "TACkP6JQACc",
+      "iconUrl": "https://static.canva.cn/category/icons/Poster.svg",
+      "token": "djE6dEFETGt0NFJDLWM6Z2xvYmFsLTQyLXgtNTk0LWNt"
+    },
+    {
+      "category": "tACZCsT4n1s",
+      "categoryDisplayName": "校园海报",
+      "dimensions": {
+        "height": 59.4,
+        "units": "CENTIMETERS",
+        "width": 42
+      },
+      "dimensionsLabel": "42 × 59.4 厘米",
+      "displayName": "校园海报",
+      "doctype": "TACkP6JQACc",
+      "iconUrl": "https://static.canva.cn/category/icons/noun_1056245.svg",
+      "thumbnail": {
+        "height": 550,
+        "url": "https://media-public.canva.cn/MADJwT9Bwcc/1/0/thumbnail_large.jpg",
+        "width": 389
+      },
+      "token": "djE6dEFDWkNzVDRuMXM6Z2xvYmFsLTQyLXgtNTk0LWNt"
+    },
+    {
+      "category": "tACZCgSXODk",
+      "categoryDisplayName": "活动海报",
+      "dimensions": {
+        "height": 59.4,
+        "units": "CENTIMETERS",
+        "width": 42
+      },
+      "dimensionsLabel": "42 × 59.4 厘米",
+      "displayName": "活动海报",
+      "doctype": "TACkP6JQACc",
+      "iconUrl": "https://static.canva.cn/category/icons/noun_1560865.svg",
+      "thumbnail": {
+        "height": 550,
+        "url": "https://media-public.canva.cn/MADHiY2VTl4/1/0/thumbnail_large.jpg",
+        "width": 389
+      },
+      "token": "djE6dEFDWkNnU1hPRGs6Z2xvYmFsLTQyLXgtNTk0LWNt"
+    },
+    {
+      "category": "tADLkm-MCvQ",
+      "categoryDisplayName": "健身海报",
+      "dimensions": {
+        "height": 59.4,
+        "units": "CENTIMETERS",
+        "width": 42
+      },
+      "dimensionsLabel": "42 × 59.4 厘米",
+      "displayName": "健身海报",
+      "doctype": "TACkP6JQACc",
+      "iconUrl": "https://static.canva.cn/category/icons/noun_1560865.svg",
+      "thumbnail": {
+        "height": 550,
+        "url": "https://media-public.canva.cn/MADCWrBHpio/1/0/thumbnail_large.jpg",
+        "width": 389
+      },
+      "token": "djE6dEFETGttLU1DdlE6Z2xvYmFsLTQyLXgtNTk0LWNt"
+    },
+    {
+      "category": "tACZCuMCnds",
+      "categoryDisplayName": "创意Logo",
+      "dimensions": {
+        "height": 500,
+        "units": "PIXELS",
+        "width": 500
+      },
+      "dimensionsLabel": "500 × 500 像素",
+      "displayName": "创意Logo",
+      "doctype": "TAB7AVEOUWQ",
+      "iconUrl": "https://static.canva.cn/category/icons/noun_1560847.svg",
+      "thumbnail": {
+        "height": 500,
+        "url": "https://media-public.canva.cn/MADCjVrA4Yo/1/0/thumbnail_large.jpg",
+        "width": 500
+      },
+      "token": "djE6dEFDWkN1TUNuZHM6Z2xvYmFsLWxvZ28="
+    },
+    {
+      "category": "tACZCiEiPcY",
+      "categoryDisplayName": "卡通Logo",
+      "dimensions": {
+        "height": 500,
+        "units": "PIXELS",
+        "width": 500
+      },
+      "dimensionsLabel": "500 × 500 像素",
+      "displayName": "卡通Logo",
+      "doctype": "TAB7AVEOUWQ",
+      "iconUrl": "https://static.canva.cn/category/icons/Logo-01.svg",
+      "token": "djE6dEFDWkNpRWlQY1k6Z2xvYmFsLWxvZ28="
+    },
+    {
+      "category": "tACZClva26s",
+      "categoryDisplayName": "婚庆Logo",
+      "dimensions": {
+        "height": 500,
+        "units": "PIXELS",
+        "width": 500
+      },
+      "dimensionsLabel": "500 × 500 像素",
+      "displayName": "婚庆Logo",
+      "doctype": "TAB7AVEOUWQ",
+      "iconUrl": "https://static.canva.cn/category/icons/Logo-01.svg",
+      "token": "djE6dEFDWkNsdmEyNnM6Z2xvYmFsLWxvZ28="
+    },
+    {
+      "category": "tACZCsr_oMI",
+      "categoryDisplayName": "服装Logo",
+      "dimensions": {
+        "height": 500,
+        "units": "PIXELS",
+        "width": 500
+      },
+      "dimensionsLabel": "500 × 500 像素",
+      "displayName": "服装Logo",
+      "doctype": "TAB7AVEOUWQ",
+      "iconUrl": "https://static.canva.cn/category/icons/Logo-01.svg",
+      "token": "djE6dEFDWkNzcl9vTUk6Z2xvYmFsLWxvZ28="
+    },
+    {
+      "category": "tACZCp-pH_4",
+      "categoryDisplayName": "社团Logo",
+      "dimensions": {
+        "height": 500,
+        "units": "PIXELS",
+        "width": 500
+      },
+      "dimensionsLabel": "500 × 500 像素",
+      "displayName": "社团Logo",
+      "doctype": "TAB7AVEOUWQ",
+      "iconUrl": "https://static.canva.cn/category/icons/Logo-01.svg",
+      "thumbnail": {
+        "height": 500,
+        "url": "https://media-public.canva.cn/MADCkXTL5S4/1/0/thumbnail_large.jpg",
+        "width": 500
+      },
+      "token": "djE6dEFDWkNwLXBIXzQ6Z2xvYmFsLWxvZ28="
+    },
+    {
+      "category": "tACZCoAFTWI",
+      "categoryDisplayName": "简约Logo",
+      "dimensions": {
+        "height": 500,
+        "units": "PIXELS",
+        "width": 500
+      },
+      "dimensionsLabel": "500 × 500 像素",
+      "displayName": "简约Logo",
+      "doctype": "TAB7AVEOUWQ",
+      "iconUrl": "https://static.canva.cn/category/icons/Logo-01.svg",
+      "token": "djE6dEFDWkNvQUZUV0k6Z2xvYmFsLWxvZ28="
+    },
+    {
+      "category": "tACZCnit-3E",
+      "categoryDisplayName": "运动队Logo",
+      "dimensions": {
+        "height": 500,
+        "units": "PIXELS",
+        "width": 500
+      },
+      "dimensionsLabel": "500 × 500 像素",
+      "displayName": "运动队Logo",
+      "doctype": "TAB7AVEOUWQ",
+      "iconUrl": "https://static.canva.cn/category/icons/noun_909439.svg",
+      "thumbnail": {
+        "height": 500,
+        "url": "https://media-public.canva.cn/MAC9OabAYU4/1/0/thumbnail_large.jpg",
+        "width": 500
+      },
+      "token": "djE6dEFDWkNuaXQtM0U6Z2xvYmFsLWxvZ28="
+    },
+    {
+      "category": "tACZCtN5Sr0",
+      "categoryDisplayName": "餐饮Logo",
+      "dimensions": {
+        "height": 500,
+        "units": "PIXELS",
+        "width": 500
+      },
+      "dimensionsLabel": "500 × 500 像素",
+      "displayName": "餐饮Logo",
+      "doctype": "TAB7AVEOUWQ",
+      "iconUrl": "https://static.canva.cn/category/icons/noun_715928.svg",
+      "thumbnail": {
+        "height": 500,
+        "url": "https://media-public.canva.cn/MADC69tG-wY/1/0/thumbnail_large.jpg",
+        "width": 500
+      },
+      "token": "djE6dEFDWkN0TjVTcjA6Z2xvYmFsLWxvZ28="
+    }
+  ]
+}
