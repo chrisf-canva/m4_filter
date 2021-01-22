@@ -24,3 +24,7 @@ def getCurrentTimestamp():
     time_local = time.localtime(time_now)
     dt = time.strftime("%Y-%m-%d_%H:%M:%S", time_local)
     return dt
+
+
+def filterNone(original):
+    return {k: v for k, v in original.items() if v is not None}

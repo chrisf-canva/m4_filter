@@ -186,48 +186,86 @@ def readSubtitles(name):
     return data
 
 
-def createFilters(
-        categories,
-        categoryDiscoveryList,
-        categoryNameMapper,
-        filterElevationAmount,
-        filterIcons,
-        index,
-        industryId,
-        scenario,
-        seasonal
-):
-    print(f"\nbuild filters {index} for {industryId}")
+def readCarouselForAll(name):
+    print(f'\n\n\n*******************\nRead carousel category for all file:{name}\n')
+    data = {}
+    try:
+        with open(name) as file:
+            line = file.readline().strip()
+            index = 0
+            while line:
+                # print(f'Line {index}: [{line}]')
+                names = line.split(":")
+                data[names[0]] = names[1]
+                index += 1
+                line = file.readline().strip()
+    except Exception as e:
+        print(e)
+        raise
+    finally:
+        file.close()
+    print(data)
+    return data
+
+
+def createFilters(industry_id, index_of_industry, categories, scenario, seasonal, category_discovery_list,
+                  category_name_mapper, filter_elevation_amount, filter_icons):
+    print(f"\nbuild filters {index_of_industry} for {industry_id}")
     filters = []
-    for categoryDisplayName, searchQuery in categories[index].items():
+    for categoryDisplayName, searchQuery in categories[index_of_industry].items():
         if searchQuery == '/':
             category_name = categoryDisplayName
-            if category_name in categoryNameMapper:
-                category_name = categoryNameMapper[category_name]
+            if category_name in category_name_mapper:
+                category_name = category_name_mapper[category_name]
                 print(f'++++++ map {categoryDisplayName} to {category_name}')
-            category_id = findCategoryId(category_name, categoryDiscoveryList)
+            category_id = findCategoryId(category_name, category_discovery_list)
             # print(f"\t{category_name}:{category_id}")
             node = createCategoryFilter(categoryDisplayName, category_id)
             # print(f"\t{node}")
-            append2Filter(filters, node)
+            appendToDict(filters, node)
         else:
             # print(f"\t{categoryDisplayName}:{searchQuery}")
-            node = createScenarioFilter(categoryDisplayName, searchQuery, filterElevationAmount)
+            node = createScenarioFilter(categoryDisplayName, searchQuery, filter_elevation_amount)
             # print(f"\t{node}")
-            append2Filter(filters, node)
+            appendToDict(filters, node)
     new_line = True
     for season in seasonal:
-        node = createSeasonalFilter(season, filterElevationAmount, filterIcons, new_line)
+        node = createSeasonalFilter(season, filter_elevation_amount, filter_icons, new_line)
         # print(f"\t{node}")
         new_line = False
-        append2Filter(filters, node)
-    for key, value in scenario[index].items():
-        node = createScenarioFilter(key, value, filterElevationAmount)
+        appendToDict(filters, node)
+    for key, value in scenario[index_of_industry].items():
+        node = createScenarioFilter(key, value, filter_elevation_amount)
         # print(f"\t{node}")
-        append2Filter(filters, node)
+        appendToDict(filters, node)
     # print(f'{filters}')
     print(*filters, sep='\n')
     return filters
+
+
+def createCarousels(categories, carousel_category_all, industry_id, index_of_industry, category_discovery_list,
+                    category_name_mapper):
+    print(f"\nbuild carousels {index_of_industry} for {industry_id}")
+    carousels = []
+    for category_display_name, search_query in categories[index_of_industry].items():
+        # print(f"\t{category_display_name}:{search_query}")
+        # find category id
+        category_name = category_display_name
+        if category_name in category_name_mapper:
+            category_name = category_name_mapper[category_name]
+            print(f'++++++ find category name: {category_name} by display name {category_display_name}')
+        category_id = findCategoryId(category_name, category_discovery_list)
+        # print(f"\t{category_name}:{category_id}")
+        if search_query == '/':
+            search_query = None
+        node = create_category_for_carousel(category_display_name, category_id, search_query)
+        # print(f"\t\t{node}")
+        appendToDict(carousels, node)
+    for category_name, category_id in carousel_category_all.items():
+        node = create_category_for_carousel(category_name, category_id, None)
+        appendToDict(carousels, node)
+    print(*carousels, sep='\n')
+    return carousels
 
 
 def buildIndustriesWithFilters(
@@ -240,7 +278,9 @@ def buildIndustriesWithFilters(
         scenario,
         filterElevationAmount,
         filterIcons,
-        subtitles
+        subtitles,
+        carousel_categories,
+        carousel_category_all
 ):
     print(f'\n\n\n*******************\nbuild industries with filters file\n')
     # print(f"build {industryIds}")
@@ -249,20 +289,15 @@ def buildIndustriesWithFilters(
     industry_list = industries['industries']
     for index in range(total_industries):
         industry_id = industryIds[index]
-        filters = createFilters(
-            categories,
-            categoryDiscoveryList,
-            categoryNameMapper,
-            filterElevationAmount,
-            filterIcons,
-            index,
-            industry_id,
-            scenario,
-            seasonal)
+        filters = createFilters(industry_id, index, categories, scenario, seasonal, categoryDiscoveryList,
+                                categoryNameMapper, filterElevationAmount, filterIcons)
+        carousels = createCarousels(carousel_categories, carousel_category_all, industry_id, index,
+                                    categoryDiscoveryList, categoryNameMapper)
         industry = industry_list[findIndustryIndex(industry_id, industry_list)]
         if industry_id in subtitles:
             industry['subtitle'] = subtitles[industry_id]
         industry['filters'] = filters
+        industry['carousels'] = carousels
     return industries
 
 
@@ -292,6 +327,8 @@ parser.add_argument('--scenario', '-sf', help='scenario filter file 属性，非
 parser.add_argument('--filterElevationAmount', '-fea', help='filter elevation amount file 属性，非必要参数', required=False)
 parser.add_argument('--filterIcons', '-fi', help='filter icons file 属性，非必要参数', required=False)
 parser.add_argument('--subtitles', '-st', help='subtitles file 属性，非必要参数', required=False)
+parser.add_argument('--carousel_category', '-cc', help='carousel category file 属性，非必要参数', required=False)
+parser.add_argument('--carousel_category_all', '-cca', help='carousel category for all file 属性，非必要参数', required=False)
 parser.add_argument('--out', '-o', help='output json file 属性，非必要参数', required=False)
 args = parser.parse_args()
 
@@ -315,7 +352,11 @@ if __name__ == '__main__':
         filterElevationAmount = args.filterElevationAmount or f"{filtersPath}filter_elevation_amount"
         filterIcons = args.filterIcons or f"{filtersPath}filter_icons"
 
-        industriesAfter = args.out or f"./out/industries_{getCurrentTimestamp()}.json"
+        carouselsPath = "carousel/"
+        carousel_categories = args.carousel_category or f"{carouselsPath}categories"
+        carousel_category_all = args.carousel_category_all or f"{carouselsPath}category_for_all.properties"
+
+        industries_out = args.out or f"./out/industries_{getCurrentTimestamp()}.json"
 
         print(f"""
         categoryDiscoveryList file: {categoryDiscoveryList}
@@ -327,7 +368,9 @@ if __name__ == '__main__':
         scenario file: {scenario}
         filter elevation amount file: {filterElevationAmount}
         subtitles file: {subtitles}
-        industriesAfter file: {industriesAfter}
+        carousel category file: {carousel_categories}
+        carousel category for all file: {carousel_category_all}
+        industries output file: {industries_out}
         """)
 
         categoryDiscoveryList = readJson(categoryDiscoveryList)
@@ -342,6 +385,9 @@ if __name__ == '__main__':
         filterElevationAmount = readFilterElevationAmount(filterElevationAmount)
         filterIcons = readFilterIcons(filterIcons)
 
+        carousel_categories = readCategoryPills(carousel_categories)
+        carousel_category_all = readCarouselForAll(carousel_category_all)
+
         industries = buildIndustriesWithFilters(
             industries,
             categoryDiscoveryList,
@@ -352,8 +398,10 @@ if __name__ == '__main__':
             scenario,
             filterElevationAmount,
             filterIcons,
-            subtitles
+            subtitles,
+            carousel_categories,
+            carousel_category_all
         )
-        saveIndustries(industries, industriesAfter)
+        saveIndustries(industries, industries_out)
     except Exception as e:
         print(e)
