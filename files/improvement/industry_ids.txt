@@ -1,0 +1,7 @@
+industry_all
+industry_personal
+industry_culture
+industry_campus
+industry_education
+industry_travel
+industry_food
