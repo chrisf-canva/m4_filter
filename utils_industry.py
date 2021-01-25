@@ -18,6 +18,14 @@ def create_category_for_carousel(displayName, categoryId, searchQuery):
     return filterNone(node)
 
 
+def createDefaultFilter(displayName, searchQuery):
+    return {
+        'title': displayName,
+        "type": "default",
+        "searchQuery": searchQuery
+    }
+
+
 def createCategoryFilter(displayName, categoryId):
     return {
         'title': displayName,
@@ -74,5 +82,46 @@ def findCategoryId(name, dict):
 \tfailed to find category id for {name}: {e}
 \t***********************************
 
-""")
+        """)
     return category
+
+
+def find_category_name(category_display_name, category_name_mapper, industry_id):
+    category_name = category_display_name
+    if category_name in category_name_mapper:
+        name = category_name_mapper[category_name]
+        names = name.split("/", 1)
+        if len(names) == 2:
+            if names[0] == industry_id:
+                category_name = names[1]
+                print(f"""
+++++++ find category name: {category_name} by {name} of {industry_id}
+                """)
+        else:
+            category_name = name
+            print(f"""
+++++++ find category name: {category_name} by display name {category_display_name}
+            """)
+    return category_name
+
+
+def createCategoryNode(category_discovery_list, category_display_name, category_name_mapper, industry_id, search_query):
+    # print(f"\t{category_display_name}:{search_query}")
+    if search_query.startswith('/') and len(search_query) > 1:
+        category_id = None
+        search_query = search_query[1:]
+        print(f"""
+++++++ find search query: {search_query} started with /
+        """)
+        # print(f"\t{category_id}:{search_query}")
+    else:
+        category_name = find_category_name(category_display_name, category_name_mapper, industry_id)
+        # find category id
+        category_id = findCategoryId(category_name, category_discovery_list)
+        # print(f"\t{category_name}:{category_id}")
+        if search_query == '/':
+            search_query = None
+    # print(f"\t{category_id}:{category_display_name}:{search_query}")
+    node = create_category_for_carousel(category_display_name, category_id, search_query)
+    # print(f"\t\t{node}")
+    return node

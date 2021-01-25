@@ -72,6 +72,28 @@ def readPropertiesFile(name):
     return data
 
 
+def readPropertiesFileAsArray(name):
+    separator = ":"
+    data = []
+    try:
+        with open(name) as file:
+            line = file.readline().strip()
+            index = 0
+            while line:
+                # print(f'Line {index}: [{line}]')
+                names = line.split(separator, 1)
+                data.append({names[0]: names[1]})
+                index += 1
+                line = file.readline().strip()
+    except Exception as e:
+        print(e)
+        raise
+    finally:
+        file.close()
+    print(data)
+    return data
+
+
 def readComplexFile(name):
     data = []
     try:
