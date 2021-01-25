@@ -9,203 +9,47 @@ from utils_industry import *
 
 def readIndustryIds(name):
     print(f'\n\n\n*******************\nRead Industry Id file:{name}\n')
-    data = []
-    try:
-        with open(name) as file:
-            line = file.readline().strip()
-            index = 0
-            while line:
-                # print(f'Line {index}: [{line}]')
-                data.append(line)
-                index += 1
-                line = file.readline().strip()
-    except Exception as e:
-        print(e)
-        raise
-    finally:
-        file.close()
-    print(*data, sep='\n')
-    return data
+    return readSimpleLineFile(name)
 
 
 def readCategoryNameMapper(name):
     print(f'\n\n\n*******************\nRead Category name mapper file:{name}\n')
-    data = {}
-    try:
-        with open(name) as file:
-            line = file.readline().strip()
-            index = 0
-            while line:
-                # print(f'Line {index}: [{line}]')
-                names = line.split("\t")
-                data[names[0]] = names[1]
-                index += 1
-                line = file.readline().strip()
-    except Exception as e:
-        print(e)
-        raise
-    finally:
-        file.close()
-    print(data)
-    return data
+    return readPropertiesFile(name)
 
 
 def readCategoryPills(name):
     print(f'\n\n\n*******************\nRead Category pills file:{name}\n')
-    data = []
-    try:
-        with open(name) as file:
-            line = file.readline().strip()
-            index = 0
-            while line:
-                # print(f'Line {index}: [{line}]')
-                names = line.split("\t")
-                item = transform2Map(names)
-                data.append(item)
-                index += 1
-                line = file.readline().strip()
-    except Exception as e:
-        print(e)
-        raise
-    finally:
-        file.close()
-    print(*data, sep='\n')
-    return data
+    return readComplexFile(name)
 
 
 def readSeasonal(name):
     print(f'\n\n\n*******************\nRead Seasonal file:{name}\n')
-    data = []
-    try:
-        with open(name) as file:
-            line = file.readline().strip()
-            index = 0
-            while line:
-                # print(f'Line {index}: [{line}]')
-                names = line.split("\t")
-                for name in names:
-                    data.append(name)
-                index += 1
-                line = file.readline().strip()
-    except Exception as e:
-        print(e)
-        raise
-    finally:
-        file.close()
-    print(*data, sep='\n')
-    return data
+    return readSimpleLineFile(name)
 
 
 def readScenario(name):
     print(f'\n\n\n*******************\nRead Scenario file:{name}\n')
-    data = []
-    try:
-        with open(name) as file:
-            line = file.readline().strip()
-            index = 0
-            while line:
-                # print(f'Line {index}: [{line}]')
-                names = line.split("\t")
-                item = transform2Map(names)
-                data.append(item)
-                index += 1
-                line = file.readline().strip()
-    except Exception as e:
-        print(e)
-        raise
-    finally:
-        file.close()
-    print(*data, sep='\n')
-    return data
+    return readComplexFile(name)
 
 
 def readFilterElevationAmount(name):
     print(f'\n\n\n*******************\nRead Filter Elevation Amount file:{name}\n')
-    data = {}
-    try:
-        with open(name) as file:
-            line = file.readline().strip()
-            index = 0
-            while line:
-                # print(f'Line {index}: [{line}]')
-                names = line.split("\t")
-                item = transform2Map(names)
-                data.update(item)
-                index += 1
-                line = file.readline().strip()
-    except Exception as e:
-        print(e)
-        raise
-    finally:
-        file.close()
-    print(data)
-    return data
+    return readComplexFile(name)[0]
 
 
 def readFilterIcons(name):
     print(f'\n\n\n*******************\nRead Filter Icons file:{name}\n')
-    data = {}
-    try:
-        with open(name) as file:
-            line = file.readline().strip()
-            index = 0
-            while line:
-                # print(f'Line {index}: [{line}]')
-                names = line.split("\t")
-                data[names[0]] = names[1]
-                index += 1
-                line = file.readline().strip()
-    except Exception as e:
-        print(e)
-        raise
-    finally:
-        file.close()
-    print(data)
-    return data
+    return readPropertiesFile(name)
 
 
 def readSubtitles(name):
     print(f'\n\n\n*******************\nRead Subtitles file:{name}\n')
-    data = {}
-    try:
-        with open(name) as file:
-            line = file.readline().strip()
-            index = 0
-            while line:
-                # print(f'Line {index}: [{line}]')
-                names = line.split(":")
-                data[names[0]] = names[1]
-                index += 1
-                line = file.readline().strip()
-    except Exception as e:
-        print(e)
-        raise
-    finally:
-        file.close()
-    print(data)
-    return data
+    return readPropertiesFile(name)
 
 
 def readCarouselForAll(name):
     print(f'\n\n\n*******************\nRead carousel category for all file:{name}\n')
-    data = {}
-    try:
-        with open(name) as file:
-            line = file.readline().strip()
-            index = 0
-            while line:
-                # print(f'Line {index}: [{line}]')
-                names = line.split(":")
-                data[names[0]] = names[1]
-                index += 1
-                line = file.readline().strip()
-    except Exception as e:
-        print(e)
-        raise
-    finally:
-        file.close()
-    print(data)
-    return data
+    return readPropertiesFile(name)
 
 
 def createFilters(industry_id, index_of_industry, categories, scenario, seasonal, category_discovery_list,
@@ -347,10 +191,10 @@ if __name__ == '__main__':
         filtersSpecialPath = f"filters/{specialPath}"
         category = args.category or f"{filtersSpecialPath}categories"
         scenario = args.scenario or f"{filtersSpecialPath}scenario_keywords"
-        categoryNameMapper = args.categoryNameMapper or f"{filtersPath}category_name_mapper.txt"
+        categoryNameMapper = args.categoryNameMapper or f"{filtersPath}category_name_mapper.properties"
         seasonal = args.seasonal or f"{filtersPath}seasonal_keywords"
         filterElevationAmount = args.filterElevationAmount or f"{filtersPath}filter_elevation_amount"
-        filterIcons = args.filterIcons or f"{filtersPath}filter_icons"
+        filterIcons = args.filterIcons or f"{filtersPath}filter_icons.properties"
 
         carouselsPath = "carousel/"
         carousel_categories = args.carousel_category or f"{carouselsPath}categories"
