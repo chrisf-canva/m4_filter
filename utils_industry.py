@@ -67,10 +67,25 @@ def findIndustryIndex(industryId, industryList):
     return index
 
 
-def findCategoryId(name, dict):
+def findCategoryId(name, category_discovery_list, category_all_list):
+    category = findCategoryIdInCategoryDiscoveryList(name, category_discovery_list)
+    if category is None:
+        category = category_all_list[name]
+        if category is None:
+            print(f"""
+    
+\t***********************************
+\tfailed to find category id for {name} in Category All List
+\t***********************************
+    
+            """)
+    return category
+
+
+def findCategoryIdInCategoryDiscoveryList(name, category_discovery_list):
     category = None
     try:
-        results = dict['results']
+        results = category_discovery_list['results']
         # print(f"looking for name :[{name}]")
         node = list(filter(lambda x: x['categoryDisplayName'].lower() == name.lower(), results))[0]
         category = node['category']
@@ -105,7 +120,14 @@ def find_category_name(category_display_name, category_name_mapper, industry_id)
     return category_name
 
 
-def createCategoryNode(category_discovery_list, category_display_name, category_name_mapper, industry_id, search_query):
+def createCategoryNode(
+        category_discovery_list,
+        category_all_list,
+        category_display_name,
+        category_name_mapper,
+        industry_id,
+        search_query
+):
     # print(f"\t{category_display_name}:{search_query}")
     if search_query.startswith('/') and len(search_query) > 1:
         category_id = None
@@ -117,7 +139,7 @@ def createCategoryNode(category_discovery_list, category_display_name, category_
     else:
         category_name = find_category_name(category_display_name, category_name_mapper, industry_id)
         # find category id
-        category_id = findCategoryId(category_name, category_discovery_list)
+        category_id = findCategoryId(category_name, category_discovery_list, category_all_list)
         # print(f"\t{category_name}:{category_id}")
         if search_query == '/':
             search_query = None

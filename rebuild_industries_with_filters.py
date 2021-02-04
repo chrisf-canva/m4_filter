@@ -47,6 +47,11 @@ def readSubtitles(name):
     return readPropertiesFile(name)
 
 
+def readCategoryAllList(name):
+    print(f'\n\n\n*******************\nRead Category all list file:{name}\n')
+    return readPropertiesFile(name)
+
+
 def readCarouselForAll(name):
     print(f'\n\n\n*******************\nRead carousel category for all file:{name}\n')
     return readPropertiesFile(name)
@@ -57,8 +62,19 @@ def readFilterDefault(name):
     return readPropertiesFileAsArray(name)
 
 
-def createFilters(industry_id, index_of_industry, categories, scenario, seasonal, category_discovery_list,
-                  category_name_mapper, filter_elevation_amount, filter_icons, filterDefault):
+def createFilters(
+        industry_id,
+        index_of_industry,
+        categories,
+        scenario,
+        seasonal,
+        category_discovery_list,
+        category_all_list,
+        category_name_mapper,
+        filter_elevation_amount,
+        filter_icons,
+        filterDefault
+):
     print(f"\nbuild filters {index_of_industry} for {industry_id}")
     filters = []
     for display_name, search_query in filterDefault[index_of_industry].items():
@@ -66,7 +82,8 @@ def createFilters(industry_id, index_of_industry, categories, scenario, seasonal
         # print(f"\t{node}")
         appendToDict(filters, node)
     for category_display_name, search_query in categories[index_of_industry].items():
-        node = createCategoryNode(category_discovery_list, category_display_name, category_name_mapper, industry_id,
+        node = createCategoryNode(category_discovery_list, category_all_list, category_display_name,
+                                  category_name_mapper, industry_id,
                                   search_query)
         appendToDict(filters, node)
     new_line = True
@@ -84,12 +101,20 @@ def createFilters(industry_id, index_of_industry, categories, scenario, seasonal
     return filters
 
 
-def createCarousels(categories, carousel_category_all, industry_id, index_of_industry, category_discovery_list,
-                    category_name_mapper):
+def createCarousels(
+        categories,
+        carousel_category_all,
+        industry_id,
+        index_of_industry,
+        category_discovery_list,
+        category_all_list,
+        category_name_mapper
+):
     print(f"\nbuild carousels {index_of_industry} for {industry_id}")
     carousels = []
     for category_display_name, search_query in categories[index_of_industry].items():
-        node = createCategoryNode(category_discovery_list, category_display_name, category_name_mapper, industry_id,
+        node = createCategoryNode(category_discovery_list, category_all_list, category_display_name,
+                                  category_name_mapper, industry_id,
                                   search_query)
         appendToDict(carousels, node)
     for category_name, category_id in carousel_category_all.items():
@@ -102,6 +127,7 @@ def createCarousels(categories, carousel_category_all, industry_id, index_of_ind
 def buildIndustriesWithFilters(
         industries,
         categoryDiscoveryList,
+        category_all_list,
         categoryNameMapper,
         industryIds,
         categories,
@@ -121,10 +147,28 @@ def buildIndustriesWithFilters(
     industry_list = industries['industries']
     for index in range(total_industries):
         industry_id = industryIds[index]
-        filters = createFilters(industry_id, index, categories, scenario, seasonal, categoryDiscoveryList,
-                                categoryNameMapper, filterElevationAmount, filterIcons, filterDefault)
-        carousels = createCarousels(carousel_categories, carousel_category_all, industry_id, index,
-                                    categoryDiscoveryList, categoryNameMapper)
+        filters = createFilters(
+            industry_id,
+            index,
+            categories,
+            scenario,
+            seasonal,
+            categoryDiscoveryList,
+            category_all_list,
+            categoryNameMapper,
+            filterElevationAmount,
+            filterIcons,
+            filterDefault
+        )
+        carousels = createCarousels(
+            carousel_categories,
+            carousel_category_all,
+            industry_id,
+            index,
+            categoryDiscoveryList,
+            category_all_list,
+            categoryNameMapper
+        )
         industry = industry_list[findIndustryIndex(industry_id, industry_list)]
         if industry_id in subtitles:
             industry['subtitle'] = subtitles[industry_id]
@@ -152,6 +196,7 @@ parser = argparse.ArgumentParser(description='Test for argparse')
 parser.add_argument('--industries', '-in', help='industry json file 属性，非必要参数', required=False)
 parser.add_argument('--industryIds', '-inid', help='industry ID file 属性，非必要参数', required=False)
 parser.add_argument('--categoryDiscoveryList', '-cdf', help='category discovery jons file 属性，非必要参数', required=False)
+parser.add_argument('--category_all_list', '-cal', help='category all list file 属性，非必要参数', required=False)
 parser.add_argument('--categoryNameMapper', '-cn', help='category name mapper file 属性，非必要参数', required=False)
 parser.add_argument('--category', '-cf', help='category filter file 属性，非必要参数', required=False)
 parser.add_argument('--seasonal', '-ss', help='seasonal filter file 属性，非必要参数', required=False)
@@ -169,12 +214,13 @@ if __name__ == '__main__':
     try:
         specialPath = "improvement/"
 
-        baseFilesPath = f"files/"
-        baseFilesSpecialPath = f"files/{specialPath}"
+        baseFilesPath = "files/"
+        baseFilesSpecialPath = f"{baseFilesPath}{specialPath}"
         industries = args.industries or f"{baseFilesSpecialPath}industries.json"
         industryIds = args.industryIds or f"{baseFilesSpecialPath}industry_ids"
         subtitles = args.subtitles or f"{baseFilesSpecialPath}subtitles.properties"
         categoryDiscoveryList = args.categoryDiscoveryList or f"{baseFilesPath}categoryDiscoveryList.json"
+        category_all_list = args.category_all_list or f"{baseFilesPath}category_all_list.properties"
 
         filtersPath = "filters/"
         filtersSpecialPath = f"filters/{specialPath}"
@@ -197,6 +243,7 @@ if __name__ == '__main__':
         industryIds file: {industryIds}
         subtitles file: {subtitles}
         categoryDiscoveryList file: {categoryDiscoveryList}
+        category_all_list file: {category_all_list}
      
         filter default file: {filterDefault}
         category file: {category}
@@ -216,6 +263,7 @@ if __name__ == '__main__':
         industryIds = readIndustryIds(industryIds)
         subtitles = readSubtitles(subtitles)
         categoryDiscoveryList = readJson(categoryDiscoveryList)
+        category_all_list = readCategoryAllList(category_all_list)
 
         filterDefault = readFilterDefault(filterDefault)
         category = readCategoryPills(category)
@@ -231,6 +279,7 @@ if __name__ == '__main__':
         industries = buildIndustriesWithFilters(
             industries,
             categoryDiscoveryList,
+            category_all_list,
             categoryNameMapper,
             industryIds,
             category,
