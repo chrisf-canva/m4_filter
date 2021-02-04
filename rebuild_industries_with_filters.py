@@ -24,7 +24,7 @@ def readCategoryPills(name):
 
 def readSeasonal(name):
     print(f'\n\n\n*******************\nRead Seasonal file:{name}\n')
-    return readSimpleLineFile(name)
+    return readPropertiesFile(name)
 
 
 def readScenario(name):
@@ -35,11 +35,6 @@ def readScenario(name):
 def readFilterElevationAmount(name):
     print(f'\n\n\n*******************\nRead Filter Elevation Amount file:{name}\n')
     return readComplexFile(name)[0]
-
-
-def readFilterIcons(name):
-    print(f'\n\n\n*******************\nRead Filter Icons file:{name}\n')
-    return readPropertiesFile(name)
 
 
 def readSubtitles(name):
@@ -72,7 +67,6 @@ def createFilters(
         category_all_list,
         category_name_mapper,
         filter_elevation_amount,
-        filter_icons,
         filterDefault
 ):
     print(f"\nbuild filters {index_of_industry} for {industry_id}")
@@ -87,13 +81,15 @@ def createFilters(
                                   search_query)
         appendToDict(filters, node)
     new_line = True
-    for season in seasonal:
-        node = createSeasonalFilter(season, filter_elevation_amount, filter_icons, new_line)
+    print(f"\tseasonal: {seasonal}")
+    for seasonName, iconUrl in seasonal.items():
+        # print(f"\tname:{seasonName}      url:{iconUrl}")
+        node = createSeasonalFilter(seasonName, iconUrl, filter_elevation_amount, new_line)
         # print(f"\t{node}")
         new_line = False
         appendToDict(filters, node)
-    for key, value in scenario[index_of_industry].items():
-        node = createScenarioFilter(key, value, filter_elevation_amount)
+    for seasonName, iconUrl in scenario[index_of_industry].items():
+        node = createScenarioFilter(seasonName, iconUrl, filter_elevation_amount)
         # print(f"\t{node}")
         appendToDict(filters, node)
     # print(f'{filters}')
@@ -134,7 +130,6 @@ def buildIndustriesWithFilters(
         seasonal,
         scenario,
         filterElevationAmount,
-        filterIcons,
         subtitles,
         carousel_categories,
         carousel_category_all,
@@ -157,7 +152,6 @@ def buildIndustriesWithFilters(
             category_all_list,
             categoryNameMapper,
             filterElevationAmount,
-            filterIcons,
             filterDefault
         )
         carousels = createCarousels(
@@ -174,6 +168,7 @@ def buildIndustriesWithFilters(
             industry['subtitle'] = subtitles[industry_id]
         industry['filters'] = filters
         industry['carousels'] = carousels
+        industry['elevationAmount'] = 30
     return industries
 
 
@@ -202,7 +197,6 @@ parser.add_argument('--category', '-cf', help='category filter file 属性，非
 parser.add_argument('--seasonal', '-ss', help='seasonal filter file 属性，非必要参数', required=False)
 parser.add_argument('--scenario', '-sf', help='scenario filter file 属性，非必要参数', required=False)
 parser.add_argument('--filterElevationAmount', '-fea', help='filter elevation amount file 属性，非必要参数', required=False)
-parser.add_argument('--filterIcons', '-fi', help='filter icons file 属性，非必要参数', required=False)
 parser.add_argument('--filter_default', '-fd', help='filter default file 属性，非必要参数', required=False)
 parser.add_argument('--subtitles', '-st', help='subtitles file 属性，非必要参数', required=False)
 parser.add_argument('--carousel_category', '-cc', help='carousel category file 属性，非必要参数', required=False)
@@ -226,11 +220,10 @@ if __name__ == '__main__':
         filtersSpecialPath = f"filters/{specialPath}"
         filterDefault = args.filter_default or f"{filtersSpecialPath}filter_default.properties"
         category = args.category or f"{filtersSpecialPath}categories"
-        seasonal = args.seasonal or f"{filtersPath}seasonal_keywords"
+        seasonal = args.seasonal or f"{filtersPath}seasonal_keywords.properties"
         scenario = args.scenario or f"{filtersSpecialPath}scenario_keywords"
         categoryNameMapper = args.categoryNameMapper or f"{filtersPath}category_name_mapper.properties"
         filterElevationAmount = args.filterElevationAmount or f"{filtersPath}filter_elevation_amount"
-        filterIcons = args.filterIcons or f"{filtersPath}filter_icons.properties"
 
         carouselsPath = "carousel/"
         carousel_categories = args.carousel_category or f"{carouselsPath}categories"
@@ -251,7 +244,6 @@ if __name__ == '__main__':
         scenario file: {scenario}
         category name mapper file: {categoryNameMapper}
         filter elevation amount file: {filterElevationAmount}
-        filter icon file: {filterIcons}
      
         carousel category file: {carousel_categories}
         carousel category for all file: {carousel_category_all}
@@ -271,7 +263,6 @@ if __name__ == '__main__':
         scenario = readScenario(scenario)
         categoryNameMapper = readCategoryNameMapper(categoryNameMapper)
         filterElevationAmount = readFilterElevationAmount(filterElevationAmount)
-        filterIcons = readFilterIcons(filterIcons)
 
         carousel_categories = readCategoryPills(carousel_categories)
         carousel_category_all = readCarouselForAll(carousel_category_all)
@@ -286,7 +277,6 @@ if __name__ == '__main__':
             seasonal,
             scenario,
             filterElevationAmount,
-            filterIcons,
             subtitles,
             carousel_categories,
             carousel_category_all,

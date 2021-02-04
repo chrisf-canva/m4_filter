@@ -45,16 +45,15 @@ def createScenarioFilter(displayName, searchQuery, filterElevationAmount):
     return node
 
 
-def createSeasonalFilter(displayName, filterElevationAmount, filterIcons, newLine=False):
+def createSeasonalFilter(seasonDisplayName, iconUrl, filterElevationAmount, newLine=False):
     node = {
-        'title': displayName,
+        'title': seasonDisplayName,
         "type": "seasonal",
-        "searchQuery": displayName
+        "searchQuery": seasonDisplayName
     }
-    if (displayName in filterElevationAmount):
-        node["elevationAmount"] = int(filterElevationAmount[displayName])
-    if (displayName in filterIcons):
-        node["iconUrl"] = filterIcons[displayName]
+    if (seasonDisplayName in filterElevationAmount):
+        node["elevationAmount"] = int(filterElevationAmount[seasonDisplayName])
+    node["iconUrl"] = iconUrl
     if (newLine):
         node['newLine'] = newLine
     return node
