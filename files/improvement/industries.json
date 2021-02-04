@@ -1,755 +1,2109 @@
 {
   "industries": [
-    {
-      "title": "全部",
-      "key": "industry_all",
-      "thumbnail": "",
-      "keyword": "",
-      "elevationAmount": 50,
-      "forSkipping": true,
-      "filters": [
-        {
-          "title": "朋友圈",
-          "type": "category",
-          "categoryId": "tACZCsjcdNc"
-        },
-        {
-          "title": "手机拼图",
-          "type": "scenario",
-          "searchQuery": "手机拼图"
-        },
-        {
-          "title": "手机海报",
-          "type": "scenario",
-          "searchQuery": "手机海报"
-        },
-        {
-          "title": "手机壁纸",
-          "type": "scenario",
-          "searchQuery": "手机壁纸"
-        },
-        {
-          "title": "微信头像",
-          "type": "scenario",
-          "searchQuery": "微信头像"
-        },
-        {
-          "title": "日签",
-          "type": "scenario",
-          "searchQuery": "日签"
-        },
-        {
-          "title": "视频相框",
-          "type": "scenario",
-          "searchQuery": "视频相框"
-        },
-        {
-          "title": "视频封面",
-          "type": "scenario",
-          "searchQuery": "视频封面"
-        },
-        {
-          "title": "手账",
-          "type": "scenario",
-          "searchQuery": "手账"
-        },
-        {
-          "title": "年终汇报",
-          "type": "seasonal",
-          "searchQuery": "年终汇报",
-          "iconUrl": "https://static.canva.cn/icons/filter/pills_icon_annualreports.svg",
-          "newLine": true
-        },
-        {
-          "title": "圣诞节",
-          "type": "seasonal",
-          "searchQuery": "圣诞节",
-          "iconUrl": "https://static.canva.cn/icons/filter/pills_icon_Xmas.svg"
-        },
-        {
-          "title": "元旦节",
-          "type": "seasonal",
-          "searchQuery": "元旦节",
-          "iconUrl": "https://static.canva.cn/icons/filter/pills_icon_newyear.svg"
-        },
-        {
-          "title": "美食",
-          "type": "scenario",
-          "searchQuery": "美食 Plog"
-        },
-        {
-          "title": "萌宠",
-          "type": "scenario",
-          "searchQuery": "萌宠 Plog"
-        },
-        {
-          "title": "旅行",
-          "type": "scenario",
-          "searchQuery": "旅行 Plog"
-        },
-        {
-          "title": "自拍",
-          "type": "scenario",
-          "searchQuery": "自拍 Plog"
-        },
-        {
-          "title": "天气",
-          "type": "scenario",
-          "searchQuery": "天气 Plog"
-        },
-        {
-          "title": "台词字幕",
-          "type": "scenario",
-          "searchQuery": "金句 朋友圈"
-        },
-        {
-          "title": "打卡",
-          "type": "scenario",
-          "searchQuery": "打卡 Plog"
-        },
-        {
-          "title": "穿搭美妆",
-          "type": "scenario",
-          "searchQuery": "穿搭 Plog"
-        }
-      ]
-    },
-    {
-      "title": "个人生活",
-      "subtitle": "发朋友圈微博，分享日常",
-      "key": "industry_personal",
-      "thumbnail": "https://static.canva.cn/icons/onboarding/icon_personal.svg",
-      "keyword": "plog 微信朋友圈",
-      "elevationAmount": 50,
-      "filters": [
-        {
-          "title": "朋友圈",
-          "type": "category",
-          "categoryId": "tACZCsjcdNc"
-        },
-        {
-          "title": "手机拼图",
-          "type": "scenario",
-          "searchQuery": "手机拼图"
-        },
-        {
-          "title": "手机海报",
-          "type": "scenario",
-          "searchQuery": "手机海报"
-        },
-        {
-          "title": "手机壁纸",
-          "type": "scenario",
-          "searchQuery": "手机壁纸"
-        },
-        {
-          "title": "微信头像",
-          "type": "scenario",
-          "searchQuery": "微信头像"
-        },
-        {
-          "title": "日签",
-          "type": "scenario",
-          "searchQuery": "日签"
-        },
-        {
-          "title": "视频相框",
-          "type": "scenario",
-          "searchQuery": "视频相框"
-        },
-        {
-          "title": "视频封面",
-          "type": "scenario",
-          "searchQuery": "视频封面"
-        },
-        {
-          "title": "手账",
-          "type": "scenario",
-          "searchQuery": "手账"
-        },
-        {
-          "title": "年终汇报",
-          "type": "seasonal",
-          "searchQuery": "年终汇报",
-          "iconUrl": "https://static.canva.cn/icons/filter/pills_icon_annualreports.svg",
-          "newLine": true
-        },
-        {
-          "title": "圣诞节",
-          "type": "seasonal",
-          "searchQuery": "圣诞节",
-          "iconUrl": "https://static.canva.cn/icons/filter/pills_icon_Xmas.svg"
-        },
-        {
-          "title": "元旦节",
-          "type": "seasonal",
-          "searchQuery": "元旦节",
-          "iconUrl": "https://static.canva.cn/icons/filter/pills_icon_newyear.svg"
-        },
-        {
-          "title": "美食",
-          "type": "scenario",
-          "searchQuery": "美食 Plog"
-        },
-        {
-          "title": "萌宠",
-          "type": "scenario",
-          "searchQuery": "萌宠 Plog"
-        },
-        {
-          "title": "旅行",
-          "type": "scenario",
-          "searchQuery": "旅行 Plog"
-        },
-        {
-          "title": "自拍",
-          "type": "scenario",
-          "searchQuery": "自拍 Plog"
-        },
-        {
-          "title": "天气",
-          "type": "scenario",
-          "searchQuery": "天气 Plog"
-        },
-        {
-          "title": "台词字幕",
-          "type": "scenario",
-          "searchQuery": "金句 朋友圈"
-        },
-        {
-          "title": "打卡",
-          "type": "scenario",
-          "searchQuery": "打卡 Plog"
-        },
-        {
-          "title": "穿搭美妆",
-          "type": "scenario",
-          "searchQuery": "穿搭 Plog"
-        }
-      ]
-    },
-    {
-      "title": "文化娱乐",
-      "subtitle": "电影，音乐，艺术活动宣传",
-      "key": "industry_culture",
-      "thumbnail": "https://static.canva.cn/icons/onboarding/icon_culture.svg",
-      "keyword": "文化娱乐",
-      "elevationAmount": 50,
-      "filters": [
-        {
-          "title": "手机海报",
-          "type": "category",
-          "categoryId": "tADLknyoHN8"
-        },
-        {
-          "title": "手机名片",
-          "type": "scenario",
-          "searchQuery": "电子名片"
-        },
-        {
-          "title": "LOGO",
-          "type": "category",
-          "categoryId": "tACZCuRXg6c"
-        },
-        {
-          "title": "书籍封面",
-          "type": "scenario",
-          "searchQuery": "书籍封面"
-        },
-        {
-          "title": "朋友圈",
-          "type": "scenario",
-          "searchQuery": "朋友圈 plog"
-        },
-        {
-          "title": "CD封面",
-          "type": "scenario",
-          "searchQuery": "CD封面"
-        },
-        {
-          "title": "视频相框",
-          "type": "scenario",
-          "searchQuery": "视频相框"
-        },
-        {
-          "title": "视频封面",
-          "type": "scenario",
-          "searchQuery": "视频封面"
-        },
-        {
-          "title": "榜单",
-          "type": "scenario",
-          "searchQuery": "榜单"
-        },
-        {
-          "title": "年终汇报",
-          "type": "seasonal",
-          "searchQuery": "年终汇报",
-          "iconUrl": "https://static.canva.cn/icons/filter/pills_icon_annualreports.svg",
-          "newLine": true
-        },
-        {
-          "title": "圣诞节",
-          "type": "seasonal",
-          "searchQuery": "圣诞节",
-          "iconUrl": "https://static.canva.cn/icons/filter/pills_icon_Xmas.svg"
-        },
-        {
-          "title": "元旦节",
-          "type": "seasonal",
-          "searchQuery": "元旦节",
-          "iconUrl": "https://static.canva.cn/icons/filter/pills_icon_newyear.svg"
-        },
-        {
-          "title": "电影",
-          "type": "scenario",
-          "searchQuery": "文化娱乐 电影"
-        },
-        {
-          "title": "音乐",
-          "type": "scenario",
-          "searchQuery": "文化娱乐 音乐"
-        },
-        {
-          "title": "中国文化",
-          "type": "scenario",
-          "searchQuery": "中国文化"
-        },
-        {
-          "title": "摄影",
-          "type": "scenario",
-          "searchQuery": "文化娱乐 摄影"
-        },
-        {
-          "title": "展览活动",
-          "type": "scenario",
-          "searchQuery": "文化娱乐 展览"
-        }
-      ]
-    },
-    {
-      "title": "校园活动",
-      "subtitle": "大学生社团，讲座，招聘",
-      "key": "industry_campus",
-      "thumbnail": "https://static.canva.cn/icons/onboarding/icon_campus.svg",
-      "keyword": "校园",
-      "elevationAmount": 50,
-      "filters": [
-        {
-          "title": "手机海报",
-          "type": "category",
-          "categoryId": "tADLknyoHN8"
-        },
-        {
-          "title": "朋友圈",
-          "type": "category",
-          "categoryId": "tACZCsjcdNc"
-        },
-        {
-          "title": "插画",
-          "type": "scenario",
-          "searchQuery": "插画"
-        },
-        {
-          "title": "手机壁纸",
-          "type": "scenario",
-          "searchQuery": "手机壁纸"
-        },
-        {
-          "title": "课程表",
-          "type": "category",
-          "categoryId": "tADLkglC62c"
-        },
-        {
-          "title": "日签",
-          "type": "scenario",
-          "searchQuery": "日签"
-        },
-        {
-          "title": "手机拼图",
-          "type": "scenario",
-          "searchQuery": "手机拼图"
-        },
-        {
-          "title": "视频相框",
-          "type": "scenario",
-          "searchQuery": "视频相框"
-        },
-        {
-          "title": "LOGO",
-          "type": "scenario",
-          "searchQuery": "校园 LOGO",
-          "elevationAmount": 40
-        },
-        {
-          "title": "年终汇报",
-          "type": "seasonal",
-          "searchQuery": "年终汇报",
-          "iconUrl": "https://static.canva.cn/icons/filter/pills_icon_annualreports.svg",
-          "newLine": true
-        },
-        {
-          "title": "圣诞节",
-          "type": "seasonal",
-          "searchQuery": "圣诞节",
-          "iconUrl": "https://static.canva.cn/icons/filter/pills_icon_Xmas.svg"
-        },
-        {
-          "title": "元旦节",
-          "type": "seasonal",
-          "searchQuery": "元旦节",
-          "iconUrl": "https://static.canva.cn/icons/filter/pills_icon_newyear.svg"
-        },
-        {
-          "title": "招新",
-          "type": "scenario",
-          "searchQuery": "校园招新"
-        },
-        {
-          "title": "社团宣传",
-          "type": "scenario",
-          "searchQuery": "社团宣传"
-        },
-        {
-          "title": "活动讲座",
-          "type": "scenario",
-          "searchQuery": "校园活动讲座"
-        },
-        {
-          "title": "校园招聘",
-          "type": "scenario",
-          "searchQuery": "校园招聘"
-        },
-        {
-          "title": "生活分享",
-          "type": "scenario",
-          "searchQuery": "生活分享"
-        },
-        {
-          "title": "打卡",
-          "type": "scenario",
-          "searchQuery": "打卡"
-        }
-      ]
-    },
-    {
-      "title": "教育培训",
-      "subtitle": "线上线下课程，少儿成人培训",
-      "key": "industry_education",
-      "thumbnail": "https://static.canva.cn/icons/onboarding/icon_education.svg",
-      "keyword": "教育海报",
-      "elevationAmount": 50,
-      "filters": [
-        {
-          "title": "手机海报",
-          "type": "category",
-          "categoryId": "tADLknyoHN8"
-        },
-        {
-          "title": "奖状",
-          "type": "scenario",
-          "searchQuery": "教育 奖状"
-        },
-        {
-          "title": "LOGO",
-          "type": "category",
-          "categoryId": "tACZCuRXg6c"
-        },
-        {
-          "title": "手机名片",
-          "type": "scenario",
-          "searchQuery": "电子名片"
-        },
-        {
-          "title": "手机拼图",
-          "type": "scenario",
-          "searchQuery": "手机拼图"
-        },
-        {
-          "title": "邀请函",
-          "type": "scenario",
-          "searchQuery": "手机邀请函 教育"
-        },
-        {
-          "title": "成绩反馈表",
-          "type": "scenario",
-          "searchQuery": "成绩反馈表",
-          "elevationAmount": 40
-        },
-        {
-          "title": "座次表",
-          "type": "scenario",
-          "searchQuery": "座次表",
-          "elevationAmount": 40
-        },
-        {
-          "title": "信纸",
-          "type": "scenario",
-          "searchQuery": "信纸",
-          "elevationAmount": 40
-        },
-        {
-          "title": "年终汇报",
-          "type": "seasonal",
-          "searchQuery": "年终汇报",
-          "iconUrl": "https://static.canva.cn/icons/filter/pills_icon_annualreports.svg",
-          "newLine": true
-        },
-        {
-          "title": "圣诞节",
-          "type": "seasonal",
-          "searchQuery": "圣诞节",
-          "iconUrl": "https://static.canva.cn/icons/filter/pills_icon_Xmas.svg"
-        },
-        {
-          "title": "元旦节",
-          "type": "seasonal",
-          "searchQuery": "元旦节",
-          "iconUrl": "https://static.canva.cn/icons/filter/pills_icon_newyear.svg"
-        },
-        {
-          "title": "招生",
-          "type": "scenario",
-          "searchQuery": "招生手机海报"
-        },
-        {
-          "title": "职场技能",
-          "type": "scenario",
-          "searchQuery": "网课培训"
-        },
-        {
-          "title": "考研高考",
-          "type": "scenario",
-          "searchQuery": "考研高考"
-        },
-        {
-          "title": "少儿培训",
-          "type": "scenario",
-          "searchQuery": "少儿培训"
-        },
-        {
-          "title": "兴趣培训",
-          "type": "scenario",
-          "searchQuery": "兴趣班"
-        },
-        {
-          "title": "成绩排名",
-          "type": "scenario",
-          "searchQuery": "成绩",
-          "elevationAmount": 20
-        },
-        {
-          "title": "倒计时",
-          "type": "scenario",
-          "searchQuery": "高考倒计时"
-        }
-      ]
-    },
-    {
-      "title": "酒店旅游",
-      "subtitle": "旅游产品宣传，介绍",
-      "key": "industry_travel",
-      "thumbnail": "https://static.canva.cn/icons/onboarding/icon_travel.svg",
-      "keyword": "酒店旅游",
-      "elevationAmount": 50,
-      "filters": [
-        {
-          "title": "手机海报",
-          "type": "category",
-          "categoryId": "tADLknyoHN8"
-        },
-        {
-          "title": "LOGO",
-          "type": "scenario",
-          "searchQuery": "旅游 logo",
-          "elevationAmount": 20
-        },
-        {
-          "title": "朋友圈",
-          "type": "scenario",
-          "searchQuery": "朋友圈 旅游"
-        },
-        {
-          "title": "邀请函",
-          "type": "scenario",
-          "searchQuery": "邀请函 旅行",
-          "elevationAmount": 30
-        },
-        {
-          "title": "手机拼图",
-          "type": "scenario",
-          "searchQuery": "旅行 拼图"
-        },
-        {
-          "title": "日签",
-          "type": "scenario",
-          "searchQuery": "日签"
-        },
-        {
-          "title": "视频封面",
-          "type": "scenario",
-          "searchQuery": "视频封面"
-        },
-        {
-          "title": "视频相框",
-          "type": "scenario",
-          "searchQuery": "视频相框"
-        },
-        {
-          "title": "二维码",
-          "type": "scenario",
-          "searchQuery": "公众号二维码"
-        },
-        {
-          "title": "年终汇报",
-          "type": "seasonal",
-          "searchQuery": "年终汇报",
-          "iconUrl": "https://static.canva.cn/icons/filter/pills_icon_annualreports.svg",
-          "newLine": true
-        },
-        {
-          "title": "圣诞节",
-          "type": "seasonal",
-          "searchQuery": "圣诞节",
-          "iconUrl": "https://static.canva.cn/icons/filter/pills_icon_Xmas.svg"
-        },
-        {
-          "title": "元旦节",
-          "type": "seasonal",
-          "searchQuery": "元旦节",
-          "iconUrl": "https://static.canva.cn/icons/filter/pills_icon_newyear.svg"
-        },
-        {
-          "title": "产品介绍",
-          "type": "scenario",
-          "searchQuery": "旅游 手机海报"
-        },
-        {
-          "title": "打折促销",
-          "type": "scenario",
-          "searchQuery": "旅游 促销"
-        },
-        {
-          "title": "国内游",
-          "type": "scenario",
-          "searchQuery": "国内旅游"
-        },
-        {
-          "title": "日韩游",
-          "type": "scenario",
-          "searchQuery": "日韩旅游"
-        },
-        {
-          "title": "欧美游",
-          "type": "scenario",
-          "searchQuery": "欧美旅游"
-        },
-        {
-          "title": "东南亚游",
-          "type": "scenario",
-          "searchQuery": "东南亚旅游"
-        }
-      ]
-    },
-    {
-      "title": "餐饮美食",
-      "subtitle": "活动海报，菜单，banner",
-      "key": "industry_food",
-      "thumbnail": "https://static.canva.cn/icons/onboarding/icon_food.svg",
-      "keyword": "餐饮海报",
-      "elevationAmount": 50,
-      "filters": [
-        {
-          "title": "手机海报",
-          "type": "category",
-          "categoryId": "tADLknyoHN8"
-        },
-        {
-          "title": "主图图标",
-          "type": "scenario",
-          "searchQuery": "主图图标 餐饮",
-          "elevationAmount": 40
-        },
-        {
-          "title": "LOGO",
-          "type": "category",
-          "categoryId": "tACZCuRXg6c"
-        },
-        {
-          "title": "菜单",
-          "type": "scenario",
-          "searchQuery": "菜单"
-        },
-        {
-          "title": "手机拼图",
-          "type": "scenario",
-          "searchQuery": "拼图 美食"
-        },
-        {
-          "title": "Banner",
-          "type": "scenario",
-          "searchQuery": "食品电商横幅"
-        },
-        {
-          "title": "视频相框",
-          "type": "scenario",
-          "searchQuery": "视频相框"
-        },
-        {
-          "title": "食谱",
-          "type": "scenario",
-          "searchQuery": "食谱"
-        },
-        {
-          "title": "年终汇报",
-          "type": "seasonal",
-          "searchQuery": "年终汇报",
-          "iconUrl": "https://static.canva.cn/icons/filter/pills_icon_annualreports.svg",
-          "newLine": true
-        },
-        {
-          "title": "圣诞节",
-          "type": "seasonal",
-          "searchQuery": "圣诞节",
-          "iconUrl": "https://static.canva.cn/icons/filter/pills_icon_Xmas.svg"
-        },
-        {
-          "title": "元旦节",
-          "type": "seasonal",
-          "searchQuery": "元旦节",
-          "iconUrl": "https://static.canva.cn/icons/filter/pills_icon_newyear.svg"
-        },
-        {
-          "title": "打折促销",
-          "type": "scenario",
-          "searchQuery": "美食 促销"
-        },
-        {
-          "title": "甜品饮品",
-          "type": "scenario",
-          "searchQuery": "甜品 饮品"
-        },
-        {
-          "title": "西餐轻食",
-          "type": "scenario",
-          "searchQuery": "西餐轻食"
-        },
-        {
-          "title": "中餐",
-          "type": "scenario",
-          "searchQuery": "中餐"
-        },
-        {
-          "title": "日料",
-          "type": "scenario",
-          "searchQuery": "日料 寿司 拉面"
-        },
-        {
-          "title": "咖啡酒吧",
-          "type": "scenario",
-          "searchQuery": "咖啡 奶茶 酒"
-        }
-      ]
-    }
-  ]
+      {
+        "title": "为你推荐",
+        "key": "industry_all",
+        "thumbnail": "",
+        "keyword": "",
+        "elevationAmount": 50,
+        "forSkipping": true,
+        "filters": [
+          {
+            "title": "为你推荐",
+            "type": "default",
+            "searchQuery": "今日推荐"
+          },
+          {
+            "title": "手机海报",
+            "type": "category",
+            "categoryId": "tADLknyoHN8"
+          },
+          {
+            "title": "朋友圈",
+            "type": "category",
+            "categoryId": "tACZCsjcdNc"
+          },
+          {
+            "title": "LOGO",
+            "type": "category",
+            "categoryId": "tACZCuRXg6c"
+          },
+          {
+            "title": "手机壁纸",
+            "type": "category",
+            "categoryId": "tACZClJxmXA"
+          },
+          {
+            "title": "手机邀请函",
+            "type": "category",
+            "categoryId": "tADLkp3DGdg"
+          },
+          {
+            "title": "微信公众号",
+            "type": "category",
+            "categoryId": "tACZCuOHSQA"
+          },
+          {
+            "title": "微信头像",
+            "type": "category",
+            "categoryId": "tADLkh16h9c"
+          },
+          {
+            "title": "视频相框",
+            "type": "category",
+            "categoryId": "tADLknv9gvY"
+          },
+          {
+            "title": "主图图标",
+            "type": "category",
+            "categoryId": "tADLkvRneDs"
+          },
+          {
+            "title": "年终汇报",
+            "type": "seasonal",
+            "searchQuery": "年终汇报",
+            "iconUrl": "https://static.canva.cn/icons/filter/pills_icon_annualreports.svg",
+            "newLine": true
+          },
+          {
+            "title": "圣诞节",
+            "type": "seasonal",
+            "searchQuery": "圣诞节",
+            "iconUrl": "https://static.canva.cn/icons/filter/pills_icon_Xmas.svg"
+          },
+          {
+            "title": "元旦节",
+            "type": "seasonal",
+            "searchQuery": "元旦节",
+            "iconUrl": "https://static.canva.cn/icons/filter/pills_icon_newyear.svg"
+          },
+          {
+            "title": "文化",
+            "type": "scenario",
+            "searchQuery": "文化娱乐"
+          },
+          {
+            "title": "教育",
+            "type": "scenario",
+            "searchQuery": "教育海报"
+          },
+          {
+            "title": "婚礼",
+            "type": "scenario",
+            "searchQuery": "其他行业婚礼"
+          },
+          {
+            "title": "校园",
+            "type": "scenario",
+            "searchQuery": "校园招聘"
+          },
+          {
+            "title": "美食",
+            "type": "scenario",
+            "searchQuery": "餐饮海报"
+          },
+          {
+            "title": "地产家居",
+            "type": "scenario",
+            "searchQuery": "其他行业地产家居"
+          },
+          {
+            "title": "公益",
+            "type": "scenario",
+            "searchQuery": "其他行业公益"
+          },
+          {
+            "title": "酒店旅游",
+            "type": "scenario",
+            "searchQuery": "酒店旅游"
+          }
+        ],
+        "carousels": [
+          {
+            "title": "手机海报",
+            "type": "category",
+            "categoryId": "tADLknyoHN8"
+          },
+          {
+            "title": "朋友圈",
+            "type": "category",
+            "categoryId": "tACZCsjcdNc"
+          },
+          {
+            "title": "LOGO",
+            "type": "category",
+            "categoryId": "tACZCuRXg6c"
+          },
+          {
+            "title": "手机壁纸",
+            "type": "category",
+            "categoryId": "tACZClJxmXA"
+          },
+          {
+            "title": "手机邀请函",
+            "type": "category",
+            "categoryId": "tADLkp3DGdg"
+          },
+          {
+            "title": "微信公众号",
+            "type": "category",
+            "categoryId": "tACZCuOHSQA"
+          },
+          {
+            "title": "微信头像",
+            "type": "category",
+            "categoryId": "tADLkh16h9c"
+          },
+          {
+            "title": "视频相框",
+            "type": "category",
+            "categoryId": "tADLknv9gvY"
+          },
+          {
+            "title": "主图图标",
+            "type": "category",
+            "categoryId": "tADLkvRneDs"
+          },
+          {
+            "title": "传单",
+            "type": "category",
+            "categoryId": "tACZCukkq3s"
+          },
+          {
+            "title": "名片",
+            "type": "category",
+            "categoryId": "tACZCiuHYm4"
+          },
+          {
+            "title": "贺卡",
+            "type": "category",
+            "categoryId": "tACZCnXe2Xo"
+          },
+          {
+            "title": "公告",
+            "type": "category",
+            "categoryId": "tACZCv5k8lI"
+          },
+          {
+            "title": "简报",
+            "type": "category",
+            "categoryId": "tACZCsI-e2w"
+          },
+          {
+            "title": "演示文稿",
+            "type": "category",
+            "categoryId": "tACZCpxuodA"
+          },
+          {
+            "title": "信息图表",
+            "type": "category",
+            "categoryId": "tACZCgGvwzA"
+          },
+          {
+            "title": "社交媒体",
+            "type": "category",
+            "categoryId": "tACZChjMuAE"
+          },
+          {
+            "title": "微信公众号二维码",
+            "type": "category",
+            "categoryId": "tACZCgYi6SA"
+          },
+          {
+            "title": "微博",
+            "type": "category",
+            "categoryId": "tACZCtadM2E"
+          },
+          {
+            "title": "微信公众号小图",
+            "type": "category",
+            "categoryId": "tADLkqDigy8"
+          },
+          {
+            "title": "微信朋友圈封面",
+            "type": "category",
+            "categoryId": "tADLkoxV7nI"
+          },
+          {
+            "title": "信纸",
+            "type": "category",
+            "categoryId": "tADLkl-bq_Q"
+          },
+          {
+            "title": "报告",
+            "type": "category",
+            "categoryId": "tADLkgXA15E"
+          },
+          {
+            "title": "书签",
+            "type": "category",
+            "categoryId": "tADLkt4ZGqQ"
+          },
+          {
+            "title": "目录页",
+            "type": "category",
+            "categoryId": "tADLksHBa1w"
+          },
+          {
+            "title": "活动封面",
+            "type": "category",
+            "categoryId": "tADLkvcS0s4"
+          },
+          {
+            "title": "优惠券",
+            "type": "category",
+            "categoryId": "tADLkjGmyJY"
+          },
+          {
+            "title": "易拉宝",
+            "type": "category",
+            "categoryId": "tADLknQU2hg"
+          },
+          {
+            "title": "手机壳",
+            "type": "category",
+            "categoryId": "tADLkvHE6jo"
+          },
+          {
+            "title": "抱枕",
+            "type": "category",
+            "categoryId": "tADLkv3Anjo"
+          },
+          {
+            "title": "帆布袋",
+            "type": "category",
+            "categoryId": "tADLkkw1wJ8"
+          },
+          {
+            "title": "T恤",
+            "type": "category",
+            "categoryId": "tADLkqRKcMs"
+          },
+          {
+            "title": "门票",
+            "type": "category",
+            "categoryId": "tADLkhheHOQ"
+          },
+          {
+            "title": "会员卡",
+            "type": "category",
+            "categoryId": "tADLkhOj1KY"
+          },
+          {
+            "title": "授权书",
+            "type": "category",
+            "categoryId": "tADLkt1KCVE"
+          },
+          {
+            "title": "工作证",
+            "type": "category",
+            "categoryId": "tADLkrDfqu0"
+          },
+          {
+            "title": "手机电商详情页",
+            "type": "category",
+            "categoryId": "tADlysA2YwM"
+          }
+        ]
+      },
+      {
+        "title": "个人生活",
+        "subtitle": "发朋友圈微博，分享日常",
+        "key": "industry_personal",
+        "thumbnail": "https://static.canva.cn/icons/onboarding/icon_personal.svg",
+        "keyword": "plog 微信朋友圈",
+        "elevationAmount": 50,
+        "filters": [
+          {
+            "title": "个人生活",
+            "type": "default",
+            "searchQuery": "plog 微信朋友圈"
+          },
+          {
+            "title": "朋友圈",
+            "type": "category",
+            "categoryId": "tACZCsjcdNc"
+          },
+          {
+            "title": "手机拼图",
+            "type": "category",
+            "categoryId": "tADLklHfs_Q"
+          },
+          {
+            "title": "手机海报",
+            "type": "scenario"
+          },
+          {
+            "title": "手机壁纸",
+            "type": "category",
+            "categoryId": "tACZClJxmXA"
+          },
+          {
+            "title": "微信头像",
+            "type": "category",
+            "categoryId": "tADLkh16h9c"
+          },
+          {
+            "title": "日签",
+            "type": "category",
+            "categoryId": "tADLkrjMJrI"
+          },
+          {
+            "title": "视频相框",
+            "type": "category",
+            "categoryId": "tADLknv9gvY"
+          },
+          {
+            "title": "视频封面",
+            "type": "category",
+            "categoryId": "tADLkiOZv3A"
+          },
+          {
+            "title": "手账",
+            "type": "scenario",
+            "searchQuery": "手账"
+          },
+          {
+            "title": "年终汇报",
+            "type": "seasonal",
+            "searchQuery": "年终汇报",
+            "iconUrl": "https://static.canva.cn/icons/filter/pills_icon_annualreports.svg",
+            "newLine": true
+          },
+          {
+            "title": "圣诞节",
+            "type": "seasonal",
+            "searchQuery": "圣诞节",
+            "iconUrl": "https://static.canva.cn/icons/filter/pills_icon_Xmas.svg"
+          },
+          {
+            "title": "元旦节",
+            "type": "seasonal",
+            "searchQuery": "元旦节",
+            "iconUrl": "https://static.canva.cn/icons/filter/pills_icon_newyear.svg"
+          },
+          {
+            "title": "美食",
+            "type": "scenario",
+            "searchQuery": "美食 Plog"
+          },
+          {
+            "title": "萌宠",
+            "type": "scenario",
+            "searchQuery": "萌宠 Plog"
+          },
+          {
+            "title": "旅行",
+            "type": "scenario",
+            "searchQuery": "旅行 Plog"
+          },
+          {
+            "title": "自拍",
+            "type": "scenario",
+            "searchQuery": "自拍 Plog"
+          },
+          {
+            "title": "天气",
+            "type": "scenario",
+            "searchQuery": "天气 Plog"
+          },
+          {
+            "title": "台词字幕",
+            "type": "scenario",
+            "searchQuery": "金句 朋友圈"
+          },
+          {
+            "title": "打卡",
+            "type": "scenario",
+            "searchQuery": "打卡 Plog"
+          },
+          {
+            "title": "穿搭美妆",
+            "type": "scenario",
+            "searchQuery": "穿搭 Plog"
+          }
+        ],
+        "carousels": [
+          {
+            "title": "朋友圈",
+            "type": "category",
+            "categoryId": "tACZCsjcdNc"
+          },
+          {
+            "title": "手机拼图",
+            "type": "category",
+            "categoryId": "tADLklHfs_Q"
+          },
+          {
+            "title": "手机海报",
+            "type": "scenario"
+          },
+          {
+            "title": "手机壁纸",
+            "type": "category",
+            "categoryId": "tACZClJxmXA"
+          },
+          {
+            "title": "微信头像",
+            "type": "category",
+            "categoryId": "tADLkh16h9c"
+          },
+          {
+            "title": "日签",
+            "type": "category",
+            "categoryId": "tADLkrjMJrI"
+          },
+          {
+            "title": "视频相框",
+            "type": "category",
+            "categoryId": "tADLknv9gvY"
+          },
+          {
+            "title": "视频封面",
+            "type": "category",
+            "categoryId": "tADLkiOZv3A"
+          },
+          {
+            "title": "手账",
+            "type": "scenario",
+            "searchQuery": "手账"
+          },
+          {
+            "title": "传单",
+            "type": "category",
+            "categoryId": "tACZCukkq3s"
+          },
+          {
+            "title": "名片",
+            "type": "category",
+            "categoryId": "tACZCiuHYm4"
+          },
+          {
+            "title": "贺卡",
+            "type": "category",
+            "categoryId": "tACZCnXe2Xo"
+          },
+          {
+            "title": "公告",
+            "type": "category",
+            "categoryId": "tACZCv5k8lI"
+          },
+          {
+            "title": "简报",
+            "type": "category",
+            "categoryId": "tACZCsI-e2w"
+          },
+          {
+            "title": "演示文稿",
+            "type": "category",
+            "categoryId": "tACZCpxuodA"
+          },
+          {
+            "title": "信息图表",
+            "type": "category",
+            "categoryId": "tACZCgGvwzA"
+          },
+          {
+            "title": "社交媒体",
+            "type": "category",
+            "categoryId": "tACZChjMuAE"
+          },
+          {
+            "title": "微信公众号二维码",
+            "type": "category",
+            "categoryId": "tACZCgYi6SA"
+          },
+          {
+            "title": "微博",
+            "type": "category",
+            "categoryId": "tACZCtadM2E"
+          },
+          {
+            "title": "微信公众号小图",
+            "type": "category",
+            "categoryId": "tADLkqDigy8"
+          },
+          {
+            "title": "微信朋友圈封面",
+            "type": "category",
+            "categoryId": "tADLkoxV7nI"
+          },
+          {
+            "title": "信纸",
+            "type": "category",
+            "categoryId": "tADLkl-bq_Q"
+          },
+          {
+            "title": "报告",
+            "type": "category",
+            "categoryId": "tADLkgXA15E"
+          },
+          {
+            "title": "书签",
+            "type": "category",
+            "categoryId": "tADLkt4ZGqQ"
+          },
+          {
+            "title": "目录页",
+            "type": "category",
+            "categoryId": "tADLksHBa1w"
+          },
+          {
+            "title": "活动封面",
+            "type": "category",
+            "categoryId": "tADLkvcS0s4"
+          },
+          {
+            "title": "优惠券",
+            "type": "category",
+            "categoryId": "tADLkjGmyJY"
+          },
+          {
+            "title": "易拉宝",
+            "type": "category",
+            "categoryId": "tADLknQU2hg"
+          },
+          {
+            "title": "手机壳",
+            "type": "category",
+            "categoryId": "tADLkvHE6jo"
+          },
+          {
+            "title": "抱枕",
+            "type": "category",
+            "categoryId": "tADLkv3Anjo"
+          },
+          {
+            "title": "帆布袋",
+            "type": "category",
+            "categoryId": "tADLkkw1wJ8"
+          },
+          {
+            "title": "T恤",
+            "type": "category",
+            "categoryId": "tADLkqRKcMs"
+          },
+          {
+            "title": "门票",
+            "type": "category",
+            "categoryId": "tADLkhheHOQ"
+          },
+          {
+            "title": "会员卡",
+            "type": "category",
+            "categoryId": "tADLkhOj1KY"
+          },
+          {
+            "title": "授权书",
+            "type": "category",
+            "categoryId": "tADLkt1KCVE"
+          },
+          {
+            "title": "工作证",
+            "type": "category",
+            "categoryId": "tADLkrDfqu0"
+          },
+          {
+            "title": "手机电商详情页",
+            "type": "category",
+            "categoryId": "tADlysA2YwM"
+          }
+        ]
+      },
+      {
+        "title": "文化娱乐",
+        "subtitle": "电影，音乐，艺术活动宣传",
+        "key": "industry_culture",
+        "thumbnail": "https://static.canva.cn/icons/onboarding/icon_culture.svg",
+        "keyword": "文化娱乐",
+        "elevationAmount": 50,
+        "filters": [
+          {
+            "title": "文化娱乐",
+            "type": "default",
+            "searchQuery": "文化娱乐"
+          },
+          {
+            "title": "手机海报",
+            "type": "category",
+            "categoryId": "tADLknyoHN8",
+            "searchQuery": "文化"
+          },
+          {
+            "title": "朋友圈",
+            "type": "category",
+            "categoryId": "tACZCsjcdNc"
+          },
+          {
+            "title": "手机名片",
+            "type": "category",
+            "categoryId": "tACZCgZJUBc"
+          },
+          {
+            "title": "LOGO",
+            "type": "category",
+            "categoryId": "tACZCuRXg6c",
+            "searchQuery": "文化"
+          },
+          {
+            "title": "书籍封面",
+            "type": "category",
+            "categoryId": "tADLkjBUkx8"
+          },
+          {
+            "title": "CD封面",
+            "type": "category",
+            "categoryId": "tADLkiOV9u8"
+          },
+          {
+            "title": "视频相框",
+            "type": "category",
+            "categoryId": "tADLknv9gvY"
+          },
+          {
+            "title": "视频封面",
+            "type": "category",
+            "categoryId": "tADLkiOZv3A"
+          },
+          {
+            "title": "榜单",
+            "type": "scenario",
+            "searchQuery": "榜单"
+          },
+          {
+            "title": "年终汇报",
+            "type": "seasonal",
+            "searchQuery": "年终汇报",
+            "iconUrl": "https://static.canva.cn/icons/filter/pills_icon_annualreports.svg",
+            "newLine": true
+          },
+          {
+            "title": "圣诞节",
+            "type": "seasonal",
+            "searchQuery": "圣诞节",
+            "iconUrl": "https://static.canva.cn/icons/filter/pills_icon_Xmas.svg"
+          },
+          {
+            "title": "元旦节",
+            "type": "seasonal",
+            "searchQuery": "元旦节",
+            "iconUrl": "https://static.canva.cn/icons/filter/pills_icon_newyear.svg"
+          },
+          {
+            "title": "电影",
+            "type": "scenario",
+            "searchQuery": "文化娱乐 电影"
+          },
+          {
+            "title": "音乐",
+            "type": "scenario",
+            "searchQuery": "文化娱乐 音乐"
+          },
+          {
+            "title": "中国文化",
+            "type": "scenario",
+            "searchQuery": "中国文化"
+          },
+          {
+            "title": "摄影",
+            "type": "scenario",
+            "searchQuery": "文化娱乐 摄影"
+          },
+          {
+            "title": "展览活动",
+            "type": "scenario",
+            "searchQuery": "文化娱乐 展览"
+          }
+        ],
+        "carousels": [
+          {
+            "title": "手机海报",
+            "type": "category",
+            "categoryId": "tADLknyoHN8",
+            "searchQuery": "文化"
+          },
+          {
+            "title": "朋友圈",
+            "type": "category",
+            "categoryId": "tACZCsjcdNc"
+          },
+          {
+            "title": "手机名片",
+            "type": "category",
+            "categoryId": "tACZCgZJUBc"
+          },
+          {
+            "title": "LOGO",
+            "type": "category",
+            "categoryId": "tACZCuRXg6c",
+            "searchQuery": "文化"
+          },
+          {
+            "title": "书籍封面",
+            "type": "category",
+            "categoryId": "tADLkjBUkx8"
+          },
+          {
+            "title": "CD封面",
+            "type": "category",
+            "categoryId": "tADLkiOV9u8"
+          },
+          {
+            "title": "视频相框",
+            "type": "category",
+            "categoryId": "tADLknv9gvY"
+          },
+          {
+            "title": "视频封面",
+            "type": "category",
+            "categoryId": "tADLkiOZv3A"
+          },
+          {
+            "title": "榜单",
+            "type": "scenario",
+            "searchQuery": "榜单"
+          },
+          {
+            "title": "传单",
+            "type": "category",
+            "categoryId": "tACZCukkq3s"
+          },
+          {
+            "title": "名片",
+            "type": "category",
+            "categoryId": "tACZCiuHYm4"
+          },
+          {
+            "title": "贺卡",
+            "type": "category",
+            "categoryId": "tACZCnXe2Xo"
+          },
+          {
+            "title": "公告",
+            "type": "category",
+            "categoryId": "tACZCv5k8lI"
+          },
+          {
+            "title": "简报",
+            "type": "category",
+            "categoryId": "tACZCsI-e2w"
+          },
+          {
+            "title": "演示文稿",
+            "type": "category",
+            "categoryId": "tACZCpxuodA"
+          },
+          {
+            "title": "信息图表",
+            "type": "category",
+            "categoryId": "tACZCgGvwzA"
+          },
+          {
+            "title": "社交媒体",
+            "type": "category",
+            "categoryId": "tACZChjMuAE"
+          },
+          {
+            "title": "微信公众号二维码",
+            "type": "category",
+            "categoryId": "tACZCgYi6SA"
+          },
+          {
+            "title": "微博",
+            "type": "category",
+            "categoryId": "tACZCtadM2E"
+          },
+          {
+            "title": "微信公众号小图",
+            "type": "category",
+            "categoryId": "tADLkqDigy8"
+          },
+          {
+            "title": "微信朋友圈封面",
+            "type": "category",
+            "categoryId": "tADLkoxV7nI"
+          },
+          {
+            "title": "信纸",
+            "type": "category",
+            "categoryId": "tADLkl-bq_Q"
+          },
+          {
+            "title": "报告",
+            "type": "category",
+            "categoryId": "tADLkgXA15E"
+          },
+          {
+            "title": "书签",
+            "type": "category",
+            "categoryId": "tADLkt4ZGqQ"
+          },
+          {
+            "title": "目录页",
+            "type": "category",
+            "categoryId": "tADLksHBa1w"
+          },
+          {
+            "title": "活动封面",
+            "type": "category",
+            "categoryId": "tADLkvcS0s4"
+          },
+          {
+            "title": "优惠券",
+            "type": "category",
+            "categoryId": "tADLkjGmyJY"
+          },
+          {
+            "title": "易拉宝",
+            "type": "category",
+            "categoryId": "tADLknQU2hg"
+          },
+          {
+            "title": "手机壳",
+            "type": "category",
+            "categoryId": "tADLkvHE6jo"
+          },
+          {
+            "title": "抱枕",
+            "type": "category",
+            "categoryId": "tADLkv3Anjo"
+          },
+          {
+            "title": "帆布袋",
+            "type": "category",
+            "categoryId": "tADLkkw1wJ8"
+          },
+          {
+            "title": "T恤",
+            "type": "category",
+            "categoryId": "tADLkqRKcMs"
+          },
+          {
+            "title": "门票",
+            "type": "category",
+            "categoryId": "tADLkhheHOQ"
+          },
+          {
+            "title": "会员卡",
+            "type": "category",
+            "categoryId": "tADLkhOj1KY"
+          },
+          {
+            "title": "授权书",
+            "type": "category",
+            "categoryId": "tADLkt1KCVE"
+          },
+          {
+            "title": "工作证",
+            "type": "category",
+            "categoryId": "tADLkrDfqu0"
+          },
+          {
+            "title": "手机电商详情页",
+            "type": "category",
+            "categoryId": "tADlysA2YwM"
+          }
+        ]
+      },
+      {
+        "title": "校园活动",
+        "subtitle": "大学生社团，讲座，招聘",
+        "key": "industry_campus",
+        "thumbnail": "https://static.canva.cn/icons/onboarding/icon_campus.svg",
+        "keyword": "校园",
+        "elevationAmount": 50,
+        "filters": [
+          {
+            "title": "校园活动",
+            "type": "default",
+            "searchQuery": "校园"
+          },
+          {
+            "title": "手机海报",
+            "type": "category",
+            "categoryId": "tADLknyoHN8",
+            "searchQuery": "校园"
+          },
+          {
+            "title": "朋友圈",
+            "type": "category",
+            "categoryId": "tACZCsjcdNc"
+          },
+          {
+            "title": "插画",
+            "type": "category",
+            "categoryId": "tADLkho7Feo"
+          },
+          {
+            "title": "手机壁纸",
+            "type": "category",
+            "categoryId": "tACZClJxmXA"
+          },
+          {
+            "title": "课程表",
+            "type": "category",
+            "categoryId": "tADLkglC62c"
+          },
+          {
+            "title": "日签",
+            "type": "category",
+            "categoryId": "tADLkrjMJrI"
+          },
+          {
+            "title": "手机拼图",
+            "type": "category",
+            "categoryId": "tADLklHfs_Q"
+          },
+          {
+            "title": "视频相框",
+            "type": "category",
+            "categoryId": "tADLknv9gvY"
+          },
+          {
+            "title": "LOGO",
+            "type": "scenario",
+            "searchQuery": "校园 logo"
+          },
+          {
+            "title": "年终汇报",
+            "type": "seasonal",
+            "searchQuery": "年终汇报",
+            "iconUrl": "https://static.canva.cn/icons/filter/pills_icon_annualreports.svg",
+            "newLine": true
+          },
+          {
+            "title": "圣诞节",
+            "type": "seasonal",
+            "searchQuery": "圣诞节",
+            "iconUrl": "https://static.canva.cn/icons/filter/pills_icon_Xmas.svg"
+          },
+          {
+            "title": "元旦节",
+            "type": "seasonal",
+            "searchQuery": "元旦节",
+            "iconUrl": "https://static.canva.cn/icons/filter/pills_icon_newyear.svg"
+          },
+          {
+            "title": "招新",
+            "type": "scenario",
+            "searchQuery": "校园招新"
+          },
+          {
+            "title": "社团宣传",
+            "type": "scenario",
+            "searchQuery": "社团宣传"
+          },
+          {
+            "title": "活动讲座",
+            "type": "scenario",
+            "searchQuery": "校园活动讲座"
+          },
+          {
+            "title": "校园招聘",
+            "type": "scenario",
+            "searchQuery": "校园招聘"
+          },
+          {
+            "title": "生活分享",
+            "type": "scenario",
+            "searchQuery": "生活分享"
+          },
+          {
+            "title": "打卡",
+            "type": "scenario",
+            "searchQuery": "打卡"
+          }
+        ],
+        "carousels": [
+          {
+            "title": "手机海报",
+            "type": "category",
+            "categoryId": "tADLknyoHN8",
+            "searchQuery": "校园"
+          },
+          {
+            "title": "朋友圈",
+            "type": "category",
+            "categoryId": "tACZCsjcdNc"
+          },
+          {
+            "title": "插画",
+            "type": "category",
+            "categoryId": "tADLkho7Feo"
+          },
+          {
+            "title": "手机壁纸",
+            "type": "category",
+            "categoryId": "tACZClJxmXA"
+          },
+          {
+            "title": "课程表",
+            "type": "category",
+            "categoryId": "tADLkglC62c"
+          },
+          {
+            "title": "日签",
+            "type": "category",
+            "categoryId": "tADLkrjMJrI"
+          },
+          {
+            "title": "手机拼图",
+            "type": "category",
+            "categoryId": "tADLklHfs_Q"
+          },
+          {
+            "title": "视频相框",
+            "type": "category",
+            "categoryId": "tADLknv9gvY"
+          },
+          {
+            "title": "LOGO",
+            "type": "scenario",
+            "searchQuery": "校园 logo"
+          },
+          {
+            "title": "传单",
+            "type": "category",
+            "categoryId": "tACZCukkq3s"
+          },
+          {
+            "title": "名片",
+            "type": "category",
+            "categoryId": "tACZCiuHYm4"
+          },
+          {
+            "title": "贺卡",
+            "type": "category",
+            "categoryId": "tACZCnXe2Xo"
+          },
+          {
+            "title": "公告",
+            "type": "category",
+            "categoryId": "tACZCv5k8lI"
+          },
+          {
+            "title": "简报",
+            "type": "category",
+            "categoryId": "tACZCsI-e2w"
+          },
+          {
+            "title": "演示文稿",
+            "type": "category",
+            "categoryId": "tACZCpxuodA"
+          },
+          {
+            "title": "信息图表",
+            "type": "category",
+            "categoryId": "tACZCgGvwzA"
+          },
+          {
+            "title": "社交媒体",
+            "type": "category",
+            "categoryId": "tACZChjMuAE"
+          },
+          {
+            "title": "微信公众号二维码",
+            "type": "category",
+            "categoryId": "tACZCgYi6SA"
+          },
+          {
+            "title": "微博",
+            "type": "category",
+            "categoryId": "tACZCtadM2E"
+          },
+          {
+            "title": "微信公众号小图",
+            "type": "category",
+            "categoryId": "tADLkqDigy8"
+          },
+          {
+            "title": "微信朋友圈封面",
+            "type": "category",
+            "categoryId": "tADLkoxV7nI"
+          },
+          {
+            "title": "信纸",
+            "type": "category",
+            "categoryId": "tADLkl-bq_Q"
+          },
+          {
+            "title": "报告",
+            "type": "category",
+            "categoryId": "tADLkgXA15E"
+          },
+          {
+            "title": "书签",
+            "type": "category",
+            "categoryId": "tADLkt4ZGqQ"
+          },
+          {
+            "title": "目录页",
+            "type": "category",
+            "categoryId": "tADLksHBa1w"
+          },
+          {
+            "title": "活动封面",
+            "type": "category",
+            "categoryId": "tADLkvcS0s4"
+          },
+          {
+            "title": "优惠券",
+            "type": "category",
+            "categoryId": "tADLkjGmyJY"
+          },
+          {
+            "title": "易拉宝",
+            "type": "category",
+            "categoryId": "tADLknQU2hg"
+          },
+          {
+            "title": "手机壳",
+            "type": "category",
+            "categoryId": "tADLkvHE6jo"
+          },
+          {
+            "title": "抱枕",
+            "type": "category",
+            "categoryId": "tADLkv3Anjo"
+          },
+          {
+            "title": "帆布袋",
+            "type": "category",
+            "categoryId": "tADLkkw1wJ8"
+          },
+          {
+            "title": "T恤",
+            "type": "category",
+            "categoryId": "tADLkqRKcMs"
+          },
+          {
+            "title": "门票",
+            "type": "category",
+            "categoryId": "tADLkhheHOQ"
+          },
+          {
+            "title": "会员卡",
+            "type": "category",
+            "categoryId": "tADLkhOj1KY"
+          },
+          {
+            "title": "授权书",
+            "type": "category",
+            "categoryId": "tADLkt1KCVE"
+          },
+          {
+            "title": "工作证",
+            "type": "category",
+            "categoryId": "tADLkrDfqu0"
+          },
+          {
+            "title": "手机电商详情页",
+            "type": "category",
+            "categoryId": "tADlysA2YwM"
+          }
+        ]
+      },
+      {
+        "title": "教育培训",
+        "subtitle": "线上线下课程，少儿成人培训",
+        "key": "industry_education",
+        "thumbnail": "https://static.canva.cn/icons/onboarding/icon_education.svg",
+        "keyword": "教育海报",
+        "elevationAmount": 50,
+        "filters": [
+          {
+            "title": "教育培训",
+            "type": "default",
+            "searchQuery": "教育海报"
+          },
+          {
+            "title": "手机海报",
+            "type": "category",
+            "categoryId": "tADLknyoHN8",
+            "searchQuery": "教育"
+          },
+          {
+            "title": "奖状",
+            "type": "category",
+            "categoryId": "tADLkgronC0"
+          },
+          {
+            "title": "手机拼图",
+            "type": "category",
+            "categoryId": "tADLklHfs_Q"
+          },
+          {
+            "title": "LOGO",
+            "type": "category",
+            "categoryId": "tACZCuRXg6c",
+            "searchQuery": "教育"
+          },
+          {
+            "title": "手机名片",
+            "type": "category",
+            "categoryId": "tACZCgZJUBc"
+          },
+          {
+            "title": "邀请函",
+            "type": "scenario",
+            "searchQuery": "教育 邀请函"
+          },
+          {
+            "title": "成绩反馈表",
+            "type": "category",
+            "categoryId": "tADLkiP-7jo"
+          },
+          {
+            "title": "座次表",
+            "type": "category",
+            "categoryId": "tADLks_286Y"
+          },
+          {
+            "title": "信纸",
+            "type": "category",
+            "categoryId": "tADLkl-bq_Q"
+          },
+          {
+            "title": "年终汇报",
+            "type": "seasonal",
+            "searchQuery": "年终汇报",
+            "iconUrl": "https://static.canva.cn/icons/filter/pills_icon_annualreports.svg",
+            "newLine": true
+          },
+          {
+            "title": "圣诞节",
+            "type": "seasonal",
+            "searchQuery": "圣诞节",
+            "iconUrl": "https://static.canva.cn/icons/filter/pills_icon_Xmas.svg"
+          },
+          {
+            "title": "元旦节",
+            "type": "seasonal",
+            "searchQuery": "元旦节",
+            "iconUrl": "https://static.canva.cn/icons/filter/pills_icon_newyear.svg"
+          },
+          {
+            "title": "招生",
+            "type": "scenario",
+            "searchQuery": "招生手机海报"
+          },
+          {
+            "title": "职场技能",
+            "type": "scenario",
+            "searchQuery": "网课培训"
+          },
+          {
+            "title": "考研高考",
+            "type": "scenario",
+            "searchQuery": "考研高考"
+          },
+          {
+            "title": "少儿培训",
+            "type": "scenario",
+            "searchQuery": "少儿培训"
+          },
+          {
+            "title": "兴趣培训",
+            "type": "scenario",
+            "searchQuery": "兴趣班"
+          },
+          {
+            "title": "成绩排名",
+            "type": "scenario",
+            "searchQuery": "成绩",
+            "elevationAmount": 20
+          },
+          {
+            "title": "倒计时",
+            "type": "scenario",
+            "searchQuery": "高考倒计时"
+          }
+        ],
+        "carousels": [
+          {
+            "title": "手机海报",
+            "type": "category",
+            "categoryId": "tADLknyoHN8",
+            "searchQuery": "教育"
+          },
+          {
+            "title": "奖状",
+            "type": "category",
+            "categoryId": "tADLkgronC0"
+          },
+          {
+            "title": "手机拼图",
+            "type": "category",
+            "categoryId": "tADLklHfs_Q"
+          },
+          {
+            "title": "LOGO",
+            "type": "category",
+            "categoryId": "tACZCuRXg6c",
+            "searchQuery": "教育"
+          },
+          {
+            "title": "手机名片",
+            "type": "category",
+            "categoryId": "tACZCgZJUBc"
+          },
+          {
+            "title": "邀请函",
+            "type": "scenario",
+            "searchQuery": "教育 邀请函"
+          },
+          {
+            "title": "成绩反馈表",
+            "type": "category",
+            "categoryId": "tADLkiP-7jo"
+          },
+          {
+            "title": "座次表",
+            "type": "category",
+            "categoryId": "tADLks_286Y"
+          },
+          {
+            "title": "信纸",
+            "type": "category",
+            "categoryId": "tADLkl-bq_Q"
+          },
+          {
+            "title": "传单",
+            "type": "category",
+            "categoryId": "tACZCukkq3s"
+          },
+          {
+            "title": "名片",
+            "type": "category",
+            "categoryId": "tACZCiuHYm4"
+          },
+          {
+            "title": "贺卡",
+            "type": "category",
+            "categoryId": "tACZCnXe2Xo"
+          },
+          {
+            "title": "公告",
+            "type": "category",
+            "categoryId": "tACZCv5k8lI"
+          },
+          {
+            "title": "简报",
+            "type": "category",
+            "categoryId": "tACZCsI-e2w"
+          },
+          {
+            "title": "演示文稿",
+            "type": "category",
+            "categoryId": "tACZCpxuodA"
+          },
+          {
+            "title": "信息图表",
+            "type": "category",
+            "categoryId": "tACZCgGvwzA"
+          },
+          {
+            "title": "社交媒体",
+            "type": "category",
+            "categoryId": "tACZChjMuAE"
+          },
+          {
+            "title": "微信公众号二维码",
+            "type": "category",
+            "categoryId": "tACZCgYi6SA"
+          },
+          {
+            "title": "微博",
+            "type": "category",
+            "categoryId": "tACZCtadM2E"
+          },
+          {
+            "title": "微信公众号小图",
+            "type": "category",
+            "categoryId": "tADLkqDigy8"
+          },
+          {
+            "title": "微信朋友圈封面",
+            "type": "category",
+            "categoryId": "tADLkoxV7nI"
+          },
+          {
+            "title": "信纸",
+            "type": "category",
+            "categoryId": "tADLkl-bq_Q"
+          },
+          {
+            "title": "报告",
+            "type": "category",
+            "categoryId": "tADLkgXA15E"
+          },
+          {
+            "title": "书签",
+            "type": "category",
+            "categoryId": "tADLkt4ZGqQ"
+          },
+          {
+            "title": "目录页",
+            "type": "category",
+            "categoryId": "tADLksHBa1w"
+          },
+          {
+            "title": "活动封面",
+            "type": "category",
+            "categoryId": "tADLkvcS0s4"
+          },
+          {
+            "title": "优惠券",
+            "type": "category",
+            "categoryId": "tADLkjGmyJY"
+          },
+          {
+            "title": "易拉宝",
+            "type": "category",
+            "categoryId": "tADLknQU2hg"
+          },
+          {
+            "title": "手机壳",
+            "type": "category",
+            "categoryId": "tADLkvHE6jo"
+          },
+          {
+            "title": "抱枕",
+            "type": "category",
+            "categoryId": "tADLkv3Anjo"
+          },
+          {
+            "title": "帆布袋",
+            "type": "category",
+            "categoryId": "tADLkkw1wJ8"
+          },
+          {
+            "title": "T恤",
+            "type": "category",
+            "categoryId": "tADLkqRKcMs"
+          },
+          {
+            "title": "门票",
+            "type": "category",
+            "categoryId": "tADLkhheHOQ"
+          },
+          {
+            "title": "会员卡",
+            "type": "category",
+            "categoryId": "tADLkhOj1KY"
+          },
+          {
+            "title": "授权书",
+            "type": "category",
+            "categoryId": "tADLkt1KCVE"
+          },
+          {
+            "title": "工作证",
+            "type": "category",
+            "categoryId": "tADLkrDfqu0"
+          },
+          {
+            "title": "手机电商详情页",
+            "type": "category",
+            "categoryId": "tADlysA2YwM"
+          }
+        ]
+      },
+      {
+        "title": "酒店旅游",
+        "subtitle": "旅游产品宣传，介绍",
+        "key": "industry_travel",
+        "thumbnail": "https://static.canva.cn/icons/onboarding/icon_travel.svg",
+        "keyword": "酒店旅游",
+        "elevationAmount": 50,
+        "filters": [
+          {
+            "title": "酒店旅游",
+            "type": "default",
+            "searchQuery": "酒店旅游"
+          },
+          {
+            "title": "手机海报",
+            "type": "category",
+            "categoryId": "tADLknyoHN8",
+            "searchQuery": "旅游"
+          },
+          {
+            "title": "手机拼图",
+            "type": "category",
+            "categoryId": "tADLklHfs_Q",
+            "searchQuery": "旅行"
+          },
+          {
+            "title": "LOGO",
+            "type": "category",
+            "categoryId": "tACZCuRXg6c",
+            "searchQuery": "旅游"
+          },
+          {
+            "title": "朋友圈",
+            "type": "category",
+            "categoryId": "tACZCsjcdNc",
+            "searchQuery": "旅游"
+          },
+          {
+            "title": "邀请函",
+            "type": "scenario",
+            "searchQuery": "邀请函 旅行"
+          },
+          {
+            "title": "日签",
+            "type": "category",
+            "categoryId": "tADLkrjMJrI"
+          },
+          {
+            "title": "视频封面",
+            "type": "category",
+            "categoryId": "tADLkiOZv3A"
+          },
+          {
+            "title": "视频相框",
+            "type": "category",
+            "categoryId": "tADLknv9gvY"
+          },
+          {
+            "title": "二维码",
+            "type": "category",
+            "categoryId": "tACZCgYi6SA"
+          },
+          {
+            "title": "年终汇报",
+            "type": "seasonal",
+            "searchQuery": "年终汇报",
+            "iconUrl": "https://static.canva.cn/icons/filter/pills_icon_annualreports.svg",
+            "newLine": true
+          },
+          {
+            "title": "圣诞节",
+            "type": "seasonal",
+            "searchQuery": "圣诞节",
+            "iconUrl": "https://static.canva.cn/icons/filter/pills_icon_Xmas.svg"
+          },
+          {
+            "title": "元旦节",
+            "type": "seasonal",
+            "searchQuery": "元旦节",
+            "iconUrl": "https://static.canva.cn/icons/filter/pills_icon_newyear.svg"
+          },
+          {
+            "title": "产品介绍",
+            "type": "scenario",
+            "searchQuery": "旅游 手机海报"
+          },
+          {
+            "title": "打折促销",
+            "type": "scenario",
+            "searchQuery": "旅游 促销"
+          },
+          {
+            "title": "国内游",
+            "type": "scenario",
+            "searchQuery": "国内旅游"
+          },
+          {
+            "title": "日韩游",
+            "type": "scenario",
+            "searchQuery": "日韩旅游"
+          },
+          {
+            "title": "欧美游",
+            "type": "scenario",
+            "searchQuery": "欧美旅游"
+          },
+          {
+            "title": "东南亚游",
+            "type": "scenario",
+            "searchQuery": "东南亚旅游"
+          }
+        ],
+        "carousels": [
+          {
+            "title": "手机海报",
+            "type": "category",
+            "categoryId": "tADLknyoHN8",
+            "searchQuery": "旅游"
+          },
+          {
+            "title": "手机拼图",
+            "type": "category",
+            "categoryId": "tADLklHfs_Q",
+            "searchQuery": "旅行"
+          },
+          {
+            "title": "LOGO",
+            "type": "category",
+            "categoryId": "tACZCuRXg6c",
+            "searchQuery": "旅游"
+          },
+          {
+            "title": "朋友圈",
+            "type": "category",
+            "categoryId": "tACZCsjcdNc",
+            "searchQuery": "旅游"
+          },
+          {
+            "title": "邀请函",
+            "type": "scenario",
+            "searchQuery": "邀请函 旅行"
+          },
+          {
+            "title": "日签",
+            "type": "category",
+            "categoryId": "tADLkrjMJrI"
+          },
+          {
+            "title": "视频封面",
+            "type": "category",
+            "categoryId": "tADLkiOZv3A"
+          },
+          {
+            "title": "视频相框",
+            "type": "category",
+            "categoryId": "tADLknv9gvY"
+          },
+          {
+            "title": "二维码",
+            "type": "category",
+            "categoryId": "tACZCgYi6SA"
+          },
+          {
+            "title": "传单",
+            "type": "category",
+            "categoryId": "tACZCukkq3s"
+          },
+          {
+            "title": "名片",
+            "type": "category",
+            "categoryId": "tACZCiuHYm4"
+          },
+          {
+            "title": "贺卡",
+            "type": "category",
+            "categoryId": "tACZCnXe2Xo"
+          },
+          {
+            "title": "公告",
+            "type": "category",
+            "categoryId": "tACZCv5k8lI"
+          },
+          {
+            "title": "简报",
+            "type": "category",
+            "categoryId": "tACZCsI-e2w"
+          },
+          {
+            "title": "演示文稿",
+            "type": "category",
+            "categoryId": "tACZCpxuodA"
+          },
+          {
+            "title": "信息图表",
+            "type": "category",
+            "categoryId": "tACZCgGvwzA"
+          },
+          {
+            "title": "社交媒体",
+            "type": "category",
+            "categoryId": "tACZChjMuAE"
+          },
+          {
+            "title": "微信公众号二维码",
+            "type": "category",
+            "categoryId": "tACZCgYi6SA"
+          },
+          {
+            "title": "微博",
+            "type": "category",
+            "categoryId": "tACZCtadM2E"
+          },
+          {
+            "title": "微信公众号小图",
+            "type": "category",
+            "categoryId": "tADLkqDigy8"
+          },
+          {
+            "title": "微信朋友圈封面",
+            "type": "category",
+            "categoryId": "tADLkoxV7nI"
+          },
+          {
+            "title": "信纸",
+            "type": "category",
+            "categoryId": "tADLkl-bq_Q"
+          },
+          {
+            "title": "报告",
+            "type": "category",
+            "categoryId": "tADLkgXA15E"
+          },
+          {
+            "title": "书签",
+            "type": "category",
+            "categoryId": "tADLkt4ZGqQ"
+          },
+          {
+            "title": "目录页",
+            "type": "category",
+            "categoryId": "tADLksHBa1w"
+          },
+          {
+            "title": "活动封面",
+            "type": "category",
+            "categoryId": "tADLkvcS0s4"
+          },
+          {
+            "title": "优惠券",
+            "type": "category",
+            "categoryId": "tADLkjGmyJY"
+          },
+          {
+            "title": "易拉宝",
+            "type": "category",
+            "categoryId": "tADLknQU2hg"
+          },
+          {
+            "title": "手机壳",
+            "type": "category",
+            "categoryId": "tADLkvHE6jo"
+          },
+          {
+            "title": "抱枕",
+            "type": "category",
+            "categoryId": "tADLkv3Anjo"
+          },
+          {
+            "title": "帆布袋",
+            "type": "category",
+            "categoryId": "tADLkkw1wJ8"
+          },
+          {
+            "title": "T恤",
+            "type": "category",
+            "categoryId": "tADLkqRKcMs"
+          },
+          {
+            "title": "门票",
+            "type": "category",
+            "categoryId": "tADLkhheHOQ"
+          },
+          {
+            "title": "会员卡",
+            "type": "category",
+            "categoryId": "tADLkhOj1KY"
+          },
+          {
+            "title": "授权书",
+            "type": "category",
+            "categoryId": "tADLkt1KCVE"
+          },
+          {
+            "title": "工作证",
+            "type": "category",
+            "categoryId": "tADLkrDfqu0"
+          },
+          {
+            "title": "手机电商详情页",
+            "type": "category",
+            "categoryId": "tADlysA2YwM"
+          }
+        ]
+      },
+      {
+        "title": "餐饮美食",
+        "subtitle": "活动海报，菜单，banner",
+        "key": "industry_food",
+        "thumbnail": "https://static.canva.cn/icons/onboarding/icon_food.svg",
+        "keyword": "餐饮海报",
+        "elevationAmount": 50,
+        "filters": [
+          {
+            "title": "餐饮",
+            "type": "default",
+            "searchQuery": "餐饮海报"
+          },
+          {
+            "title": "手机海报",
+            "type": "category",
+            "categoryId": "tADLknyoHN8",
+            "searchQuery": "餐饮"
+          },
+          {
+            "title": "主图图标",
+            "type": "category",
+            "categoryId": "tADLkvRneDs",
+            "searchQuery": "餐饮"
+          },
+          {
+            "title": "LOGO",
+            "type": "category",
+            "categoryId": "tACZCuRXg6c",
+            "searchQuery": "餐饮"
+          },
+          {
+            "title": "菜单",
+            "type": "category",
+            "categoryId": "tACZCn2DEzY"
+          },
+          {
+            "title": "手机拼图",
+            "type": "scenario",
+            "searchQuery": "拼图 美食"
+          },
+          {
+            "title": "Banner",
+            "type": "scenario",
+            "searchQuery": "食品电商banner"
+          },
+          {
+            "title": "视频相框",
+            "type": "category",
+            "categoryId": "tADLknv9gvY"
+          },
+          {
+            "title": "食谱",
+            "type": "category",
+            "categoryId": "tADLktXAikQ"
+          },
+          {
+            "title": "年终汇报",
+            "type": "seasonal",
+            "searchQuery": "年终汇报",
+            "iconUrl": "https://static.canva.cn/icons/filter/pills_icon_annualreports.svg",
+            "newLine": true
+          },
+          {
+            "title": "圣诞节",
+            "type": "seasonal",
+            "searchQuery": "圣诞节",
+            "iconUrl": "https://static.canva.cn/icons/filter/pills_icon_Xmas.svg"
+          },
+          {
+            "title": "元旦节",
+            "type": "seasonal",
+            "searchQuery": "元旦节",
+            "iconUrl": "https://static.canva.cn/icons/filter/pills_icon_newyear.svg"
+          },
+          {
+            "title": "打折促销",
+            "type": "scenario",
+            "searchQuery": "美食 促销"
+          },
+          {
+            "title": "甜品饮品",
+            "type": "scenario",
+            "searchQuery": "甜品 饮品"
+          },
+          {
+            "title": "西餐轻食",
+            "type": "scenario",
+            "searchQuery": "西餐轻食"
+          },
+          {
+            "title": "中餐",
+            "type": "scenario",
+            "searchQuery": "中餐"
+          },
+          {
+            "title": "日料",
+            "type": "scenario",
+            "searchQuery": "日料 寿司 拉面"
+          },
+          {
+            "title": "咖啡酒吧",
+            "type": "scenario",
+            "searchQuery": "咖啡 奶茶 酒"
+          }
+        ],
+        "carousels": [
+          {
+            "title": "手机海报",
+            "type": "category",
+            "categoryId": "tADLknyoHN8",
+            "searchQuery": "餐饮"
+          },
+          {
+            "title": "主图图标",
+            "type": "category",
+            "categoryId": "tADLkvRneDs",
+            "searchQuery": "餐饮"
+          },
+          {
+            "title": "LOGO",
+            "type": "category",
+            "categoryId": "tACZCuRXg6c",
+            "searchQuery": "餐饮"
+          },
+          {
+            "title": "菜单",
+            "type": "category",
+            "categoryId": "tACZCn2DEzY"
+          },
+          {
+            "title": "手机拼图",
+            "type": "scenario",
+            "searchQuery": "拼图 美食"
+          },
+          {
+            "title": "Banner",
+            "type": "scenario",
+            "searchQuery": "食品电商banner"
+          },
+          {
+            "title": "视频相框",
+            "type": "category",
+            "categoryId": "tADLknv9gvY"
+          },
+          {
+            "title": "食谱",
+            "type": "category",
+            "categoryId": "tADLktXAikQ"
+          },
+          {
+            "title": "传单",
+            "type": "category",
+            "categoryId": "tACZCukkq3s"
+          },
+          {
+            "title": "名片",
+            "type": "category",
+            "categoryId": "tACZCiuHYm4"
+          },
+          {
+            "title": "贺卡",
+            "type": "category",
+            "categoryId": "tACZCnXe2Xo"
+          },
+          {
+            "title": "公告",
+            "type": "category",
+            "categoryId": "tACZCv5k8lI"
+          },
+          {
+            "title": "简报",
+            "type": "category",
+            "categoryId": "tACZCsI-e2w"
+          },
+          {
+            "title": "演示文稿",
+            "type": "category",
+            "categoryId": "tACZCpxuodA"
+          },
+          {
+            "title": "信息图表",
+            "type": "category",
+            "categoryId": "tACZCgGvwzA"
+          },
+          {
+            "title": "社交媒体",
+            "type": "category",
+            "categoryId": "tACZChjMuAE"
+          },
+          {
+            "title": "微信公众号二维码",
+            "type": "category",
+            "categoryId": "tACZCgYi6SA"
+          },
+          {
+            "title": "微博",
+            "type": "category",
+            "categoryId": "tACZCtadM2E"
+          },
+          {
+            "title": "微信公众号小图",
+            "type": "category",
+            "categoryId": "tADLkqDigy8"
+          },
+          {
+            "title": "微信朋友圈封面",
+            "type": "category",
+            "categoryId": "tADLkoxV7nI"
+          },
+          {
+            "title": "信纸",
+            "type": "category",
+            "categoryId": "tADLkl-bq_Q"
+          },
+          {
+            "title": "报告",
+            "type": "category",
+            "categoryId": "tADLkgXA15E"
+          },
+          {
+            "title": "书签",
+            "type": "category",
+            "categoryId": "tADLkt4ZGqQ"
+          },
+          {
+            "title": "目录页",
+            "type": "category",
+            "categoryId": "tADLksHBa1w"
+          },
+          {
+            "title": "活动封面",
+            "type": "category",
+            "categoryId": "tADLkvcS0s4"
+          },
+          {
+            "title": "优惠券",
+            "type": "category",
+            "categoryId": "tADLkjGmyJY"
+          },
+          {
+            "title": "易拉宝",
+            "type": "category",
+            "categoryId": "tADLknQU2hg"
+          },
+          {
+            "title": "手机壳",
+            "type": "category",
+            "categoryId": "tADLkvHE6jo"
+          },
+          {
+            "title": "抱枕",
+            "type": "category",
+            "categoryId": "tADLkv3Anjo"
+          },
+          {
+            "title": "帆布袋",
+            "type": "category",
+            "categoryId": "tADLkkw1wJ8"
+          },
+          {
+            "title": "T恤",
+            "type": "category",
+            "categoryId": "tADLkqRKcMs"
+          },
+          {
+            "title": "门票",
+            "type": "category",
+            "categoryId": "tADLkhheHOQ"
+          },
+          {
+            "title": "会员卡",
+            "type": "category",
+            "categoryId": "tADLkhOj1KY"
+          },
+          {
+            "title": "授权书",
+            "type": "category",
+            "categoryId": "tADLkt1KCVE"
+          },
+          {
+            "title": "工作证",
+            "type": "category",
+            "categoryId": "tADLkrDfqu0"
+          },
+          {
+            "title": "手机电商详情页",
+            "type": "category",
+            "categoryId": "tADlysA2YwM"
+          }
+        ]
+      }
+    ]
 }
